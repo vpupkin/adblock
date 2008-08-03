@@ -3,7 +3,7 @@
 
 /*
 Name: Adblock debug
-Version: 0.33 (02.08.2008)
+Version: 0.34 (03.08.2008)
 Author: ELV1S
 Description: http://usercss.ru/styles/adblock/
 */
@@ -22,7 +22,8 @@ Description: http://usercss.ru/styles/adblock/
 
 /* Gmail */
 #rhc .rh,
-.yxEQwb .slwyWc {
+.yxEQwb .slwyWc,
+.diLZtc .iFOJMb {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 #fi #rh {
