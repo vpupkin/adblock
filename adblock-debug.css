@@ -62,7 +62,6 @@ Description: http://usercss.ru/styles/adblock/
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
 [href*='/ban.'], [src*='/ban.'], 
-[href*='/counter'], [src*='/counter'],
 [href*='/reklama/'], [src*='/reclama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
@@ -172,7 +171,8 @@ Description: http://usercss.ru/styles/adblock/
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* NoNaMe */ 
+/* nnm.ru */ 
+#top-banner,
 [href*='tours.ru'], [src*='tours.ru']{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -206,6 +206,7 @@ Description: http://usercss.ru/styles/adblock/
 [href*='/ban'],
 [href*='/ads'],
 [href*='/adv'],
+[href*='/counter'], [src*='/counter'],
 [href*='counter'],
 [href*='/count.'], [src*='/count.'],
 [href*='commerce'],
