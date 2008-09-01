@@ -199,8 +199,13 @@ Description: http://usercss.ru/styles/adblock/
 .takru {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+	
+/* livejournal.com */
+#ad-leaderboard, #ad-5linkunit, .adv {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
-
+	
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
