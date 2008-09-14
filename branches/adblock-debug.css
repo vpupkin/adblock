@@ -208,6 +208,10 @@ Description: http://usercss.ru/styles/adblock/
 .gogo_g a.lnk, .gogo_g a.lnk:hover {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+/* w3.org */
+map#introLinks div.banner {
+	display: block !important;
+	}
 	
 /* AGGRESSIVE! */
 /*
