@@ -212,6 +212,10 @@ Description: http://usercss.ru/styles/adblock/
 map#introLinks div.banner {
 	display: block !important;
 	}
+/* www.gismeteo.ru */
+td[width='760'][height='90'] {
+	display: table-cell !important;
+	}
 	
 /* AGGRESSIVE! */
 /*
@@ -450,7 +454,7 @@ div.ads_inner,
 [alt*='баннер'],
 [alt*='Информ-Телеком'],
 [alt*='NetCatalog.Ru'],
-[alt='Rambler's Top100'],
+[alt="Rambler's Top100"],
 [alt*='Top100'],
 [alt*='HotLog'],
 [alt*='M2K Network'],
