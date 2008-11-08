@@ -327,7 +327,7 @@ td[width='760'][height='90'] {
 *[width='270'][height='60'],
 /*[width='250'][height='250'], // unfortunaly, it's blocking Asirra CAPTCHA (http://research.microsoft.com/asirra/) */
 *[width='240'][height='400'],
-*[width='240'][height='120'],
+/*[width='240'][height='120'], // blocking logo on http://igs.ufanet.ru/data/stat/volokno.shtml */
 *[width='240'][height='70'],
 *[width='234'][height='330'],
 *[width='234'][height='120'],
@@ -376,7 +376,7 @@ td[width='760'][height='90'] {
 *[width='120'][height='240'],
 *[width='120'][height='200'],
 *[width='120'][height='100'],
-*[width='120'][height='90'],
+/*[width='120'][height='90'], // blocking screenshots on http://buka.ru */
 *[width='120'][height='60'],
 *[width='100'][height='200'],
 *[width='100'][height='120'],
