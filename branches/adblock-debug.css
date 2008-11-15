@@ -201,7 +201,7 @@ Description: http://usercss.ru/styles/adblock/
 	}
 	
 /* livejournal.com */
-#ad-leaderboard, #ad-5linkunit, .adv {
+#ad-leaderboard, #ad-5linkunit {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 /* mail.ru */
