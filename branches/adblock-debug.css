@@ -377,7 +377,7 @@ td[width='760'][height='90'] {
 *[width='120'][height='200'],
 *[width='120'][height='100'],
 /*[width='120'][height='90'], // blocking screenshots on http://buka.ru */
-*[width='120'][height='60'],
+/*[width='120'][height='60'], // blocking captcha on http://notabenoid.com/register/ */
 *[width='100'][height='200'],
 *[width='100'][height='120'],
 /*[width='100'][height='43'], //money.yandex.ru logo */
