@@ -216,6 +216,10 @@ map#introLinks div.banner {
 td[width='760'][height='90'] {
 	display: table-cell !important;
 	}
+/* www.deviantart.com */
+div.ad-blocking-makes-fella-confused div.ch {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 	
 /* AGGRESSIVE! */
 /*
@@ -299,6 +303,7 @@ td[width='760'][height='90'] {
 *[width='600'][height='120'],
 *[width='600'][height='90'],
 /* *[width='600'][height='60'], // http://apkonline.ru/ */
+*[width='560'][height='60'],
 *[width='558'][height='135'],
 *[width='529'][height='70'],
 *[width='520'][height='60'],
