@@ -220,6 +220,10 @@ td[width='760'][height='90'] {
 div.ad-blocking-makes-fella-confused div.ch {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+/* www.terrikon.dn.ua */
+.adv468 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 	
 /* AGGRESSIVE! */
 /*
@@ -283,6 +287,7 @@ div.ad-blocking-makes-fella-confused div.ch {
 -------------------------------- */
 
 /* MEDIUM */
+*[width='995'][height='90'],
 *[width='848'][height='91'],
 *[width='775'][height='600'],
 *[width='768'][height='90'],
