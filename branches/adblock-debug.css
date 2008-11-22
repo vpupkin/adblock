@@ -56,6 +56,11 @@ Description: http://usercss.ru/styles/adblock/
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important 
 	}
 
+/* deviantart.com */
+.ad-blocking-makes-fella-confused {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 
 /* MEDIUM */
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
@@ -208,18 +213,6 @@ Description: http://usercss.ru/styles/adblock/
 .gogo_g a.lnk, .gogo_g a.lnk:hover {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-/* w3.org */
-map#introLinks div.banner {
-	display: block !important;
-	}
-/* www.gismeteo.ru */
-td[width='760'][height='90'] {
-	display: table-cell !important;
-	}
-/* www.deviantart.com */
-div.ad-blocking-makes-fella-confused div.ch {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
 /* www.terrikon.dn.ua */
 .adv468 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -280,6 +273,16 @@ div.ad-blocking-makes-fella-confused div.ch {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 */
+
+/* Exceptions */
+/* w3.org */
+map#introLinks div.banner {
+	display: block !important;
+	}
+/* www.gismeteo.ru */
+td[width='760'][height='90'] {
+	display: table-cell !important;
+	}
 
 
 
