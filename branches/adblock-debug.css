@@ -217,6 +217,15 @@ Description: http://usercss.ru/styles/adblock/
 .adv468 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+/* advmaker.ru */
+[href*='advmaker.ru'], [src*='advmaker.ru'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+/* new-popups.ru */
+[href*='new-popups.ru'], [src*='new-popups.ru'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 	
 /* AGGRESSIVE! */
 /*
