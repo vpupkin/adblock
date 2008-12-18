@@ -359,7 +359,7 @@ td[width='760'][height='90'] {
 *[width='220'][height='350'],
 *[width='210'][height='150'],
 *[width='200'][height='90'],
-*[width='180'][height='180'],
+/* *[width='180'][height='180'], // blocking some photos in Wikipedia */
 /* *[width='180'][height='150'], blocking logo KVN*/
 *[width='180'][height='68'],
 /*[width='180'][height='60'], // blocking membrana.ru logo */ 
