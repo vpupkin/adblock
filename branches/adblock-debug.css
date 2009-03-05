@@ -225,6 +225,10 @@ Description: http://usercss.ru/styles/adblock/
 [href*='new-popups.ru'], [src*='new-popups.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+/* advertise.magna.ru */
+#magnaInformer {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 	
 /* AGGRESSIVE! */
