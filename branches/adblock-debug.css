@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
@@ -69,10 +69,10 @@ Description: http://usercss.ru/styles/adblock/
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
 [href*='/ban.'], [src*='/ban.'], 
-[href*='/reklama/'], [src*='/reclama/'],
+[href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
-[href*='/adserver'], [src*='/adserver'],
+[href*='/adserver'], [src*='adserver'],
 [href*='/adfarm.'], [src*='/adfarm.'],
 [href*='/bn.'], [src*='/bn.'],
 [href*='/adv.'], [src*='/adv.'],
@@ -84,7 +84,6 @@ Description: http://usercss.ru/styles/adblock/
 [href*='/ad.ad'], [src*='/ad.ad'],
 [href*='/adclick'], [src*='/adclick'],
 [href*='adclick.'],
-[src*='adserver'],
 [href*='showclick.'],
 [href*='clickcount'],
 [href*='/counter/referrer?'], 
@@ -276,15 +275,12 @@ Description: http://usercss.ru/styles/adblock/
 [href*='stat.aport.ru/hit'], [src*='aport.ru/show.pl'],
 [href*='top.proext.com/go.cgi?'], [src*='top.proext.com/c.cgi?'],
 [href*='topcto.ru'], [src*='topcto.ru'],
-[href*='top10.host2play.com'], [src*='top10.host2play.com'],
-[href*='limerex.com'], [src*='limerex.com'],
+[href*='limerex.com'], [src*='limerex.com'], 
 [href*='tatet.org'], [src*='tatet.org'],
 [src*='.mystat-in.net/?'],
 [src*='counter.mystat-in.net'], 
 [src*='counter.hitua.'],
-[src*='top.startua.com/?'],
-[src*='thelist.ru/stat'],
-[href*='support.fhn.ru/generation'] {
+[src*='thelist.ru/stat'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 */
