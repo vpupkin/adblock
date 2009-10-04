@@ -1,10 +1,10 @@
-@charset 'utf-8';
+@charset "utf-8";
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
 Name: Adblock
-Author: ELV1S
-Version: 0.4
+Author: ELV1S and likeopera
+Version: 0.5
 Description: http://code.google.com/p/adblock/
 */
 
@@ -15,12 +15,14 @@ Description: http://code.google.com/p/adblock/
 }
 
 /* Google Sponsored Links */
-#tads, 
+#tads,
 #mbEnd {
 	display: none !important;
 	}
 
 /* Gmail */
+.u5.wr .oM,
+.nH.u8 .u7,
 #rhc .rh,
 .yxEQwb .slwyWc,
 .diLZtc .iFOJMb {
@@ -32,7 +34,14 @@ Description: http://code.google.com/p/adblock/
 	}
 	#rhc #ap {
 		padding-top: 1ex !important;
+		/*text-align: right !important;*/
 		}
+		/*
+		#rhc #ap .ar {
+			display: inline !important;
+			padding-right: 2ex !important;
+			}
+		*/
 .fs #fic {
 	margin-right: 14ex !important;
 	}
@@ -50,16 +59,21 @@ Description: http://code.google.com/p/adblock/
 	display: none !important; 
 	}
 
+/* deviantart.com */
+.sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
+	display: none !important; 
+	}
+
 
 /* MEDIUM */
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
 [href*='/ban.'], [src*='/ban.'], 
-[href*='/reklama/'], [src*='/reclama/'],
+[href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
-[href*='/adserver'], [src*='/adserver'],
+[href*='/adserver'], [src*='adserver'],
 [href*='/adfarm.'], [src*='/adfarm.'],
 [href*='/bn.'], [src*='/bn.'],
 [href*='/adv.'], [src*='/adv.'],
@@ -71,7 +85,6 @@ Description: http://code.google.com/p/adblock/
 [href*='/ad.ad'], [src*='/ad.ad'],
 [href*='/adclick'], [src*='/adclick'],
 [href*='adclick.'],
-[src*='adserver'],
 [href*='showclick.'],
 [href*='clickcount'],
 [href*='/counter/referrer?'], 
@@ -202,14 +215,23 @@ Description: http://code.google.com/p/adblock/
 .gogo_g a.lnk, .gogo_g a.lnk:hover {
 	display: none !important;
 	}
-/* w3.org */
-map#introLinks div.banner {
-	display: block !important;
+/* www.terrikon.dn.ua */
+.adv468 {
+	display: none !important;
 	}
-/* www.gismeteo.ru */
-td[width='760'][height='90'] {
-	display: table-cell !important;
+/* advmaker.ru */
+[href*='advmaker.ru'], [src*='advmaker.ru'] {
+	display: none !important;
 	}
+/* new-popups.ru */
+[href*='new-popups.ru'], [src*='new-popups.ru'] {
+	display: none !important;
+	}
+/* advertise.magna.ru */
+#magnaInformer {
+	display: none !important;
+	}
+
 	
 /* AGGRESSIVE! */
 /*
@@ -254,18 +276,29 @@ td[width='760'][height='90'] {
 [href*='stat.aport.ru/hit'], [src*='aport.ru/show.pl'],
 [href*='top.proext.com/go.cgi?'], [src*='top.proext.com/c.cgi?'],
 [href*='topcto.ru'], [src*='topcto.ru'],
-[href*='top10.host2play.com'], [src*='top10.host2play.com'],
-[href*='limerex.com'], [src*='limerex.com'],
+[href*='limerex.com'], [src*='limerex.com'], 
 [href*='tatet.org'], [src*='tatet.org'],
 [src*='.mystat-in.net/?'],
 [src*='counter.mystat-in.net'], 
 [src*='counter.hitua.'],
-[src*='top.startua.com/?'],
-[src*='thelist.ru/stat'],
-[href*='support.fhn.ru/generation'] {
+[src*='thelist.ru/stat'] {
 	display: none !important;
 	}
 */
+
+/* Exceptions */
+/* w3.org */
+map#introLinks div.banner {
+	display: block !important;
+	}
+/* www.gismeteo.ru */
+td[width='760'][height='90'] {
+	display: table-cell !important;
+	}
+/* fileqube.com */
+body.ads {
+	display: block !important;
+	}
 
 
 
@@ -273,6 +306,7 @@ td[width='760'][height='90'] {
 -------------------------------- */
 
 /* MEDIUM */
+*[width='995'][height='90'],
 *[width='848'][height='91'],
 *[width='775'][height='600'],
 *[width='768'][height='90'],
@@ -293,6 +327,7 @@ td[width='760'][height='90'] {
 *[width='600'][height='120'],
 *[width='600'][height='90'],
 /* *[width='600'][height='60'], // http://apkonline.ru/ */
+*[width='560'][height='60'],
 *[width='558'][height='135'],
 *[width='529'][height='70'],
 *[width='520'][height='60'],
@@ -331,7 +366,7 @@ td[width='760'][height='90'] {
 *[width='220'][height='350'],
 *[width='210'][height='150'],
 *[width='200'][height='90'],
-*[width='180'][height='180'],
+/* *[width='180'][height='180'], // blocking some photos in Wikipedia */
 /* *[width='180'][height='150'], blocking logo KVN*/
 *[width='180'][height='68'],
 /*[width='180'][height='60'], // blocking membrana.ru logo */ 
@@ -371,7 +406,7 @@ td[width='760'][height='90'] {
 *[width='120'][height='200'],
 *[width='120'][height='100'],
 /*[width='120'][height='90'], // blocking screenshots on http://buka.ru */
-*[width='120'][height='60'],
+/*[width='120'][height='60'], // blocking captcha on http://notabenoid.com/register/ */
 *[width='100'][height='200'],
 *[width='100'][height='120'],
 /*[width='100'][height='43'], //money.yandex.ru logo */
