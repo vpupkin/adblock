@@ -286,10 +286,6 @@ Description: http://code.google.com/p/adblock/
 */
 
 /* Exceptions */
-/* w3.org */
-map#introLinks div.banner {
-	display: block !important;
-	}
 /* www.gismeteo.ru */
 td[width='760'][height='90'] {
 	display: table-cell !important;
