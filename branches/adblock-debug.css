@@ -103,11 +103,10 @@ Description: http://code.google.com/p/adblock/
 -------------------------------- */ 
 [href*='rtbn'],  
 [href*='100-100.ru'], [src*='100-100.ru'],
-[href*='ad.rambler.ru/'], 
-[href*='pochta.ru/regform.php'], [src*='pochta.ru/regform.php'], 
+[href*='ad.rambler.ru/'],  
 [href*='abn-ad.com'], 
 [href*='body.imho.ru'], [src*='pics.imho.ru'],
-[href*='filepost.ru/?page='], 
+[href*='filepost.ru'], 
 [href*='tbn.ru'], [src*='tbn.ru'],
 [href*='clx.ru/in'],
 [href*='jbe.ru/'],
@@ -117,11 +116,8 @@ Description: http://code.google.com/p/adblock/
 [href*='dyxi.ru/'], [src*='engine.awaps.net/'],
 [href*='razno.ru/'], [src*='razno.ru/'],
 [href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
-[href*='interweb.spb.ru/super/'],
-[href*='dosugvip.ru'],
 [href*='bannerbank.ru'],
 [href*='adriver.ru'], [src*='adriver.ru'],
-[href*='plohish.ru'],
 [href*='mirmaek.ru'],
 [href*='24open.ru/?from'] {
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
