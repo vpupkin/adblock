@@ -20,29 +20,8 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* Gmail */
-.u5.wr .oM,
-.nH.u8 .u7,
-#rhc .rh,
-.yxEQwb .slwyWc,
-.diLZtc .iFOJMb {
+.mn, .u5, .u8 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-#fi #rh {
-	width: 12ex !important;
-	margin-left: -15ex !important;
-	}
-	#rhc #ap {
-		padding-top: 1ex !important;
-		/*text-align: right !important;*/
-		}
-		/*
-		#rhc #ap .ar {
-			display: inline !important;
-			padding-right: 2ex !important;
-			}
-		*/
-.fs #fic {
-	margin-right: 14ex !important;
 	}
 
 /* Wired.com */
@@ -105,15 +84,13 @@ Description: http://code.google.com/p/adblock/
 [href*='100-100.ru'], [src*='100-100.ru'],
 [href*='ad.rambler.ru/'],  
 [href*='abn-ad.com'], 
-[href*='body.imho.ru'], [src*='pics.imho.ru'],
 [href*='filepost.ru'], 
 [href*='tbn.ru'], [src*='tbn.ru'],
 [href*='clx.ru/in'],
 [href*='jbe.ru/'],
 [href*='link.ru/cgi-bin/'], [src*='link.link.ru/show?'],
 [href*='grandcasino.ru/'], [src*='grandcasino.ru'], 
-[src*='dyxi.ru/'],
-[href*='dyxi.ru/'], [src*='engine.awaps.net/'],
+[href*='dyxi.ru/'], [src*='dyxi.ru/'],
 [href*='razno.ru/'], [src*='razno.ru/'],
 [href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
 [href*='bannerbank.ru'],
@@ -434,7 +411,8 @@ body.ads {
 #ad_div,   
 #ibp,
 #PopWin,
-.banners24open {
+.banners24open,
+.advert {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
