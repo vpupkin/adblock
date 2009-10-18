@@ -38,12 +38,26 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* deviantart.com */
-.sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
+.ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important 
 	}
 
+/* Vkontakte.ru */
+#banner1,
+#banner2,
+[href*='vkontakte.ru/help.php?page=target']{
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+	
+/* Torrents.ru */
+[style*="margin: 6px; padding: 8px; border: 1px solid #B7C0C5;"],
+[href*='1link.ru'],
+[href*='english-by-phone.com']{
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 /* MEDIUM */
+[href*='forex'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
@@ -94,7 +108,7 @@ Description: http://code.google.com/p/adblock/
 [href*='razno.ru/'], [src*='razno.ru/'],
 [href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
 [href*='bannerbank.ru'],
-[href*='adriver.ru'], [src*='adriver.ru'],
+[href*='adriver.ru'], [src*='adriver'],
 [href*='mirmaek.ru'],
 [href*='24open.ru/?from'] {
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -112,8 +126,7 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* Begun */
-/*[href*='adv.begun.ru/'], [src*='adv.begun.ru'],*/
-[href*='begun.ru/click.jsp?'],
+[href*='begun.'], [src*='begun.ru'],
 [id*='adText'],
 [id*='adBegun'],
 [id*='adBar'] {
@@ -163,6 +176,9 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* ru-board */
+table[cellpadding="0"][cellspacing="0"][bgcolor="#FFFFFF"][border="1"][bordercolor="#EEEEEE"][width="639"],
+td[class=sh1][align=left],
+[href*='greenparking.biz'],
 [href*='/infoads.cgi'], 
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -240,7 +256,7 @@ Description: http://code.google.com/p/adblock/
 [href*='top.list.ru/jump?'], [src*='top.list.ru'],
 [href*='rax.ru/click'], 
 [href*='liveinternet.ru/click'], [src*='counter.yadro.ru'],
-[href*='spylog.com/cnt?'], [src*='spylog.com/cnt?'],
+[href*='spylog.'], [src*='spylog.'],
 [href*='click.hotlog.ru'], [src*='.hotlog.ru/cgi'],
 [href*='bigmir.net'], [src*='bigmir.net'],
 [href*='warlog.info/cgi-bin/'], [src*='warlog.info'],
@@ -386,7 +402,8 @@ body.ads {
 *[width='88'][height='15'],
 *[width='81'][height='63'],
 *[width='81'][height='28'],
-*[width='77'][height='28'] {
+*[width='77'][height='28'],
+*[width='1'][height='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -406,6 +423,8 @@ body.ads {
 /* alt-id-class_block.css
 -------------------------------- */
 
+div[style*="width:468px;"],
+div[style*="width: 728px;"],
 .banner,
 .ads,
 #ad_div,   
