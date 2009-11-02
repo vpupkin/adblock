@@ -4,8 +4,8 @@
 /*
 Name: Adblock
 Author: ELV1S and likeopera
-Version: 0.5
 Description: http://code.google.com/p/adblock/
+Version: 0.6
 */
 
 
@@ -15,35 +15,14 @@ Description: http://code.google.com/p/adblock/
 }
 
 /* Google Sponsored Links */
-#tads,
+#tads, 
 #mbEnd {
 	display: none !important;
 	}
 
 /* Gmail */
-.u5.wr .oM,
-.nH.u8 .u7,
-#rhc .rh,
-.yxEQwb .slwyWc,
-.diLZtc .iFOJMb {
+.mn, .u5, .u8 {
 	display: none !important;
-	}
-#fi #rh {
-	width: 12ex !important;
-	margin-left: -15ex !important;
-	}
-	#rhc #ap {
-		padding-top: 1ex !important;
-		/*text-align: right !important;*/
-		}
-		/*
-		#rhc #ap .ar {
-			display: inline !important;
-			padding-right: 2ex !important;
-			}
-		*/
-.fs #fic {
-	margin-right: 14ex !important;
 	}
 
 /* Wired.com */
@@ -60,12 +39,26 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* deviantart.com */
-.sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
+.ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
 	display: none !important; 
 	}
 
+/* Vkontakte.ru */
+#banner1,
+#banner2,
+[href*='vkontakte.ru/help.php?page=target']{
+	display: none !important;
+	}
+	
+/* Torrents.ru */
+[style*="margin: 6px; padding: 8px; border: 1px solid #B7C0C5;"],
+[href*='1link.ru'],
+[href*='english-by-phone.com']{
+	display: none !important;
+	}
 
 /* MEDIUM */
+[href*='forex'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
@@ -104,25 +97,19 @@ Description: http://code.google.com/p/adblock/
 -------------------------------- */ 
 [href*='rtbn'],  
 [href*='100-100.ru'], [src*='100-100.ru'],
-[href*='ad.rambler.ru/'], 
-[href*='pochta.ru/regform.php'], [src*='pochta.ru/regform.php'], 
+[href*='ad.rambler.ru/'],  
 [href*='abn-ad.com'], 
-[href*='body.imho.ru'], [src*='pics.imho.ru'],
-[href*='filepost.ru/?page='], 
+[href*='filepost.ru'], 
 [href*='tbn.ru'], [src*='tbn.ru'],
 [href*='clx.ru/in'],
 [href*='jbe.ru/'],
 [href*='link.ru/cgi-bin/'], [src*='link.link.ru/show?'],
 [href*='grandcasino.ru/'], [src*='grandcasino.ru'], 
-[src*='dyxi.ru/'],
-[href*='dyxi.ru/'], [src*='engine.awaps.net/'],
+[href*='dyxi.ru/'], [src*='dyxi.ru/'],
 [href*='razno.ru/'], [src*='razno.ru/'],
 [href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
-[href*='interweb.spb.ru/super/'],
-[href*='dosugvip.ru'],
 [href*='bannerbank.ru'],
-[href*='adriver.ru'], [src*='adriver.ru'],
-[href*='plohish.ru'],
+[href*='adriver.ru'], [src*='adriver'],
 [href*='mirmaek.ru'],
 [href*='24open.ru/?from'] {
     display: none !important;
@@ -140,8 +127,7 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* Begun */
-/*[href*='adv.begun.ru/'], [src*='adv.begun.ru'],*/
-[href*='begun.ru/click.jsp?'],
+[href*='begun.'], [src*='begun.ru'],
 [id*='adText'],
 [id*='adBegun'],
 [id*='adBar'] {
@@ -191,6 +177,9 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* ru-board */
+table[cellpadding="0"][cellspacing="0"][bgcolor="#FFFFFF"][border="1"][bordercolor="#EEEEEE"][width="639"],
+td[class=sh1][align=left],
+[href*='greenparking.biz'],
 [href*='/infoads.cgi'], 
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'] {
 	display: none !important;
@@ -268,7 +257,7 @@ Description: http://code.google.com/p/adblock/
 [href*='top.list.ru/jump?'], [src*='top.list.ru'],
 [href*='rax.ru/click'], 
 [href*='liveinternet.ru/click'], [src*='counter.yadro.ru'],
-[href*='spylog.com/cnt?'], [src*='spylog.com/cnt?'],
+[href*='spylog.'], [src*='spylog.'],
 [href*='click.hotlog.ru'], [src*='.hotlog.ru/cgi'],
 [href*='bigmir.net'], [src*='bigmir.net'],
 [href*='warlog.info/cgi-bin/'], [src*='warlog.info'],
@@ -287,10 +276,6 @@ Description: http://code.google.com/p/adblock/
 */
 
 /* Exceptions */
-/* w3.org */
-map#introLinks div.banner {
-	display: block !important;
-	}
 /* www.gismeteo.ru */
 td[width='760'][height='90'] {
 	display: table-cell !important;
@@ -418,7 +403,8 @@ body.ads {
 *[width='88'][height='15'],
 *[width='81'][height='63'],
 *[width='81'][height='28'],
-*[width='77'][height='28'] {
+*[width='77'][height='28'],
+*[width='1'][height='1'] {
 	display: none !important;
 	}
 
@@ -438,12 +424,16 @@ body.ads {
 /* alt-id-class_block.css
 -------------------------------- */
 
+div[style*="width:468px;"],
+div[style*="width: 728px;"],
 .banner,
+.banner-back, /* klavogonki.ru */
 .ads,
 #ad_div,   
 #ibp,
 #PopWin,
-.banners24open {
+.banners24open,
+.advert {
 	display: none !important;
 	}
 
