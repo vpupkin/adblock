@@ -1,0 +1,1 @@
+Use Unix line ending (LF)
