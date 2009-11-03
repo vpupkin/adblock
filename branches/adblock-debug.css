@@ -45,14 +45,13 @@ Description: http://code.google.com/p/adblock/
 /* Vkontakte.ru */
 #banner1,
 #banner2,
-[href*='vkontakte.ru/help.php?page=target']{
+[href*='vkontakte.ru/help.php?page=target'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 	
 /* Torrents.ru */
-[style*='margin: 6px; padding: 8px; border: 1px solid #B7C0C5;'],
-[href*='1link.ru'],
-[href*='english-by-phone.com']{
+embed[width*='200'][height*='300'],
+#bn-bot-wrap {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
