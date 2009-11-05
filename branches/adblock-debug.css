@@ -54,6 +54,11 @@ embed[width*='200'][height*='300'],
 #bn-bot-wrap {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+	
+/* Ucoz.ru */
+a[onclick*="('none');return false;"], iframe[width="218"], .xw-plain.x-unselectable.xw-resize.xw-active {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 /* MEDIUM */
 [href*='forex'],
