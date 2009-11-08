@@ -56,9 +56,16 @@ embed[width*='200'][height*='300'],
 	}
 	
 /* Ucoz.ru */
-a[onclick*="('none');return false;"], iframe[width="218"], .xw-plain.x-unselectable.xw-resize.xw-active {
+a[onclick*="('none');return false;"], iframe[width="218"] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+	
+/* Ucoz.ru AGGRESSIVE! */
+/*
+#_uwndTop1 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+*/
 
 /* MEDIUM */
 [href*='forex'],
@@ -392,7 +399,7 @@ body.ads {
 *[width='81'][height='63'],
 *[width='81'][height='28'],
 *[width='77'][height='28'],
-*[width='1'][height='1'] {
+img[width='1'][height='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
