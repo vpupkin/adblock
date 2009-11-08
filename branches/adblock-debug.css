@@ -186,16 +186,11 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* overclockers.ru */ 
-[href*='3a.overclockers.'], [src*='3a.overclockers.'],
-[href*='.auramedia.ru/'], [src*='/partners/auramedia/'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
 /* ru-board */
 table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
 td[class='sh1'][align='left'],
 [href*='greenparking.biz'],
+[href*='greenlabelppc.com'],
 [href*='/infoads.cgi'], 
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -311,17 +306,23 @@ body.ads {
 *[width='730'][height='90'],
 *[width='728'][height='90'],
 *[width='700'][height='300'],
+*[width='700'][height='75'],
 *[width='686'][height='440'],
 *[width='652'][height='140'],
 *[width='601'][height='70'],
+*[width='600'][height='400'],
 *[width='600'][height='120'],
 *[width='600'][height='90'],
+*[width='600'][height='60'],
+*[width='585'][height='75'],
 *[width='560'][height='60'],
 *[width='558'][height='135'],
 *[width='529'][height='70'],
 *[width='520'][height='60'],
+*[width='500'][height='90'],
 *[width='500'][height='200'],
 *[width='489'][height='49'],
+*[width='480'][height='70'],
 *[width='480'][height='80'],
 *[width='472'][height='84'],
 *[width='470'][height='62'],
@@ -343,8 +344,10 @@ body.ads {
 *[width='300'][height='250'],
 *[width='300'][height='60'],
 *[width='270'][height='60'],
+*[width='250'][height='250'],
 *[width='240'][height='400'],
 *[width='240'][height='350'],
+*[width='240'][height='120'],
 *[width='240'][height='70'],
 *[width='234'][height='330'],
 *[width='234'][height='120'],
@@ -420,8 +423,8 @@ img[width='1'][height='1'] {
 /* alt-id-class_block.css
 -------------------------------- */
 
-div[style*='width:468px;'],
-div[style*='width: 728px;'],
+div[style*='width:468px;'], /* реклама на хостинге от Pochta.ru */
+div[style*='width: 728px;'], .rb--TopTeaser, /* все проекты Rambler */
 .banner,
 .banner-back, /* klavogonki.ru */
 .ads,
