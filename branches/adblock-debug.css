@@ -276,16 +276,6 @@ td[class='sh1'][align='left'],
 	}
 */
 
-/* Exceptions */
-/* www.gismeteo.ru */
-td[width='760'][height='90'] {
-	display: table-cell !important;
-	}
-/* fileqube.com */
-body.ads {
-	display: block !important;
-	}
-
 
 
 /* Hidecertainsizes.css
@@ -499,3 +489,21 @@ div.ads_inner,
 	background:inherit !important;
 	}
 */
+
+
+
+/* Exceptions */
+/* www.gismeteo.ru */
+td[width='760'][height='90'] {
+	display: table-cell !important;
+	}
+
+/* fileqube.com */
+body.ads {
+	display: block !important;
+	}
+
+/* irr.ru */
+tr.default-row-2.advert {
+	display: table-row !important;
+	}
