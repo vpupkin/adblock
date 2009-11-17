@@ -8,13 +8,13 @@ Description: http://code.google.com/p/adblock/
 */
 
 
-/* Google AdSense */ 
+/* Google AdSense */
 [href*='pagead'], [src*='pagead'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* Google Sponsored Links */
-#tads, 
+#tads,
 #mbEnd {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -29,17 +29,17 @@ Description: http://code.google.com/p/adblock/
 #flash_ad,
 #stereo1,
 #stereo2 {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important 
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* yahoo.com, reddit.com */
 #ad, #ad-out, #ad-in {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important 
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* deviantart.com */
 .ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important 
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* Vkontakte.ru */
@@ -49,18 +49,18 @@ Description: http://code.google.com/p/adblock/
 [href*='vkontakte.ru/help.php?page=target'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* Torrents.ru */
 embed[width*='200'][height*='300'],
 #bn-bot-wrap {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* Ucoz.ru */
 a[onclick*="('none');return false;"], iframe[width="218"] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* Ucoz.ru AGGRESSIVE! */
 /*
 #_uwndTop1 {
@@ -73,7 +73,7 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
-[href*='/ban.'], [src*='/ban.'], 
+[href*='/ban.'], [src*='/ban.'],
 [href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
@@ -81,8 +81,8 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 [href*='/adfarm.'], [src*='/adfarm.'],
 [href*='/bn.'], [src*='/bn.'],
 [href*='/adv.'], [src*='/adv.'],
-[href*='?partner='], 
-[href*='ads.com/?ref '], 
+[href*='?partner='],
+[href*='ads.com/?ref '],
 [href*='/cgi-bin/href/'], [src*='/cgi-bin/iframe/'],
 [href*='adbrite'], [src*='adbrite'],
 [href*='adnet'], [src*='adnet'],
@@ -91,14 +91,14 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 [href*='adclick.'],
 [href*='showclick.'],
 [href*='clickcount'],
-[href*='/counter/referrer?'], 
-[href*='/adlog.pl'], 
+[href*='/counter/referrer?'],
+[href*='/adlog.pl'],
 [href*='banner.php'], [src*='banner.php'],
 [src*='icq_banners'],
 [src*='/adview.php'],
 [href*='/ban_click.'],
 [href*='doubleclick.net'], [src*='doubleclick.net'],
-[href*='targetpoint'], [src*='targetpoint'], 
+[href*='targetpoint'], [src*='targetpoint'],
 [href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
 [href*='adultfriendfinder.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -106,17 +106,17 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 
 
 /* Russian ads
--------------------------------- */ 
-[href*='rtbn'],  
+-------------------------------- */
+[href*='rtbn'],
 [href*='100-100.ru'], [src*='100-100.ru'],
-[href*='ad.rambler.ru/'],  
-[href*='abn-ad.com'], 
-[href*='filepost.ru'], 
+[href*='ad.rambler.ru/'],
+[href*='abn-ad.com'],
+[href*='filepost.ru'],
 [href*='tbn.ru'], [src*='tbn.ru'],
 [href*='clx.ru/in'],
 [href*='jbe.ru/'],
 [href*='link.ru/cgi-bin/'], [src*='link.link.ru/show?'],
-[href*='grandcasino.ru/'], [src*='grandcasino.ru'], 
+[href*='grandcasino.ru/'], [src*='grandcasino.ru'],
 [href*='dyxi.ru/'], [src*='dyxi.ru/'],
 [href*='razno.ru/'], [src*='razno.ru/'],
 [href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
@@ -137,10 +137,10 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 	}
 
 /* Yandex */
-[id*='_direct'], 
+[id*='_direct'],
 [class*='textAd'],
-[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'], 
-[href*='an.yandex.ru'], [src*='an.yandex.ru'], 
+[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'],
+[href*='an.yandex.ru'], [src*='an.yandex.ru'],
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
 .ad-market, .ads-header, .go-ad {
@@ -180,7 +180,7 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* nnm.ru */ 
+/* nnm.ru */
 #top-banner,
 [href*='tours.ru'], [src*='tours.ru']{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -191,7 +191,7 @@ table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercol
 td[class='sh1'][align='left'],
 [href*='greenparking.biz'],
 [href*='greenlabelppc.com'],
-[href*='/infoads.cgi'], 
+[href*='/infoads.cgi'],
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -201,28 +201,28 @@ td[class='sh1'][align='left'],
 .takru {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* livejournal.com */
 #ad-leaderboard, #ad-5linkunit {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* mail.ru */
 .gogo_g a.lnk, .gogo_g a.lnk:hover {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* www.terrikon.dn.ua */
 .adv468 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* advertise.magna.ru */
 #magnaInformer {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
-	
+
+
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
@@ -250,13 +250,13 @@ td[class='sh1'][align='left'],
 	}
 */
 
-/* Counters */ 
+/* Counters */
 /*
 [href*='top100.rambler.ru/cgi-bin/'], [src*='rambler.ru/top100'],
 [src*='www.yandex.ru/cycounter'],
 [href*='top.mail.ru/jump?'],
 [href*='top.list.ru/jump?'], [src*='top.list.ru'],
-[href*='rax.ru/click'], 
+[href*='rax.ru/click'],
 [href*='liveinternet.ru/click'], [src*='counter.yadro.ru'],
 [href*='spylog.'], [src*='spylog.'],
 [href*='click.hotlog.ru'], [src*='.hotlog.ru/cgi'],
@@ -266,10 +266,10 @@ td[class='sh1'][align='left'],
 [href*='stat.aport.ru/hit'], [src*='aport.ru/show.pl'],
 [href*='top.proext.com/go.cgi?'], [src*='top.proext.com/c.cgi?'],
 [href*='topcto.ru'], [src*='topcto.ru'],
-[href*='limerex.com'], [src*='limerex.com'], 
+[href*='limerex.com'], [src*='limerex.com'],
 [href*='tatet.org'], [src*='tatet.org'],
 [src*='.mystat-in.net/?'],
-[src*='counter.mystat-in.net'], 
+[src*='counter.mystat-in.net'],
 [src*='counter.hitua.'],
 [src*='thelist.ru/stat'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -286,7 +286,7 @@ td[class='sh1'][align='left'],
 *[width='848'][height='91'],
 *[width='775'][height='600'],
 *[width='768'][height='90'],
-*[width='766'][height='194'], 
+*[width='766'][height='194'],
 *[width='760'][height='90'],
 *[width='760'][height='60'],
 *[width='759'][height='58'],
@@ -321,7 +321,7 @@ td[class='sh1'][align='left'],
 *[width='468'][height='58'],
 *[width='443'][height='60'],
 *[width='392'][height='72'],
-*[width='365'][height='243'], 
+*[width='365'][height='243'],
 *[width='360'][height='600'],
 *[width='340'][height='80'],
 *[width='336'][height='850'],
@@ -418,7 +418,7 @@ div[style*='width: 728px;'], .rb--TopTeaser, /* все проекты Rambler */
 .banner,
 .banner-back, /* klavogonki.ru */
 .ads,
-#ad_div,   
+#ad_div,
 #ibp,
 #PopWin,
 .banners24open,
@@ -430,7 +430,7 @@ div[style*='width: 728px;'], .rb--TopTeaser, /* все проекты Rambler */
 [name='Ads'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 [id*='rdm'] [class*=rdm] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -439,7 +439,7 @@ div[style*='width: 728px;'], .rb--TopTeaser, /* все проекты Rambler */
 /* AGGRESSIVE! */
 /*
 [href*='banner'], [src*='banner'],
-[href*='ads2'], 
+[href*='ads2'],
 div.ad,
 div.ads,
 div.ads_inner,
@@ -504,6 +504,6 @@ body.ads {
 	}
 
 /* irr.ru */
-tr.default-row-2.advert {
+tr.default-row-2.advert, tr.premium-row-2.advert {
 	display: table-row !important;
 	}
