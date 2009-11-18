@@ -7,15 +7,131 @@ Author: ELV1S and likeopera
 Description: http://code.google.com/p/adblock/
 */
 
+/* Advertising agencies
+-------------------------------- */
 
 /* Google AdSense */
 [href*='pagead'], [src*='pagead'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-}
+	}
+
+/* Yandex */
+[id*='_direct'],
+[class*='textAd'],
+[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'],
+[href*='an.yandex.ru'], [src*='an.yandex.ru'],
+[src*='narod.ru/counter.'],
+[href*='logging.to/'],
+.ad-market, .ads-header, .go-ad {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* Begun */
+[href*='begun.'], [src*='begun.ru'],
+[id*='adText'],
+[id*='adBegun'],
+[id*='adBar'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* sup.ru */
+[id*='sup_ad'],
+[src*='ads.sup.'],
+.sup_ad,
+.ljad {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* adfox.ru */
+[href*='.adfox.'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* tak.ru */
+[href*='tak.ru/clicks.php'], [src*='takru.com/in.php?'],
+.takru {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* advertise.magna.ru */
+#magnaInformer {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* MEDIUM */
+[href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
+[href*='/adx/'], [src*='/adx/'],
+[href*='/ban/'], [src*='/ban/'],
+[href*='/ban.'], [src*='/ban.'],
+[href*='/reklama/'], [src*='/reklama/'],
+[href*='/reclama/'], [src*='/reclama/'],
+[href*='/rekl/'], [src*='/rekl/'],
+[href*='/adserver'], [src*='adserver'],
+[href*='/adfarm.'], [src*='/adfarm.'],
+[href*='/bn.'], [src*='/bn.'],
+[href*='/adv.'], [src*='/adv.'],
+[href*='?partner='],
+[href*='ads.com/?ref '],
+[href*='/cgi-bin/href/'], [src*='/cgi-bin/iframe/'],
+[href*='adbrite'], [src*='adbrite'],
+[href*='adnet'], [src*='adnet'],
+[href*='/ad.ad'], [src*='/ad.ad'],
+[href*='/adclick'], [src*='/adclick'],
+[href*='adclick.'],
+[href*='showclick.'],
+[href*='clickcount'],
+[href*='/counter/referrer?'],
+[href*='/adlog.pl'],
+[href*='banner.php'], [src*='banner.php'],
+[src*='icq_banners'],
+[src*='/adview.php'],
+[href*='/ban_click.'],
+[href*='forex'],
+[href*='rtbn'] {
+    background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* ADVERTISING SITES */
+[href*='doubleclick.net'], [src*='doubleclick.net'],
+[href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
+[href*='adultfriendfinder.com'],
+[href*='100-100.ru'], [src*='100-100.ru'],
+[href*='ad.rambler.ru/'],
+[href*='abn-ad.com'],
+[href*='filepost.ru'],
+[href*='tbn.ru'], [src*='tbn.ru'],
+[href*='clx.ru/in'],
+[href*='jbe.ru/'],
+[href*='link.ru/cgi-bin/'], [src*='link.link.ru/show?'],
+[href*='grandcasino.ru/'], [src*='grandcasino.ru'],
+[href*='dyxi.ru/'], [src*='dyxi.ru/'],
+[href*='razno.ru/'], [src*='razno.ru/'],
+[href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
+[href*='bannerbank.ru'],
+[href*='adriver.ru'], [src*='adriver'],
+[href*='mirmaek.ru'],
+[href*='24open.ru/?from'],
+[href*='pink.futurico.ru'], [src*='pink.futurico.ru'],
+[href*='advmaker.ru'], [src*='advmaker.ru'],
+[href*='rorer.ru'], [src*='rorer.ru'],
+[href*='new-popups.ru'], [src*='new-popups.ru'],
+[href*='sekretfamilii.com'],
+[href*='nordfx.com'], [src*='nordfx.com'],
+[href*='limit-poker-club.net'], [src*='limit-poker-club.net'],
+[href*='investoday-monitor.ru'], [src*='investoday-monitor.ru'],
+[href*='rushotgirls.com'], [src*='rushotgirls.com'],
+[href*='sape.ru/r'], [src*='sape.ru/r'] {
+    background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+
+
+/* Advertising on certain sites
+-------------------------------- */
 
 /* Google Sponsored Links */
-#tads,
-#mbEnd {
+#tads, #mbEnd,
+#ImgCont > table {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -68,103 +184,8 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 	}
 */
 
-/* MEDIUM */
-[href*='forex'],
-[href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
-[href*='/adx/'], [src*='/adx/'],
-[href*='/ban/'], [src*='/ban/'],
-[href*='/ban.'], [src*='/ban.'],
-[href*='/reklama/'], [src*='/reklama/'],
-[href*='/reclama/'], [src*='/reclama/'],
-[href*='/rekl/'], [src*='/rekl/'],
-[href*='/adserver'], [src*='adserver'],
-[href*='/adfarm.'], [src*='/adfarm.'],
-[href*='/bn.'], [src*='/bn.'],
-[href*='/adv.'], [src*='/adv.'],
-[href*='?partner='],
-[href*='ads.com/?ref '],
-[href*='/cgi-bin/href/'], [src*='/cgi-bin/iframe/'],
-[href*='adbrite'], [src*='adbrite'],
-[href*='adnet'], [src*='adnet'],
-[href*='/ad.ad'], [src*='/ad.ad'],
-[href*='/adclick'], [src*='/adclick'],
-[href*='adclick.'],
-[href*='showclick.'],
-[href*='clickcount'],
-[href*='/counter/referrer?'],
-[href*='/adlog.pl'],
-[href*='banner.php'], [src*='banner.php'],
-[src*='icq_banners'],
-[src*='/adview.php'],
-[href*='/ban_click.'],
-[href*='doubleclick.net'], [src*='doubleclick.net'],
-[href*='targetpoint'], [src*='targetpoint'],
-[href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
-[href*='adultfriendfinder.com/'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-
-/* Russian ads
--------------------------------- */
-[href*='rtbn'],
-[href*='100-100.ru'], [src*='100-100.ru'],
-[href*='ad.rambler.ru/'],
-[href*='abn-ad.com'],
-[href*='filepost.ru'],
-[href*='tbn.ru'], [src*='tbn.ru'],
-[href*='clx.ru/in'],
-[href*='jbe.ru/'],
-[href*='link.ru/cgi-bin/'], [src*='link.link.ru/show?'],
-[href*='grandcasino.ru/'], [src*='grandcasino.ru'],
-[href*='dyxi.ru/'], [src*='dyxi.ru/'],
-[href*='razno.ru/'], [src*='razno.ru/'],
-[href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
-[href*='bannerbank.ru'],
-[href*='adriver.ru'], [src*='adriver'],
-[href*='mirmaek.ru'],
-[href*='24open.ru/?from'],
-[href*='pink.futurico.ru'], [src*='pink.futurico.ru'],
-[href*='advmaker.ru'], [src*='advmaker.ru'],
-[href*='rorer.ru'], [src*='rorer.ru'],
-[href*='new-popups.ru'], [src*='new-popups.ru'],
-[href*='sekretfamilii.com'],
-[href*='nordfx.com'], [src*='nordfx.com'],
-[href*='limit-poker-club.net'], [src*='limit-poker-club.net'],
-[href*='investoday-monitor.ru'], [src*='investoday-monitor.ru'],
-[href*='rushotgirls.com'], [src*='rushotgirls.com'] {
-    background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-/* Yandex */
-[id*='_direct'],
-[class*='textAd'],
-[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'],
-[href*='an.yandex.ru'], [src*='an.yandex.ru'],
-[src*='narod.ru/counter.'],
-[href*='logging.to/'],
-.ad-market, .ads-header, .go-ad {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-/* Begun */
-[href*='begun.'], [src*='begun.ru'],
-[id*='adText'],
-[id*='adBegun'],
-[id*='adBar'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-/* sup.ru */
-[id*='sup_ad'],
-[src*='ads.sup.'],
-.sup_ad,
-.ljad {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-/* adfox.ru */
-[href*='.adfox.'] {
+/* Rambler */
+div[style*='width: 728px;'], .rb--TopTeaser {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -172,11 +193,6 @@ a[onclick*="('none');return false;"], iframe[width="218"] {
 #FlashDiv,
 .side_ban *,
 [href*='testsbox.ru'], [src*='testsbox.ru'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-/* Sape.ru */
-[href*='sape.ru/r'], [src*='sape.ru/r'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -196,19 +212,8 @@ td[class='sh1'][align='left'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* tak.ru */
-[href*='tak.ru/clicks.php'], [src*='takru.com/in.php?'],
-.takru {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
 /* livejournal.com */
 #ad-leaderboard, #ad-5linkunit {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-/* mail.ru */
-.gogo_g a.lnk, .gogo_g a.lnk:hover {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -217,8 +222,8 @@ td[class='sh1'][align='left'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* advertise.magna.ru */
-#magnaInformer {
+/* pochta.ru */
+div[style*='width:468px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -312,6 +317,7 @@ td[class='sh1'][align='left'],
 *[width='500'][height='90'],
 *[width='500'][height='200'],
 *[width='489'][height='49'],
+*[width='486'][height='64'],
 *[width='480'][height='70'],
 *[width='480'][height='80'],
 *[width='472'][height='84'],
@@ -392,29 +398,31 @@ td[class='sh1'][align='left'],
 *[width='88'][height='15'],
 *[width='81'][height='63'],
 *[width='81'][height='28'],
-*[width='77'][height='28'],
-img[width='1'][height='1'] {
+*[width='77'][height='28'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* ONLY CERTAIN HTML-ELEMENTS */
+iframe[width='100%'][height='90'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* AGGRESSIVE! */
 /*
-*[width='100%'][height='90'],
 *[width='700'][height='500'],
 *[width='100'][height='100'],
 *[width='38'][height='31'],
-*[width='31'][height='31'] {
+*[width='31'][height='31'],
+img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 */
 
 
 
-/* alt-id-class_block.css
+/* Alt-id-class_block.css
 -------------------------------- */
 
-div[style*='width:468px;'], /* реклама на хостинге от Pochta.ru */
-div[style*='width: 728px;'], .rb--TopTeaser, /* все проекты Rambler */
 .banner,
 .banner-back, /* klavogonki.ru */
 .ads,
@@ -492,7 +500,9 @@ div.ads_inner,
 
 
 
-/* Exceptions */
+/* Exceptions
+-------------------------------- */
+
 /* www.gismeteo.ru */
 td[width='760'][height='90'] {
 	display: table-cell !important;
