@@ -227,6 +227,12 @@ div[style*='width:468px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* forum.ixbt.com */
+embed[src*='etegro'], table.top_ad2,
+td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 
 /* AGGRESSIVE! */
 /*
@@ -324,6 +330,7 @@ div[style*='width:468px;'] {
 *[width='470'][height='62'],
 *[width='468'][height='80'],
 *[width='468'][height='60'],
+*[width='468'][height='59'],
 *[width='468'][height='58'],
 *[width='443'][height='60'],
 *[width='392'][height='72'],
