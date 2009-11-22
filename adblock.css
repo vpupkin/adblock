@@ -5,64 +5,66 @@
 Name: Adblock
 Author: ELV1S and likeopera
 Description: http://code.google.com/p/adblock/
-Version: 0.6
+Version: 0.7 (2009/11/22)
 */
 
 
-/* Google AdSense */ 
+/* Advertising agencies
+-------------------------------- */
+
+/* Google AdSense */
 [href*='pagead'], [src*='pagead'] {
-	display: none !important;
-}
-
-/* Google Sponsored Links */
-#tads, 
-#mbEnd {
-	display: none !important;
+	display: none !important
 	}
 
-/* Gmail */
-.mn, .u5, .u8 {
-	display: none !important;
+/* Yandex */
+[id*='_direct'],
+[class*='textAd'],
+[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'],
+[href*='an.yandex.ru'], [src*='an.yandex.ru'],
+[src*='narod.ru/counter.'],
+[href*='logging.to/'],
+.ad-market, .ads-header, .go-ad {
+	display: none !important
 	}
 
-/* Wired.com */
-#FLASH_AD,
-#flash_ad,
-#stereo1,
-#stereo2 {
-	display: none !important; 
+/* Begun */
+[href*='begun.'], [src*='begun.ru'],
+[id*='adText'],
+[id*='adBegun'],
+[id*='adBar'] {
+	display: none !important
 	}
 
-/* yahoo.com, reddit.com */
-#ad, #ad-out, #ad-in {
-	display: none !important; 
+/* sup.ru */
+[id*='sup_ad'],
+[src*='ads.sup.'],
+.sup_ad,
+.ljad {
+	display: none !important
 	}
 
-/* deviantart.com */
-.ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
-	display: none !important; 
+/* adfox.ru */
+[href*='.adfox.'] {
+	display: none !important
 	}
 
-/* Vkontakte.ru */
-#banner1,
-#banner2,
-[href*='vkontakte.ru/help.php?page=target']{
-	display: none !important;
+/* tak.ru */
+[href*='tak.ru/clicks.php'], [src*='takru.com/in.php?'],
+.takru {
+	display: none !important
 	}
-	
-/* Torrents.ru */
-[style*="margin: 6px; padding: 8px; border: 1px solid #B7C0C5;"],
-[href*='1link.ru'],
-[href*='english-by-phone.com']{
-	display: none !important;
+
+/* advertise.magna.ru */
+#magnaInformer {
+	display: none !important
 	}
 
 /* MEDIUM */
-[href*='forex'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
-[href*='/ban.'], [src*='/ban.'], 
+[href*='/ban.'], [src*='/ban.'],
 [href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
@@ -70,8 +72,8 @@ Version: 0.6
 [href*='/adfarm.'], [src*='/adfarm.'],
 [href*='/bn.'], [src*='/bn.'],
 [href*='/adv.'], [src*='/adv.'],
-[href*='?partner='], 
-[href*='ads.com/?ref '], 
+[href*='?partner='],
+[href*='ads.com/?ref '],
 [href*='/cgi-bin/href/'], [src*='/cgi-bin/iframe/'],
 [href*='adbrite'], [src*='adbrite'],
 [href*='adnet'], [src*='adnet'],
@@ -80,148 +82,160 @@ Version: 0.6
 [href*='adclick.'],
 [href*='showclick.'],
 [href*='clickcount'],
-[href*='/counter/referrer?'], 
-[href*='/adlog.pl'], 
+[href*='/counter/referrer?'],
+[href*='/adlog.pl'],
 [href*='banner.php'], [src*='banner.php'],
+[src*='icq_banners'],
 [src*='/adview.php'],
 [href*='/ban_click.'],
-[href*='doubleclick.net'], [src*='doubleclick.net'],
-[href*='targetpoint'], [src*='targetpoint'], 
-[href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
-[href*='adultfriendfinder.com/'] {
-	display: none !important;
+[href*='forex'],
+[href*='rtbn'] {
+    display: none !important
 	}
 
-
-/* Russian ads
--------------------------------- */ 
-[href*='rtbn'],  
+/* ADVERTISING SITES */
+[href*='doubleclick.net'], [src*='doubleclick.net'],
+[href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
+[href*='adultfriendfinder.com'],
 [href*='100-100.ru'], [src*='100-100.ru'],
-[href*='ad.rambler.ru/'],  
-[href*='abn-ad.com'], 
-[href*='filepost.ru'], 
+[href*='ad.rambler.ru/'],
+[href*='abn-ad.com'],
+[href*='filepost.ru'],
 [href*='tbn.ru'], [src*='tbn.ru'],
 [href*='clx.ru/in'],
 [href*='jbe.ru/'],
 [href*='link.ru/cgi-bin/'], [src*='link.link.ru/show?'],
-[href*='grandcasino.ru/'], [src*='grandcasino.ru'], 
+[href*='grandcasino.ru/'], [src*='grandcasino.ru'],
 [href*='dyxi.ru/'], [src*='dyxi.ru/'],
 [href*='razno.ru/'], [src*='razno.ru/'],
 [href*='ru.redtram.com'], [src*='img.ru.redtram.com'],
 [href*='bannerbank.ru'],
 [href*='adriver.ru'], [src*='adriver'],
 [href*='mirmaek.ru'],
-[href*='24open.ru/?from'] {
-    display: none !important;
+[href*='24open.ru/?from'],
+[href*='pink.futurico.ru'], [src*='pink.futurico.ru'],
+[href*='advmaker.ru'], [src*='advmaker.ru'],
+[href*='rorer.ru'], [src*='rorer.ru'],
+[href*='new-popups.ru'], [src*='new-popups.ru'],
+[href*='sekretfamilii.com'],
+[href*='nordfx.com'], [src*='nordfx.com'],
+[href*='limit-poker-club.net'], [src*='limit-poker-club.net'],
+[href*='investoday-monitor.ru'], [src*='investoday-monitor.ru'],
+[href*='rushotgirls.com'], [src*='rushotgirls.com'],
+[href*='sape.ru/r'], [src*='sape.ru/r'] {
+    display: none !important
 	}
 
-/* Yandex */
-[id*='_direct'], 
-[class*='textAd'],
-[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'], 
-[href*='an.yandex.ru'], [src*='an.yandex.ru'], 
-[src*='narod.ru/counter.'],
-[href*='logging.to/'],
-.ad-market, .ads-header, .go-ad {
-	display: none !important;
+
+
+/* Advertising on certain sites
+-------------------------------- */
+
+/* Google Sponsored Links */
+#tads, #mbEnd,
+#ImgCont > table {
+	display: none !important
 	}
 
-/* Begun */
-[href*='begun.'], [src*='begun.ru'],
-[id*='adText'],
-[id*='adBegun'],
-[id*='adBar'] {
-	display: none !important;
+/* Gmail */
+.mn[role='contentinfo'], .u5, .u8 {
+	display: none !important
 	}
 
-/* sup.ru */
-[id*='sup_ad'],
-[src*='ads.sup.'],
-.sup_ad,
-.ljad {
-	display: none !important;
+/* Wired.com */
+#FLASH_AD,
+#flash_ad,
+#stereo1,
+#stereo2 {
+	display: none !important
 	}
 
-/* adfox.ru */
-[href*='.adfox.'] {
-	display: none !important;
+/* yahoo.com, reddit.com */
+#ad, #ad-out, #ad-in {
+	display: none !important
+	}
+
+/* deviantart.com */
+.ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
+	display: none !important
+	}
+
+/* Vkontakte.ru */
+#banner1,
+#banner2,
+.ad_box,
+[href*='vkontakte.ru/help.php?page=target'] {
+	display: none !important
+	}
+
+/* Torrents.ru */
+embed[width*='200'][height*='300'],
+#bn-bot-wrap {
+	display: none !important
+	}
+
+/* Ucoz.ru */
+a[onclick*="('none');return false;"], iframe[width="218"] {
+	display: none !important
+	}
+
+/* Ucoz.ru AGGRESSIVE! */
+/*
+#_uwndTop1 {
+	display: none !important
+	}
+*/
+
+/* Rambler */
+div[style*='width: 728px;'], .rb--TopTeaser {
+	display: none !important
 	}
 
 /* iFolder.ru */
 #FlashDiv,
 .side_ban *,
 [href*='testsbox.ru'], [src*='testsbox.ru'] {
-	display: none !important;
+	display: none !important
 	}
 
-/* Sape.ru */
-[href*='sape.ru/r'], [src*='sape.ru/r'] {
-	display: none !important;
-	}
-
-/* Rorer*/
-[src*='engine.rorer.ru'], [href*='www.rorer.ru'] {
-	display: none !important;
-	}
-
-/* nnm.ru */ 
+/* nnm.ru */
 #top-banner,
 [href*='tours.ru'], [src*='tours.ru']{
-	display: none !important;
-	}
-
-/* overclockers.ru */ 
-[href*='3a.overclockers.'], [src*='3a.overclockers.'],
-[href*='.auramedia.ru/'], [src*='/partners/auramedia/'] {
-	display: none !important;
+	display: none !important
 	}
 
 /* ru-board */
-table[cellpadding="0"][cellspacing="0"][bgcolor="#FFFFFF"][border="1"][bordercolor="#EEEEEE"][width="639"],
-td[class=sh1][align=left],
+table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
+td[class='sh1'][align='left'],
 [href*='greenparking.biz'],
-[href*='/infoads.cgi'], 
+[href*='greenlabelppc.com'],
+[href*='/infoads.cgi'],
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'] {
-	display: none !important;
+	display: none !important
 	}
 
-/* futurico ads */
-[href*='pink.futurico.ru'], [src*='pink.futurico.ru'] {
-	display: none !important;
-	}
-
-/* tak.ru */
-[href*='tak.ru/clicks.php'], [src*='takru.com/in.php?'],
-.takru {
-	display: none !important;
-	}
-	
 /* livejournal.com */
 #ad-leaderboard, #ad-5linkunit {
-	display: none !important;
-	}
-/* mail.ru */
-.gogo_g a.lnk, .gogo_g a.lnk:hover {
-	display: none !important;
-	}
-/* www.terrikon.dn.ua */
-.adv468 {
-	display: none !important;
-	}
-/* advmaker.ru */
-[href*='advmaker.ru'], [src*='advmaker.ru'] {
-	display: none !important;
-	}
-/* new-popups.ru */
-[href*='new-popups.ru'], [src*='new-popups.ru'] {
-	display: none !important;
-	}
-/* advertise.magna.ru */
-#magnaInformer {
-	display: none !important;
+	display: none !important
 	}
 
-	
+/* www.terrikon.dn.ua */
+.adv468 {
+	display: none !important
+	}
+
+/* pochta.ru */
+div[style*='width:468px;'] {
+	display: none !important
+	}
+
+/* forum.ixbt.com */
+embed[src*='etegro'], table.top_ad2,
+td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
+	display: none !important
+	}
+
+
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
@@ -245,17 +259,17 @@ td[class=sh1][align=left],
 [href*='li.ru/go?'],
 [src*='r.mail.ru/b'],
 [href*='yandex.ru/cy?'] {
-	display: none !important;
+	display: none !important
 	}
 */
 
-/* Counters */ 
+/* Counters */
 /*
 [href*='top100.rambler.ru/cgi-bin/'], [src*='rambler.ru/top100'],
 [src*='www.yandex.ru/cycounter'],
 [href*='top.mail.ru/jump?'],
 [href*='top.list.ru/jump?'], [src*='top.list.ru'],
-[href*='rax.ru/click'], 
+[href*='rax.ru/click'],
 [href*='liveinternet.ru/click'], [src*='counter.yadro.ru'],
 [href*='spylog.'], [src*='spylog.'],
 [href*='click.hotlog.ru'], [src*='.hotlog.ru/cgi'],
@@ -265,25 +279,15 @@ td[class=sh1][align=left],
 [href*='stat.aport.ru/hit'], [src*='aport.ru/show.pl'],
 [href*='top.proext.com/go.cgi?'], [src*='top.proext.com/c.cgi?'],
 [href*='topcto.ru'], [src*='topcto.ru'],
-[href*='limerex.com'], [src*='limerex.com'], 
+[href*='limerex.com'], [src*='limerex.com'],
 [href*='tatet.org'], [src*='tatet.org'],
 [src*='.mystat-in.net/?'],
-[src*='counter.mystat-in.net'], 
+[src*='counter.mystat-in.net'],
 [src*='counter.hitua.'],
 [src*='thelist.ru/stat'] {
-	display: none !important;
+	display: none !important
 	}
 */
-
-/* Exceptions */
-/* www.gismeteo.ru */
-td[width='760'][height='90'] {
-	display: table-cell !important;
-	}
-/* fileqube.com */
-body.ads {
-	display: block !important;
-	}
 
 
 
@@ -295,7 +299,7 @@ body.ads {
 *[width='848'][height='91'],
 *[width='775'][height='600'],
 *[width='768'][height='90'],
-*[width='766'][height='194'], 
+*[width='766'][height='194'],
 *[width='760'][height='90'],
 *[width='760'][height='60'],
 *[width='759'][height='58'],
@@ -305,28 +309,34 @@ body.ads {
 *[width='730'][height='90'],
 *[width='728'][height='90'],
 *[width='700'][height='300'],
+*[width='700'][height='75'],
 *[width='686'][height='440'],
 *[width='652'][height='140'],
 *[width='601'][height='70'],
-/* *[width='600'][height='400'], // blocking video http://moto.swissblog.ru/tormozi-loshara.html */
+*[width='600'][height='400'],
 *[width='600'][height='120'],
 *[width='600'][height='90'],
-/* *[width='600'][height='60'], // http://apkonline.ru/ */
+*[width='600'][height='60'],
+*[width='585'][height='75'],
 *[width='560'][height='60'],
 *[width='558'][height='135'],
 *[width='529'][height='70'],
 *[width='520'][height='60'],
+*[width='500'][height='90'],
 *[width='500'][height='200'],
 *[width='489'][height='49'],
+*[width='486'][height='64'],
+*[width='480'][height='70'],
 *[width='480'][height='80'],
 *[width='472'][height='84'],
 *[width='470'][height='62'],
 *[width='468'][height='80'],
 *[width='468'][height='60'],
+*[width='468'][height='59'],
 *[width='468'][height='58'],
 *[width='443'][height='60'],
 *[width='392'][height='72'],
-*[width='365'][height='243'], 
+*[width='365'][height='243'],
 *[width='360'][height='600'],
 *[width='340'][height='80'],
 *[width='336'][height='850'],
@@ -339,9 +349,10 @@ body.ads {
 *[width='300'][height='250'],
 *[width='300'][height='60'],
 *[width='270'][height='60'],
-/*[width='250'][height='250'], // unfortunaly, it's blocking Asirra CAPTCHA (http://research.microsoft.com/asirra/) */
+*[width='250'][height='250'],
 *[width='240'][height='400'],
-/*[width='240'][height='120'], // blocking logo on http://igs.ufanet.ru/data/stat/volokno.shtml */
+*[width='240'][height='350'],
+*[width='240'][height='120'],
 *[width='240'][height='70'],
 *[width='234'][height='330'],
 *[width='234'][height='120'],
@@ -349,24 +360,22 @@ body.ads {
 *[width='234'][height='80'],
 *[width='234'][height='60'],
 *[width='220'][height='350'],
+*[width='220'][height='300'],
 *[width='210'][height='150'],
 *[width='200'][height='90'],
-/* *[width='180'][height='180'], // blocking some photos in Wikipedia */
-/* *[width='180'][height='150'], blocking logo KVN*/
 *[width='180'][height='68'],
-/*[width='180'][height='60'], // blocking membrana.ru logo */ 
 *[width='179'][height='69'],
 *[width='170'][height='60'],
 *[width='165'][height='200'],
 *[width='160'][height='600'],
+*[width='160'][height='460'],
 *[width='160'][height='450'],
 *[width='156'][height='74'],
 *[width='150'][height='600'],
 *[width='150'][height='300'],
-/*[width='150'][height='100'], // blocking mobile-review.com images */
+*[width='150'][height='130'],
 *[width='150'][height='80'],
 *[width='140'][height='600'],
-/* *[width='140'][height='200'], // blocking 2 img http://press.rzd.ru/wps/portal/press?STRUCTURE_ID=5106*/
 *[width='140'][height='150'],
 *[width='140'][height='80'],
 *[width='137'][height='150'],
@@ -379,7 +388,6 @@ body.ads {
 *[width='125'][height='250'],
 *[width='125'][height='125'],
 *[width='125'][height='110'],
-/* *[width='125'][height='100'], // http://litres.ru/pages/cms/?page=6 logo */
 *[width='125'][height='65'],
 *[width='125'][height='60'],
 *[width='123'][height='200'],
@@ -390,11 +398,8 @@ body.ads {
 *[width='120'][height='240'],
 *[width='120'][height='200'],
 *[width='120'][height='100'],
-/*[width='120'][height='90'], // blocking screenshots on http://buka.ru */
-/*[width='120'][height='60'], // blocking captcha on http://notabenoid.com/register/ */
 *[width='100'][height='200'],
 *[width='100'][height='120'],
-/*[width='100'][height='43'], //money.yandex.ru logo */
 *[width='88'][height='88'],
 *[width='88'][height='63'],
 *[width='88'][height='40'],
@@ -403,67 +408,72 @@ body.ads {
 *[width='88'][height='15'],
 *[width='81'][height='63'],
 *[width='81'][height='28'],
-*[width='77'][height='28'],
-*[width='1'][height='1'] {
-	display: none !important;
+*[width='77'][height='28'] {
+	display: none !important
+	}
+
+/* ONLY CERTAIN HTML-ELEMENTS */
+iframe[width='100%'][height='90'] {
+	display: none !important
+	}
+object[width='100%'][height='60'] {
+	display: none !important
 	}
 
 /* AGGRESSIVE! */
 /*
-*[width='100%'][height='90'],
 *[width='700'][height='500'],
 *[width='100'][height='100'],
 *[width='38'][height='31'],
-*[width='31'][height='31'] {
-	display: none !important;
+*[width='31'][height='31'],
+img[width='1'][height='1']	{
+	display: none !important
 	}
 */
 
 
 
-/* alt-id-class_block.css
+/* Alt-id-class_block.css
 -------------------------------- */
 
-div[style*="width:468px;"],
-div[style*="width: 728px;"],
 .banner,
 .banner-back, /* klavogonki.ru */
 .ads,
-#ad_div,   
+#ad_div,
 #ibp,
 #PopWin,
 .banners24open,
 .advert {
-	display: none !important;
+	display: none !important
 	}
 
 [name='Adrotator1'],
 [name='Ads'] {
-	display: none !important;
+	display: none !important
 	}
-	
+
 [id*='rdm'] [class*=rdm] {
-	display: none !important;
+	display: none !important
 	}
 
 
 /* AGGRESSIVE! */
 /*
 [href*='banner'], [src*='banner'],
-[href*='ads2'], 
+[href*='ads2'],
 div.ad,
 div.ads,
 div.ads_inner,
 .banner,
 .topBanner,
 .counter {
-	display: none !important;
+	display: none !important
 	}
 #Ads,
 #ibp,
 #top_adbn_div,
 #PopWin {
-	display: none !important;
+	display: none !important
 	}
 [alt*='Реклама'],
 [alt='Рейтинг Mail.ru'],
@@ -481,14 +491,14 @@ div.ads_inner,
 [alt*='RORER'],
 [alt*='count'],
 [alt*='Ads'] {
-	display: none !important;
+	display: none !important
 	}
 */
 
 
 /* mozilla.org ;-p */
 [href*='spreadfirefox.com/?q='], [src*='mozilla.org/affiliates/'] {
-	display: none !important;
+	display: none !important
 	}
 
 
@@ -500,3 +510,23 @@ div.ads_inner,
 	background:inherit !important;
 	}
 */
+
+
+
+/* Exceptions
+-------------------------------- */
+
+/* www.gismeteo.ru */
+td[width='760'][height='90'] {
+	display: table-cell !important;
+	}
+
+/* fileqube.com */
+body.ads {
+	display: block !important;
+	}
+
+/* irr.ru */
+tr.default-row-2.advert, tr.premium-row-2.advert {
+	display: table-row !important;
+	}
