@@ -209,7 +209,8 @@ td[class='sh1'][align='left'],
 [href*='greenparking.biz'],
 [href*='greenlabelppc.com'],
 [href*='/infoads.cgi'],
-[href*='ru-traffic.com/'], [src*='ru-traffic.com/'] {
+[href*='ru-traffic.com/'], [src*='ru-traffic.com/'],
+[href*='komendant.net']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -321,8 +322,9 @@ td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width
 *[width='558'][height='135'],
 *[width='529'][height='70'],
 *[width='520'][height='60'],
-*[width='500'][height='90'],
 *[width='500'][height='200'],
+*[width='500'][height='100'],
+*[width='500'][height='90'],
 *[width='489'][height='49'],
 *[width='486'][height='64'],
 *[width='480'][height='70'],
