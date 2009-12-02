@@ -155,6 +155,7 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* deviantart.com */
+a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 .ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch, .h.left-sidebar {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -422,8 +423,9 @@ iframe[width='100%'][height='90'],
 iframe[width='990'][height='90']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-object[width='1200'][height='60'],
-object[width='100%'][height='60'] {
+object[width='100%'][height='90'],
+object[width='100%'][height='60'],
+object[width='1200'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
