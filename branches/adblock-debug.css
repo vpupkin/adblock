@@ -229,7 +229,7 @@ td[class='sh1'][align='left'],
 	}
 
 /* pochta.ru */
-div[style*='width:468px;'] {
+#tionline, .loveplanet#love4 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -375,6 +375,7 @@ td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width
 *[width='220'][height='300'],
 *[width='216'][height='158'],
 *[width='210'][height='150'],
+*[width='200'][height='600'],
 *[width='200'][height='300'],
 *[width='200'][height='90'],
 *[width='180'][height='68'],
@@ -439,8 +440,13 @@ object[width='100%'][height='90'],
 object[width='100%'][height='60'],
 object[width='1200'][height='60'],
 object[width='980'][height='60'],
+object[width='716'][height='80'],
+object[width='468'][height='70'],
 object[width='333'][height='333'],
+object[width='315'][height='75'],
 object[width='240'][height='115'],
+object[width='234'][height='200'],
+object[width='234'][height='190'],
 object[width='200'][height='200'],
 object[width='180'][height='280'],
 object[width='100'][height='100'] {
@@ -467,7 +473,8 @@ img[width='1'][height='1']	{
 .advert,
 .banner,
 .banner-back, /* klavogonki.ru */
-.banners24open {
+.banners24open,
+.bannerspec {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -486,7 +493,11 @@ img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-[id*='rdm'] [class*=rdm] {
+[class*='advertising'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+[id*='rdm'] [class*='rdm'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
