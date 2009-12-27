@@ -31,7 +31,8 @@ Description: http://code.google.com/p/adblock/
 [href*='begun.'], [src*='begun.ru'],
 [id*='adText'],
 [id*='adBegun'],
-[id*='adBar'] {
+[id*='adBar'],
+.begun_adv {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -122,7 +123,8 @@ Description: http://code.google.com/p/adblock/
 [href*='limit-poker-club.net'], [src*='limit-poker-club.net'],
 [href*='investoday-monitor.ru'], [src*='investoday-monitor.ru'],
 [href*='rushotgirls.com'], [src*='rushotgirls.com'],
-[href*='sape.ru/r'], [src*='sape.ru/r'] {
+[href*='sape.ru/r'], [src*='sape.ru/r'],
+[href*='bin-layer.ru'], [src*='bin-layer.ru'] {
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -196,13 +198,21 @@ div[style*='width: 728px;'], .rb--TopTeaser {
 /* iFolder.ru */
 #FlashDiv,
 .side_ban *,
-[href*='testsbox.ru'], [src*='testsbox.ru'] {
+[href*='testsbox.ru'], [src*='testsbox.ru'],
+[style*='width: 833px; height: 501px; top: 20px; z-index: 100000; position: fixed; display: block; left: 20px'],
+[style*='position: absolute; left: 212px; top: 150px; width: 600px; height: 400px; z-index: 65535;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+#b-main {
+	background: none !important;
+	}
+#b-header-in {
+	height: 60px !important;
 	}
 
 /* nnm.ru */
 #top-banner,
-[href*='tours.ru'], [src*='tours.ru']{
+[href*='tours.ru'], [src*='tours.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -431,6 +441,10 @@ td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width
 	}
 
 /* ONLY CERTAIN HTML-ELEMENTS */
+embed[width='640'][height='80'],
+embed[width='120'][height='60'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 iframe[width='100%'][height='90'],
 iframe[width='990'][height='90'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -439,9 +453,11 @@ object[width='100%'][height='240'],
 object[width='100%'][height='90'],
 object[width='100%'][height='60'],
 object[width='1200'][height='60'],
+object[width='1000'][height='90']
 object[width='980'][height='60'],
 object[width='716'][height='80'],
 object[width='468'][height='70'],
+object[width='430'][height='70'],
 object[width='333'][height='333'],
 object[width='315'][height='75'],
 object[width='240'][height='115'],
@@ -479,6 +495,7 @@ img[width='1'][height='1']	{
 	}
 
 #ad_div,
+#adv,
 #bannertop,
 #ibp,
 #load_banner_2,
