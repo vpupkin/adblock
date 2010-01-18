@@ -45,7 +45,7 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* adfox.ru */
-[href*='.adfox.'] {
+[href*='.adfox.'], [src*='.adfox.'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -134,8 +134,7 @@ Description: http://code.google.com/p/adblock/
 -------------------------------- */
 
 /* Google Sponsored Links */
-#tads, #mbEnd,
-#ImgCont > table {
+#tads, #mbEnd {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -448,7 +447,8 @@ embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 iframe[width='100%'][height='90'],
-iframe[width='990'][height='90'] {
+iframe[width='990'][height='90'],
+iframe[width='330'][height='240'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 object[width='100%'][height='240'],
@@ -459,6 +459,7 @@ object[width='1000'][height='90']
 object[width='980'][height='60'],
 object[width='716'][height='80'],
 object[width='520'][height='102'],
+object[width='501'][height='60'],
 object[width='468'][height='70'],
 object[width='430'][height='70'],
 object[width='360'][height='60'],
@@ -470,6 +471,7 @@ object[width='234'][height='200'],
 object[width='234'][height='190'],
 object[width='200'][height='200'],
 object[width='180'][height='280'],
+object[width='150'][height='150'],
 object[width='100'][height='100'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
