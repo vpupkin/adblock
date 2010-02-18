@@ -342,6 +342,7 @@ td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width
 *[width='558'][height='135'],
 *[width='529'][height='70'],
 *[width='520'][height='60'],
+*[width='501'][height='60'],
 *[width='500'][height='200'],
 *[width='500'][height='100'],
 *[width='500'][height='90'],
@@ -454,7 +455,9 @@ embed[width='120'][height='60'] {
 	}
 iframe[width='100%'][height='90'],
 iframe[width='990'][height='90'],
-iframe[width='330'][height='240'] {
+iframe[width='330'][height='240'],
+iframe[width='306'][height='142'],
+iframe[width='206'][height='618'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 object[width='100%'][height='240'],
@@ -464,6 +467,7 @@ object[width='100%'][height='60'],
 object[width='1200'][height='60'],
 object[width='1000'][height='90']
 object[width='980'][height='60'],
+object[width='800'][height='60'],
 object[width='716'][height='80'],
 object[width='700'][height='65'],
 object[width='600'][height='200'],
@@ -483,6 +487,7 @@ object[width='234'][height='190'],
 object[width='200'][height='200'],
 object[width='180'][height='280'],
 object[width='150'][height='150'],
+object[width='112'][height='60'],
 object[width='100'][height='100'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -508,7 +513,10 @@ img[width='1'][height='1']	{
 .banner,
 .banner-back, /* klavogonki.ru */
 .banners24open,
-.bannerspec {
+.bannerspec,
+.go-ad-top,
+.reklam-block,
+.top-banner {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
