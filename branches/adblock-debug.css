@@ -333,7 +333,6 @@ td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width
 *[width='686'][height='440'],
 *[width='652'][height='140'],
 *[width='601'][height='70'],
-*[width='600'][height='400'],
 *[width='600'][height='120'],
 *[width='600'][height='90'],
 *[width='600'][height='60'],
@@ -449,6 +448,7 @@ td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width
 	}
 
 /* ONLY CERTAIN HTML-ELEMENTS */
+embed[width='100%'][height='90'],
 embed[width='640'][height='80'],
 embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -460,6 +460,11 @@ iframe[width='306'][height='142'],
 iframe[width='206'][height='618'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+img[width='100%'][height='80'],
+img[width='840'][height='148'],
+img[width='104'][height='78'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 object[width='100%'][height='240'],
 object[width='100%'][height='100'],
 object[width='100%'][height='90'],
@@ -469,11 +474,13 @@ object[width='1000'][height='90']
 object[width='980'][height='60'],
 object[width='800'][height='60'],
 object[width='716'][height='80'],
+object[width='700'][height='90'],
 object[width='700'][height='65'],
 object[width='600'][height='200'],
 object[width='597'][height='72'],
 object[width='520'][height='102'],
 object[width='501'][height='60'],
+object[width='469'][height='61'],
 object[width='468'][height='70'],
 object[width='467'][height='59'],
 object[width='430'][height='70'],
@@ -512,11 +519,14 @@ img[width='1'][height='1']	{
 .advert,
 .banner,
 .banner-back, /* klavogonki.ru */
+.banner_f,
 .banners24open,
 .bannerspec,
 .go-ad-top,
 .reklam-block,
-.top-banner {
+.top_ad1,
+.top-banner,
+.top_banner {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
