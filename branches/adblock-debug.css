@@ -3,7 +3,7 @@
 
 /*
 Name: Adblock debug
-Author: ELV1S and likeopera
+Author: ELV1S and Adblock Team
 Description: http://code.google.com/p/adblock/
 */
 
@@ -131,6 +131,7 @@ Description: http://code.google.com/p/adblock/
 [href*='bannerbank.ru'],
 [href*='adriver.ru'], [src*='adriver'],
 [href*='mirmaek.ru'],
+[href*='vsemayki.ru'],
 [href*='24open.ru/?from'],
 [href*='pink.futurico.ru'], [src*='pink.futurico.ru'],
 [href*='advmaker.ru'], [src*='advmaker.ru'],
@@ -190,7 +191,7 @@ a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* Torrents.ru */
+/* rutracker.org */
 embed[width*='200'][height*='300'],
 #bn-bot-wrap {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -297,10 +298,6 @@ div#hiderekl>div.quote>div[align='center'] {
 noindex>table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadding='0'][height='227'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-
-
-
-
 
 /* AGGRESSIVE! */
 /*
@@ -497,6 +494,7 @@ noindex>table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadd
 
 /* ONLY CERTAIN HTML-ELEMENTS */
 embed[width='100%'][height='90'],
+embed[width='100%'][height='60'],
 embed[width='640'][height='80'],
 embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -564,6 +562,7 @@ img[width='1'][height='1']	{
 -------------------------------- */
 
 .ads,
+.ad_right,
 .advert,
 .advertisement,
 .banner,
@@ -576,7 +575,8 @@ img[width='1'][height='1']	{
 .reklam-block,
 .top_ad1,
 .top-banner,
-.top_banner {
+.top_banner,
+.topBanner {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -613,46 +613,41 @@ img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-[alt*='партнерка']	{
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-
-
-/* AGGRESSIVE! */
-/*
-[href*='banner'], [src*='banner'],
-[href*='ads2'],
-div.ad,
-div.ads,
-div.ads_inner,
-div[class^='banner'],
-.banner,
-.topBanner,
-.counter {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
-#Ads,
-#ibp,
-#top_adbn_div,
-#PopWin {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-	}
 [alt*='Реклама'],
-[alt='Рейтинг Mail.ru'],
-[alt='Рейтинг@Mail.ru'],
 [alt*='Всего.RU'],
-[alt='Деловой баннерообмен'],
 [alt*='баннер'],
 [alt*='Информ-Телеком'],
 [alt*='NetCatalog.Ru'],
-[alt="Rambler's Top100"],
 [alt*='Top100'],
 [alt*='HotLog'],
 [alt*='M2K Network'],
 [alt*='AdRiver'],
 [alt*='RORER'],
 [alt*='count'],
-[alt*='Ads'] {
+[alt*='Ads'],
+[alt*='партнерка'],
+[alt='Деловой баннерообмен'],
+[alt='Рейтинг@Mail.ru'],
+[alt='Рейтинг Mail.ru'],
+[alt="Rambler's Top100"] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* AGGRESSIVE! */
+/*
+[href*='banner'], [src*='banner'],
+[href*='ads2'],
+div.ad,
+div.ads_inner,
+div[class^='banner'],
+.counter {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+#Ads,
+#ibp,
+#top_adbn_div,
+#PopWin {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 */
