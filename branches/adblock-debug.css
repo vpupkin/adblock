@@ -12,7 +12,7 @@ Description: http://code.google.com/p/adblock/
 -------------------------------- */
 
 /* Google AdSense */
-[id^="adsense"],								/* bontonweb.com */
+[id^='adsense'],								/* bontonweb.com */
 [href*='pagead'], [src*='pagead'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -103,6 +103,7 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* ADVERTISING SITES */
+[href^='http://gagen.ru/'],
 [href^='http://alphacash.biz/'],
 [href^='http://www.webkazanc.com/'],
 [href^='http://kf-forex.ru/'],
@@ -203,7 +204,7 @@ embed[width*='200'][height*='300'],
 	}
 
 /* Ucoz.ru */
-a[onclick*="('none');return false;"], iframe[width="218"] {
+a[onclick*="('none');return false;"], iframe[width='218'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -306,12 +307,12 @@ noindex table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadd
 
 /* rl-team.net */
 div.border_all.tiban {
-	display: none !important;
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* dreamprogs.net */
 div#lfwar>div.war {
-	display: none !important;
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* AGGRESSIVE! */
@@ -660,7 +661,6 @@ div[class^='banner'],
 	}
 
 #Ads,
-#ibp,
 #top_adbn_div,
 #PopWin {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
