@@ -12,6 +12,7 @@ Description: http://code.google.com/p/adblock/
 -------------------------------- */
 
 /* Google AdSense */
+[id^="adsense"],								/* bontonweb.com */
 [href*='pagead'], [src*='pagead'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -61,6 +62,10 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* MEDIUM */
+[href^='http://www.cdsuper.ru/'],
+[href*='/in.cgi?'], 				/* thetraffic.ru/in.cgi? */
+[href*='/adframe'],
+[href*='extrabucks.ru'],
 [href*='.com/s.php?f='],			/* bezwareza.com: sexklassniki1.com/s.php?f=0 erovkontakte1.com/s.php?f=0 */
 [href*='/adult/go.php?sid='],		   /* blackmanos.org.ru */
 [href*='/partner/'], [href*='/partners/'],
@@ -294,9 +299,19 @@ div#hiderekl>div.quote>div[align='center'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* journal.knigka.info */
-noindex>table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadding='0'][height='227'] {
+/* all-ebooks.com, journal.knigka.info: dvd.1web.su */
+noindex table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadding='0'][height='227'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* rl-team.net */
+div.border_all.tiban {
+	display: none !important;
+	}
+
+/* dreamprogs.net */
+div#lfwar>div.war {
+	display: none !important;
 	}
 
 /* AGGRESSIVE! */
