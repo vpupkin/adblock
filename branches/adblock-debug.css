@@ -12,7 +12,7 @@ Description: http://code.google.com/p/adblock/
 -------------------------------- */
 
 /* Google AdSense */
-[id^='adsense'],								/* bontonweb.com */
+[id*='adsense'],
 [href*='pagead'], [src*='pagead'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -62,12 +62,13 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* MEDIUM */
-[href^='http://www.cdsuper.ru/'],
-[href*='/in.cgi?'], 				/* thetraffic.ru/in.cgi? */
+[href*='.com/?user_id='], [href*='.net/?user_id='],		/* razdevau.com/?user_id= , 25hypnos.net/?user_id= */
+[href*='/ad_cache/'], [src*='/ad_cache/'],
+[href*='/in.cgi?'], 						/* thetraffic.ru/in.cgi? */
 [href*='/adframe'],
 [href*='extrabucks.ru'],
-[href*='.com/s.php?f='],			/* bezwareza.com: sexklassniki1.com/s.php?f=0 erovkontakte1.com/s.php?f=0 */
-[href*='/adult/go.php?sid='],		   /* blackmanos.org.ru */
+[href*='.com/s.php?f='],					/* bezwareza.com: sexklassniki1.com/s.php?f=0 erovkontakte1.com/s.php?f=0 */
+[href*='/adult/go.php?sid='],		   		/* blackmanos.org.ru */
 [href*='/partner/'], [href*='/partners/'],
 [href*='/2advert.'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
@@ -103,6 +104,10 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* ADVERTISING SITES */
+[href^='http://www.FriendlyDuck.com/'], [src*='.FriendlyDuck.com/'],
+[href*='.shareresults.com/'], [src*='.shareresults.com/'],
+[href^='http://edelstarus.ru/'],
+[href^='http://www.cdsuper.ru/'],
 [href^='http://gagen.ru/'],
 [href^='http://alphacash.biz/'],
 [href^='http://www.webkazanc.com/'],
@@ -150,7 +155,7 @@ Description: http://code.google.com/p/adblock/
 [href*='investoday-monitor.ru'], [src*='investoday-monitor.ru'],
 [href*='rushotgirls.com'], [src*='rushotgirls.com'],
 [href*='sape.ru/r'], [src*='sape.ru/r'],
-[href*='bin-layer.ru'], [src*='bin-layer.ru'] {
+[href*='bin-layer.'], [src*='bin-layer.'] {
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -314,6 +319,14 @@ div.border_all.tiban {
 div#lfwar>div.war {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+
+/* price.ru */
+html > body > table#layout > tbody > tr > td > div#content > div > div#hints.list-block > div#snippetprice {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+
+
 
 /* AGGRESSIVE! */
 /*
@@ -539,6 +552,7 @@ object[width='716'][height='80'],
 object[width='700'][height='90'],
 object[width='700'][height='65'],
 object[width='600'][height='200'],
+object[width='600'][height='160'], 		/* all-ebooks.com center>div[style='padding-bottom:2px']>object[width='600'][height='160'] */
 object[width='597'][height='72'],
 object[width='520'][height='102'],
 object[width='501'][height='60'],
@@ -589,6 +603,7 @@ img[width='1'][height='1']	{
 .go-ad-top,
 .LeftAdv,
 .reklam-block,
+.shit_top, 				/* nulled.ws */
 .top_ad1,
 .top-banner,
 .top_banner,
@@ -620,10 +635,12 @@ img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+[class*='AdBar'],
 [class*='advertising'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+[id*='AdBar'],
 [id*='MarketGid'],
 [id*='rdm'] [class*='rdm'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -639,15 +656,15 @@ img[width='1'][height='1']	{
 [alt*='M2K Network'],
 [alt*='AdRiver'],
 [alt*='RORER'],
-[alt*='count'],
-[alt*='Ads'],
 [alt*='партнерка'],
+[alt='Ads'],
 [alt='Деловой баннерообмен'],
 [alt='Рейтинг@Mail.ru'],
 [alt='Рейтинг Mail.ru'],
 [alt="Rambler's Top100"] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+
 
 /* AGGRESSIVE! */
 /*
@@ -665,6 +682,11 @@ div[class^='banner'],
 #PopWin {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+
+[alt*='count']{
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 */
 
 
@@ -703,7 +725,7 @@ tr.default-row-2.advert, tr.premium-row-2.advert {
 	display: table-row !important;
 	}
 
-/* lurkmore.ru  100x120, 120x100, 250x250 */
+/* MediaWiki? (wikipedia.org, lurkmore.ru) 100x120, 120x100, 250x250 */
 div.thumbinner>a>img.thumbimage,
 div.gallerybox>div>div.thumb>div>a>img	{
 	display: inline !important;
