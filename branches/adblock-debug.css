@@ -276,7 +276,7 @@ td[class='sh1'][align='left'],
 
 /* forum.ixbt.com */
 embed[src*='etegro'],
-center table:nth-child(1)[cellspacing='0'][border='0'][align='center'][width='100%'],
+center table:first-of-type[cellspacing='0'][border='0'][align='center'][width='100%'],
 td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
