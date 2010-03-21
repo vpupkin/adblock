@@ -62,6 +62,8 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* MEDIUM */
+[href^='http://ad.'],
+[href*='http://love.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],		/* razdevau.com/?user_id= , 25hypnos.net/?user_id= */
 [href*='/ad_cache/'], [src*='/ad_cache/'],
 [href*='/in.cgi?'], 						/* thetraffic.ru/in.cgi? */
@@ -314,6 +316,7 @@ noindex table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadd
 	}
 
 /* rl-team.net */
+div.border_all.rlstyle1,
 div.border_all.tiban {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -324,6 +327,7 @@ div#lfwar > div.war {
 	}
 
 /* price.ru */
+div#header > table > tbody > tr > td > img[src^='http://b.dclick.ru/'] + table,
 div#hints.list-block div#snippetprice,
 img[src*='zuni.tyndex.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -596,6 +600,8 @@ img[width='1'][height='1']	{
 
 .ads,
 .ad_right,
+.ad_small,
+.adv_src,
 .advert,
 .advertisement,
 .banner,
@@ -616,6 +622,7 @@ img[width='1'][height='1']	{
 
 #ad_div,
 #adv,
+#adv2,
 #advertisingLink,
 #banner,
 #banners,
@@ -649,6 +656,7 @@ img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+[alt~='counter'], [alt~='counters'],
 [alt*='Реклама'],
 [alt*='Всего.RU'],
 [alt*='баннер'],
@@ -731,5 +739,10 @@ tr.default-row-2.advert, tr.premium-row-2.advert {
 /* MediaWiki? (wikipedia.org, lurkmore.ru) 100x120, 120x100, 250x250 */
 div.thumbinner > a > img.thumbimage,
 div.gallerybox > div > div.thumb > div > a > img {
+	display: inline !important;
+	}
+
+/* google 104x78 */
+img[id^='imgthumb'] {
 	display: inline !important;
 	}
