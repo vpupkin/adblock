@@ -61,6 +61,14 @@ Description: http://code.google.com/p/adblock/
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* vskachke.com */
+div#dle-content > div[style='border:2px solid red;margin:10px;padding:10px;text-align:left;height:80px;background-color:#fff7b6;'][onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
+div[id='dle-content'] > noindex > table[width='100%'][style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'][cellspacing='0'],  /* vskachke.com: all-ebooks.com */
+[href='http://vskachke.com/'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+
 /* MEDIUM */
 [href^='http://ad.'],
 [href*='http://love.'],
@@ -310,7 +318,9 @@ div#hiderekl > div.quote > div[align='center'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* all-ebooks.com, journal.knigka.info: dvd.1web.su */
+/* all-ebooks.com, journal.knigka.info */
+#mc_100x_90,
+div[id='dle-content'] > noindex > table[width='100%'][style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'][cellspacing='0'], /* all-ebooks.com */
 noindex table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadding='0'][height='227'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -613,6 +623,7 @@ img[width='1'][height='1']	{
 .LeftAdv,
 .reklam-block,
 .shit_top, 				/* nulled.ws */
+.text_adv,
 .top_ad1,
 .top-banner,
 .top_banner,
@@ -630,6 +641,7 @@ img[width='1'][height='1']	{
 #divFlashTeaser,
 #ibp,
 #leaderboard,
+#lite_top_banner,
 #load_banner_2,
 #mag_banner,
 #PopWin,
