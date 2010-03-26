@@ -71,7 +71,6 @@ div[id='dle-content'] > noindex > table[width='100%'][style='border:2px solid gr
 
 /* MEDIUM */
 [href^='http://ad.'],
-[href*='http://love.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],		/* razdevau.com/?user_id= , 25hypnos.net/?user_id= */
 [href*='/ad_cache/'], [src*='/ad_cache/'],
 [href*='/in.cgi?'], 						/* thetraffic.ru/in.cgi? */
@@ -616,6 +615,7 @@ img[width='1'][height='1']	{
 .advertisement,
 .banner,
 .banner-back, /* klavogonki.ru */
+.banner1,
 .banner_f,
 .banners24open,
 .bannerspec,
@@ -755,6 +755,7 @@ div.gallerybox > div > div.thumb > div > a > img {
 	}
 
 /* google 104x78 */
+div#ImgCont > table > tbody > tr > td > a > img,
 img[id^='imgthumb'] {
 	display: inline !important;
 	}
