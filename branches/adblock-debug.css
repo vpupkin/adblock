@@ -61,10 +61,14 @@ Description: http://code.google.com/p/adblock/
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* giga-files.net */
+div[style='border: 2px dashed green;padding:3px;'][align='left'] > h2[style='background: green;color: #ffffff; margin: 0 auto; padding: 5px 0 5px 20px;font-size: 16px; font-weight: normal;'],
+div[style='border: 2px dashed green;padding:3px;'][align='left'] > dl[style='display: block; background-color: #ffffff; border-bottom: solid 1px #F5DFD6; padding: 8px 0; margin:0;'],
+[href^='http://giga-files.net/'],
 /* vskachke.com */
-div#dle-content > div[style='border:2px solid red;margin:10px;padding:10px;text-align:left;height:80px;background-color:#fff7b6;'][onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
-div[id='dle-content'] > noindex > table[width='100%'][style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'][cellspacing='0'],  /* vskachke.com: all-ebooks.com */
-[href='http://vskachke.com/'] {
+div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
+[cllpadding='0'],
+[href^='http://vskachke.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -640,6 +644,7 @@ img[width='1'][height='1']	{
 #bannertop,
 #divFlashTeaser,
 #ibp,
+#IE8BarId_alt,
 #leaderboard,
 #lite_top_banner,
 #load_banner_2,
