@@ -114,7 +114,8 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 [href*='/ban_click.'],
 [href*='forex'],
 [href*='rtbn'],
-[src*='sticker.yadro.ru'] {
+[src*='sticker.yadro.ru'],
+[src*='_banner_'] {
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -351,6 +352,15 @@ img[src*='zuni.tyndex.ru'] {
 
 /* SamLab.ws */
 .box.main > div[style='text-align: center; line-height: 100%; width: 99%; border: 1px solid #000; margin: 0 auto;'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* Overclockers.ru */
+body > div > table[border='0'][cellspacing='0'][cellpadding='0'][width='100%'][style='height: 60px'],
+body > div > table[cellpadding='0'][cellspacing='0'][height='68'][width='100%'][border='0'],
+body > div > div > table[cellpadding='0'][cellspacing='0'][height='67'][width='100%'][border='0'],
+table[cellspacing='0'][cellpadding='0'][border='0'][width^='30'][height='245'][style^='background:#fffff'],
+table[cellspacing='0'][cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -704,7 +714,7 @@ img[width='1'][height='1']	{
 [alt='Рейтинг@Mail.ru'],
 [alt='Рейтинг Mail.ru'],
 [alt="Rambler's Top100"],
-[alt="Игра Передовая"] {
+[alt='Игра Передовая'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
