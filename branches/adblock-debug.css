@@ -68,7 +68,7 @@ div[style='border: 2px dashed green;padding:3px;'][align='left'] > dl[style='dis
 /* vskachke.com */
 div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
 [cllpadding='0'],
-[href^='http://vskachke.com/'] {
+[href*='/vskachke.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -182,6 +182,7 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 -------------------------------- */
 
 /* Google Sponsored Links */
+[class='ch '][onclick='ga(this,event)'],
 #tads, #mbEnd {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -687,7 +688,8 @@ img[width='1'][height='1']	{
 	}
 
 [class*='AdBar'],
-[class*='advertising'] {
+[class*='advertising'],
+[class^='bnnr_bx_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
