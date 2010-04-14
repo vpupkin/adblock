@@ -577,6 +577,7 @@ iframe[width='150'][height='840'] {                        /* rutor.org */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 img[width='100%'][height='80'],
+img[width='990'][height='90'],
 img[width='840'][height='148'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -641,11 +642,12 @@ img[width='1'][height='1']	{
 .advert,
 .advertisement,
 .banner,
-.banner-back, /* klavogonki.ru */
+.banner-back,                                              /* klavogonki.ru */
 .banner1,
 .banner_f,
 .banners24open,
 .bannerspec,
+.company-banner                                            /* habrahabr.ru */
 .go-ad-top,
 .LeftAdv,
 .reklam-block,
