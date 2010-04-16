@@ -75,12 +75,12 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 
 /* MEDIUM */
 [href^='http://ad.'],
-[href*='.com/?user_id='], [href*='.net/?user_id='],	       /* razdevau.com, 25hypnos.net */
+[href*='.com/?user_id='], [href*='.net/?user_id='],
 [href*='/ad_cache/'], [src*='/ad_cache/'],
-[href*='/in.cgi?'],                                        /* thetraffic.ru/ */
+[href*='/in.cgi?'],                                        /* thetraffic.ru */
 [href*='/adframe'],
 [href*='extrabucks.ru'],
-[href*='.com/s.php?f='],                                   /* bezwareza.com: sexklassniki1.com erovkontakte1.com */
+[href*='.com/s.php?f='],                                   /* bezwareza.com */
 [href*='/adult/go.php?sid='],                              /* blackmanos.org.ru */
 [href*='/partner/'], [href*='/partners/'],
 [href*='/2advert.'],
@@ -487,7 +487,6 @@ table[cellspacing='0'][cellpadding='5'][border='0'][width='600'][style='border: 
 *[width='280'][height='120'],
 *[width='270'][height='60'],
 *[width='250'][height='250'],
-*[width='240'][height='400'],
 *[width='240'][height='350'],
 *[width='240'][height='120'],
 *[width='240'][height='100'],
@@ -572,6 +571,7 @@ iframe[width='990'][height='90'],
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
 iframe[width='240'][height='440'],
+iframe[width='240'][height='400'],
 iframe[width='206'][height='618'],
 iframe[width='150'][height='840'] {                        /* rutor.org */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -606,6 +606,7 @@ object[width='430'][height='70'],
 object[width='360'][height='60'],
 object[width='333'][height='333'],
 object[width='315'][height='75'],
+object[width='240'][height='400'],
 object[width='240'][height='200'],
 object[width='240'][height='115'],
 object[width='234'][height='200'],
