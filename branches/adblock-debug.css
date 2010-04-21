@@ -264,7 +264,7 @@ div[style*='width: 728px;'], .rb--TopTeaser {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* ru-board */
+/* ru-board.com */
 table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
 td[class='sh1'][align='left'],
 [href^='http://thegreenppc.com/'],
@@ -272,7 +272,8 @@ td[class='sh1'][align='left'],
 [href*='greenlabelppc.com'],
 [href*='/infoads.cgi'],
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'],
-[href*='komendant.net']	{
+[href*='komendant.net'],
+[href*='firstdedic.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -363,6 +364,11 @@ body > div > div > table[cellpadding='0'][cellspacing='0'][height='67'][width='1
 table[cellspacing='0'][cellpadding='0'][border='0'][width^='30'][height='245'][style^='background:#fffff'],
 table[cellspacing='0'][cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+	
+/* Welinux.ru */
+#promo.google {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important		
 	}
 
 
@@ -565,6 +571,7 @@ embed[width='640'][height='80'],
 embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+iframe[width='100%'][height='100'],                        /* zaycev.net */
 iframe[width='100%'][height='90'],
 iframe[width='999'][height='155'],                         /* samlab.ws */
 iframe[width='990'][height='90'],
