@@ -46,7 +46,8 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* adfox.ru */
-[href*='.adfox.'], [src*='.adfox.'] {
+[href*='.adfox.'], [src*='.adfox.'],
+[href*='/adfox/'], [src*='/adfox/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -265,7 +266,8 @@ div[style*='width: 728px;'], .rb--TopTeaser {
 	}
 
 /* ru-board.com */
-table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
+table[bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='640'],
+table[bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
 td[class='sh1'][align='left'],
 [href^='http://thegreenppc.com/'],
 [href*='greenparking.biz'],
@@ -329,8 +331,8 @@ div.sidebar.sidebar_right > div.zhMain {
 
 /* all-ebooks.com, journal.knigka.info */
 #mc_100x_90,
-#dle-content table[style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'][cellspacing='0'],
-noindex table[align='center'][border='0'][width='76%'][cellspacing='0'][cellpadding='0'][height='227'] {
+#dle-content table[style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'],
+noindex table[align='center'][border='0'][width='76%'][height='227'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -358,11 +360,11 @@ img[src*='zuni.tyndex.ru'] {
 	}
 
 /* Overclockers.ru */
-body > div > table[border='0'][cellspacing='0'][cellpadding='0'][width='100%'][style='height: 60px'],
-body > div > table[cellpadding='0'][cellspacing='0'][height='68'][width='100%'][border='0'],
-body > div > div > table[cellpadding='0'][cellspacing='0'][height='67'][width='100%'][border='0'],
-table[cellspacing='0'][cellpadding='0'][border='0'][width^='30'][height='245'][style^='background:#fffff'],
-table[cellspacing='0'][cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'] {
+body > div > table[border='0'][width='100%'][style='height: 60px'],
+body > div > table[height='68'][width='100%'][border='0'],
+body > div > div > table[height='67'][width='100%'][border='0'],
+table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
+table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 	
@@ -370,6 +372,17 @@ table[cellspacing='0'][cellpadding='5'][border='0'][width='600'][style='border: 
 #promo.google {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important		
 	}
+	
+/* Stopgame.ru */
+td[valign='top'][bgcolor='#277CAA'][width='252'][align='left'],
+object[width='125'][height='605'],
+object[width='470'][height='62'],
+.top_banner_960,
+.ban468b,
+.ban468w {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 
 
 /* AGGRESSIVE! */
@@ -568,6 +581,9 @@ table[cellspacing='0'][cellpadding='5'][border='0'][width='600'][style='border: 
 embed[width='100%'][height='90'],
 embed[width='100%'][height='60'],
 embed[width='640'][height='80'],
+embed[width='468'][height='120'],                          /* playground.ru */
+embed[width='240'][height='400'],                          /* playground.ru */
+embed[width='150'][height='200'],                          /* playground.ru */
 embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -585,7 +601,8 @@ iframe[width='150'][height='840'] {                        /* rutor.org */
 	}
 img[width='100%'][height='80'],
 img[width='990'][height='90'],
-img[width='840'][height='148'] {
+img[width='840'][height='148'],
+img[width='269'][height='75'] {                            /* playground.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 object[width='105%'][height='90'],                         /* sharereactor.ru */
@@ -613,6 +630,7 @@ object[width='430'][height='70'],
 object[width='360'][height='60'],
 object[width='333'][height='333'],
 object[width='315'][height='75'],
+object[width='300'][height='300'],                         /* mail.ru */
 object[width='240'][height='400'],
 object[width='240'][height='200'],
 object[width='240'][height='115'],
@@ -649,6 +667,7 @@ img[width='1'][height='1']	{
 .adv_src,
 .advert,
 .advertisement,
+.BanBlock,                                                 /* playground.ru */
 .banner,
 .banner-back,                                              /* klavogonki.ru */
 .banner1,
