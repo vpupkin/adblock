@@ -101,7 +101,7 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 [href*='ads.com/?ref '],
 [href*='/cgi-bin/href/'], [src*='/cgi-bin/iframe/'],
 [href*='adbrite'], [src*='adbrite'],
-[href*='adnet'], [src*='adnet'],
+[href*='/adnet/'], [src*='/adnet/'],
 [href*='/ad.ad'], [src*='/ad.ad'],
 [href*='/adclick'], [src*='/adclick'],
 [href*='adclick.'],
@@ -367,7 +367,8 @@ body > div > table[height='68'][width='100%'][border='0'],
 body > div > div > table[height='67'][width='100%'][border='0'],
 table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
 table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'],
-table[cellpadding='2'][cellspacing='5'][width='120'][style='border: dotted 1px #777;'] {
+#wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
+#wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 	
