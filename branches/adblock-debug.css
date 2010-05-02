@@ -175,7 +175,8 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 [href*='bin-layer.'], [src*='bin-layer.'],
 [href*='visitweb.com'], [src*='visitweb.com'],
 [href*='bannerbank.ru'], [src*='bannerbank.ru'],
-[href*='iphone4all.ru'], [src*='iphone4all.ru'] {
+[href*='iphone4all.ru'], [src*='iphone4all.ru'],
+[href*='bw.pronto.ru'], [src*='bw.pronto.ru'] {
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -277,7 +278,8 @@ td[class='sh1'][align='left'],
 [href*='/infoads.cgi'],
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'],
 [href*='komendant.net'],
-[href*='firstdedic.ru'] {
+[href*='firstdedic.ru'],
+[href*='ispserver.com'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -368,7 +370,8 @@ body > div > div > table[height='67'][width='100%'][border='0'],
 table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
 table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'],
 #wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
-#wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'] {
+#wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'],
+table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 	
@@ -600,6 +603,7 @@ iframe[width='100%'][height='100'],                        /* zaycev.net */
 iframe[width='100%'][height='90'],
 iframe[width='999'][height='155'],                         /* samlab.ws */
 iframe[width='990'][height='90'],
+iframe[width='960'][height='90'],                          /* news.sportbox.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
 iframe[width='240'][height='440'],
@@ -610,6 +614,7 @@ iframe[width='150'][height='840'] {                        /* rutor.org */
 	}
 img[width='100%'][height='80'],
 img[width='990'][height='90'],
+img[width='960'][height='90'],                             /* news.sportbox.ru */
 img[width='840'][height='148'],
 img[width='240'][height='400'],                            /* allhockey.ru */
 img[width='269'][height='75'] {                            /* playground.ru */
