@@ -522,7 +522,6 @@ object[width='470'][height='62'],
 *[width='240'][height='120'],
 *[width='240'][height='100'],
 *[width='240'][height='70'],
-*[width='240'][height='60'],
 *[width='234'][height='330'],
 *[width='234'][height='120'],
 *[width='234'][height='90'],
@@ -617,6 +616,7 @@ img[width='990'][height='90'],
 img[width='960'][height='90'],                             /* news.sportbox.ru */
 img[width='840'][height='148'],
 img[width='240'][height='400'],                            /* allhockey.ru */
+img[width='240'][height='60'],
 img[width='269'][height='75'] {                            /* playground.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
