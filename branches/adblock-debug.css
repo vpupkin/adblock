@@ -279,6 +279,7 @@ td[class='sh1'][align='left'],
 [href*='ru-traffic.com/'], [src*='ru-traffic.com/'],
 [href*='komendant.net'],
 [href*='firstdedic.ru'],
+[href*='firstvds.ru'],
 [href*='ispserver.com'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -591,6 +592,7 @@ object[width='470'][height='62'],
 /* ONLY CERTAIN HTML-ELEMENTS */
 embed[width='100%'][height='90'],
 embed[width='100%'][height='60'],
+embed[width='960'][height='90'],                          /* news.sportbox.ru */
 embed[width='640'][height='80'],
 embed[width='468'][height='120'],                          /* playground.ru */
 embed[width='240'][height='400'],                          /* playground.ru */
