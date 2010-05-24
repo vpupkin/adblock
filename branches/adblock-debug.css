@@ -19,6 +19,7 @@ Description: http://code.google.com/p/adblock/
 
 /* Yandex */
 [id*='_direct'],
+[id*='y5_market'],
 [class*='textAd'],
 [href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'],
 [href*='an.yandex.ru'], [src*='an.yandex.ru'],
@@ -116,7 +117,8 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 [href*='forex'],
 [href*='rtbn'],
 [src*='sticker.yadro.ru'],
-[src*='_banner_'] {
+[src*='_banner_'],
+[src*='ad.php?id='] {                                      /* nnm-club.ru */
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -392,6 +394,15 @@ object[width='470'][height='62'],
 	
 /* Vedomosti.ru */
 [src*='/var/bansrc/'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+	
+/* OpenNET.ru */
+object[width='468'][height='60TYPE='],
+object[width='240'][height='400TYPE='],
+a[href*='lanbilling.ru'],
+a[href*='click.opennet.ru'],
+#ibm_adv {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -709,6 +720,7 @@ img[width='1'][height='1']	{
 #ad_div,
 #adv,
 #adv2,
+#adv3,                                                     /* opennet.ru */
 #advertisingLink,
 #banner,
 #banners,
@@ -847,4 +859,9 @@ body > #banner:first-child {
 /* zhmak.info */
 td[width='100'] + td[width='137'] + td {
 	content: "\00A0" !important;
+	}
+	
+/* 101.ru */
+#playercodeblockdc object, #playercodeblockdc embed {
+	display: block !important;	
 	}
