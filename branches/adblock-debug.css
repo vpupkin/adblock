@@ -189,6 +189,7 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 
 /* Google Sponsored Links */
 [class='ch '][onclick='ga(this,event)'],
+#bottomads, #topads,
 #tads, #mbEnd {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -376,12 +377,12 @@ table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000
 table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* Welinux.ru */
 #promo.google {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important		
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* Stopgame.ru */
 td[valign='top'][bgcolor='#277CAA'][width='252'][align='left'],
 object[width='125'][height='605'],
@@ -391,12 +392,12 @@ object[width='470'][height='62'],
 .ban468w {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* Vedomosti.ru */
 [src*='/var/bansrc/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* OpenNET.ru */
 object[width='468'][height='60TYPE='],
 object[width='240'][height='400TYPE='],
@@ -860,8 +861,8 @@ body > #banner:first-child {
 td[width='100'] + td[width='137'] + td {
 	content: "\00A0" !important;
 	}
-	
+
 /* 101.ru */
 #playercodeblockdc object, #playercodeblockdc embed {
-	display: block !important;	
+	display: block !important;
 	}
