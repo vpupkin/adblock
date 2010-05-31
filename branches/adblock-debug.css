@@ -849,6 +849,7 @@ tr.default-row-2.advert, tr.premium-row-2.advert {
 	}
 
 /* MediaWiki (wikipedia.org, lurkmore.ru) 100x120, 120x100, 250x250 */
+.infobox.vcard img,
 .thumbinner img.thumbimage,
 .gallerybox .thumb a img {
 	display: inline !important;
