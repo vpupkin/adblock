@@ -25,7 +25,8 @@ Description: http://code.google.com/p/adblock/
 [href*='an.yandex.ru'], [src*='an.yandex.ru'],
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
-.ad-market, .ads-header, .go-ad {
+.ad-market, .ads-header,
+.go-ad, .b-yadirect {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -74,6 +75,11 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* icqwindow.net */
+div[id*='okno_icqwindow'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 
 /* MEDIUM */
 [href^='http://ad.'],
@@ -119,7 +125,7 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 [src*='sticker.yadro.ru'],
 [src*='_banner_'],
 [src*='ad.php?id='] {                                      /* nnm-club.ru */
-    background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
 /* ADVERTISING SITES */
@@ -399,8 +405,8 @@ object[width='470'][height='62'],
 	}
 
 /* OpenNET.ru */
-object[width='468'][height='60TYPE='],
-object[width='240'][height='400TYPE='],
+[width='468'][height='60TYPE="application/x-shockwave-flash"'],
+[width='240'][height='400TYPE="application/x-shockwave-flash"'],
 a[href*='lanbilling.ru'],
 a[href*='click.opennet.ru'],
 #ibm_adv {
@@ -611,6 +617,7 @@ embed[width='150'][height='200'],                          /* playground.ru */
 embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+iframe[width='100%'][height='280'],                        /* nnm-club.ru */
 iframe[width='100%'][height='100'],                        /* zaycev.net */
 iframe[width='100%'][height='90'],
 iframe[width='999'][height='155'],                         /* samlab.ws */
@@ -719,6 +726,7 @@ img[width='1'][height='1']	{
 	}
 
 #ad_div,
+#ad_ph_1,                                                  /* habrahabr.ru */
 #adv,
 #adv2,
 #adv3,                                                     /* opennet.ru */
