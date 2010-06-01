@@ -184,7 +184,9 @@ div[id*='okno_icqwindow'] {
 [href*='visitweb.com'], [src*='visitweb.com'],
 [href*='bannerbank.ru'], [src*='bannerbank.ru'],
 [href*='iphone4all.ru'], [src*='iphone4all.ru'],
-[href*='bw.pronto.ru'], [src*='bw.pronto.ru'] {
+[href*='bw.pronto.ru'], [src*='bw.pronto.ru'],
+[href*='partnerearning.com'], [src*='partnerearning.com'],
+[href*='tradedoubler.com'], [src*='tradedoubler.com'] {    /* lib.aldebaran.ru */
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -412,7 +414,11 @@ a[href*='click.opennet.ru'],
 #ibm_adv {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-
+	
+/* samouchka.net */
+div[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 
 /* AGGRESSIVE! */
@@ -642,6 +648,7 @@ img[width='269'][height='75'] {                            /* playground.ru */
 	}
 object[width='105%'][height='90'],                         /* sharereactor.ru */
 object[width='100%'][height='240'],
+object[width='100%'][height='150'],                        /* lib.aldebaran.ru */
 object[width='100%'][height='100'],
 object[width='100%'][height='90'],
 object[width='100%'][height='60'],
