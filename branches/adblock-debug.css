@@ -100,6 +100,7 @@ div[id*='okno_icqwindow'] {
 [href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
+[href*='/reklama_'],                                       /* netzor.org */
 [href*='/adserver'], [src*='adserver'],
 [href*='/adfarm.'], [src*='/adfarm.'],
 [href*='/bn.'], [src*='/bn.'],
@@ -124,7 +125,8 @@ div[id*='okno_icqwindow'] {
 [href*='rtbn'],
 [src*='sticker.yadro.ru'],
 [src*='_banner_'],
-[src*='ad.php?id='] {                                      /* nnm-club.ru */
+[src*='ad.php?id='],
+[href*='biglion'] {                                        /* nnm-club.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -382,7 +384,8 @@ table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
 table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'],
 #wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
 #wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'],
-table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
+table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'],
+img[weidht='125'][height='600'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -417,6 +420,14 @@ a[href*='click.opennet.ru'],
 	
 /* samouchka.net */
 div[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* zaycev.net */
+.menu1[style='background-color:#FFFFFF;width:100%;width:100%;margin-bottom:10px;'],
+p > table[width='750'],
+[id*='multi-ban'],
+#slicec_abv00001 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -649,9 +660,10 @@ img[width='269'][height='75'] {                            /* playground.ru */
 object[width='105%'][height='90'],                         /* sharereactor.ru */
 object[width='100%'][height='240'],
 object[width='100%'][height='150'],                        /* lib.aldebaran.ru */
-object[width='100%'][height='100'],
+object[width='100%'][height='100'],                        /* zaycev.net */
 object[width='100%'][height='90'],
 object[width='100%'][height='60'],
+object[width='1200'][height='70'],                         /* overclockers.ru */
 object[width='1200'][height='60'],
 object[width='1000'][height='90'],
 object[width='980'][height='60'],
@@ -713,6 +725,7 @@ img[width='1'][height='1']	{
 .BanBlock,                                                 /* playground.ru */
 .banner,
 .banner-back,                                              /* klavogonki.ru */
+.banner-top,                                               /* samlab.ws */           
 .banner1,
 .banner_f,
 .banners24open,
