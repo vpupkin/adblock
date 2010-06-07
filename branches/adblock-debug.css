@@ -21,7 +21,6 @@ Description: http://code.google.com/p/adblock/
 [id*='_direct'],
 [id*='y5_market'],
 [class*='textAd'],
-[href*='bs.yandex.ru'], [src*='bs.yandex.ru'], [value*='bs.yandex.ru'], [data*='bs.yandex.ru'],
 [href*='an.yandex.ru'], [src*='an.yandex.ru'],
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
@@ -731,7 +730,6 @@ img[width='1'][height='1']	{
 .BanBlock,                                                 /* playground.ru */
 .banner,
 .banner-back,                                              /* klavogonki.ru */
-.banner-top,                                               /* samlab.ws */
 .banner1,
 .banner_f,
 .banners24open,
@@ -759,6 +757,7 @@ img[width='1'][height='1']	{
 #advertisingLink,
 #banner,
 #banners,
+#banner-top,                                               /* samlab.ws */
 #bannertop,
 #divFlashTeaser,
 #ibp,
