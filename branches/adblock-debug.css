@@ -80,6 +80,12 @@ div[id*='okno_icqwindow'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* maxizakachka.ru and other */
+DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.background='#FAFF58';"],
+.bc_adv_container {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
 
 /* MEDIUM */
 [href^='http://ad.'],
@@ -417,7 +423,7 @@ a[href*='click.opennet.ru'],
 #ibm_adv {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
-	
+
 /* samouchka.net */
 div[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -725,7 +731,7 @@ img[width='1'][height='1']	{
 .BanBlock,                                                 /* playground.ru */
 .banner,
 .banner-back,                                              /* klavogonki.ru */
-.banner-top,                                               /* samlab.ws */           
+.banner-top,                                               /* samlab.ws */
 .banner1,
 .banner_f,
 .banners24open,
