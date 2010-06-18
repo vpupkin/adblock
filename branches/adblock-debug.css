@@ -359,8 +359,12 @@ noindex table[align='center'][border='0'][width='76%'][height='227'] {
 	}
 
 /* rl-team.net */
+div[style^='position:fixed; top:263px; left:28%; margin:0; padding:0; Z-INDEX: 2147483647;'],
 div.border_all.rlstyle1,
-div.border_all.tiban {
+div.border_all.tiban,
+div.ms_inside_block,
+div[id^='bn_'],
+table.ms_promo_block {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -433,6 +437,15 @@ div[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;']
 p > table[width='750'],
 [id*='multi-ban'],
 #slicec_abv00001 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* zhmak.info */
+div[style='background-color: #343434; border: 3px solid #009dff; width: 100%; height: 100%; text-align: center; z-index: 100001;'],
+table[style='border: 2px dashed green;padding:15px 3px;font-size:16px;background-color:#fdfac3;'],
+iframe[width='600px'][height='250px'],
+div[id^='Teaser_Block'],
+div[id^='newclick'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -633,6 +646,7 @@ embed[width='100%'][height='90'],
 embed[width='100%'][height='60'],
 embed[width='960'][height='90'],                           /* news.sportbox.ru */
 embed[width='640'][height='80'],
+embed[width='510'][height='60'],                           /* overclockers.ru */
 embed[width='468'][height='120'],                          /* playground.ru */
 embed[width='240'][height='400'],                          /* playground.ru */
 embed[width='150'][height='200'],                          /* playground.ru */
@@ -682,6 +696,7 @@ object[width='597'][height='72'],
 object[width='520'][height='102'],
 object[width='500'][height='150'],                         /* samlab.ws */
 object[width='501'][height='60'],
+object[width='480'][height='480'],                         /* samouchka.net */
 object[width='469'][height='61'],
 object[width='468'][height='70'],
 object[width='467'][height='59'],
@@ -699,6 +714,7 @@ object[width='230'][height='30'],                          /* forum.ixbt.com */
 object[width='200'][height='200'],
 object[width='180'][height='280'],
 object[width='150'][height='150'],
+object[width='125'][height='200'],                         /* overclockers.ru */
 object[width='120'][height='150'],                         /* sharereactor.ru */
 object[width='112'][height='60'],
 object[width='100'][height='100'] {
@@ -893,7 +909,7 @@ body > #banner:first-child {
 
 /* zhmak.info */
 td[width='100'] + td[width='137'] + td {
-	content: "\00A0" !important;
+	width: 100%;
 	}
 
 /* 101.ru */
