@@ -228,6 +228,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 	}
 
 /* deviantart.com */
+iframe[src*='ad_frame'],#gmi-ResourcePageAd,#gmi-ResourcePageLowerAd,#gallery-admaster,
 a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 .ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch,
 .h.left-sidebar, .hi-i-get-in-the-way-too {
