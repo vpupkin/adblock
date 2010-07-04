@@ -75,7 +75,8 @@ div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.b
 	}
 
 /* icqwindow.net */
-div[id*='okno_icqwindow'] {
+div[id*='okno_icqwindow'],
+div[id^='icqwin_advmaker'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
