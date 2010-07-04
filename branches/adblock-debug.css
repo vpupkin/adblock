@@ -786,7 +786,6 @@ img[width='1'][height='1']	{
 #lite_top_banner,
 #load_banner_2,
 #mag_banner,
-#page_footer,
 #PopWin,
 #reclama,
 #reklama,
@@ -847,6 +846,7 @@ div[class^='banner'],
 
 #Ads,
 #top_adbn_div,
+#page_footer,
 #PopWin {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
