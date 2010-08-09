@@ -920,3 +920,8 @@ td[width='100'] + td[width='137'] + td {
 #playercodeblockdc object, #playercodeblockdc embed {
 	display: block !important;
 	}
+
+/* bbc.co.uk */
+div#blq-main.blq-clearfix > div#banner {
+	display: inherit !important;
+	}
