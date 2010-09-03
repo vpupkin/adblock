@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
@@ -85,6 +85,12 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 .bc_adv_container {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+
+/* AdRiver */
+[id*='ad_ph_2'],
+[src*='195.214.194.1/'] {
+	 background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+        }
 
 
 /* MEDIUM */
