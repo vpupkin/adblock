@@ -94,7 +94,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 
 
 /* MEDIUM */
-[href^='http://ad.'],
+[href^='http://ad.'], [src^='http://ad.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],
 [href*='/ad_cache/'], [src*='/ad_cache/'],
 [href*='/in.cgi?'],                                        /* thetraffic.ru */
@@ -104,7 +104,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='/adult/go.php?sid='],                              /* blackmanos.org.ru */
 [href*='/partner/'], [href*='/partners/'],
 [href*='/2advert.'],
-[href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
+[href*='/ads/'], [src*='/ads/'], [src*='_ads.'], [src^='http://ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
 [href*='/ban.'], [src*='/ban.'],
