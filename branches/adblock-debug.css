@@ -136,7 +136,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='forex'],
 [href*='rtbn'],
 [src*='sticker.yadro.ru'],
-[src*='_banner_'],
+[src*='banner_'],                                          /*ixbt.com*/
 [src*='ad.php?id='],
 [href*='biglion'] {                                        /* nnm-club.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -201,7 +201,8 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='bw.pronto.ru'], [src*='bw.pronto.ru'],
 [href*='partnerearning.com'], [src*='partnerearning.com'],
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
-[href*='banner.ua'], [src*='banner.ua'] {    /* lib.aldebaran.ru */
+[href*='banner.ua'], [src*='banner.ua'],
+[href*='post.rmbn.ru'], [src*='post.rmbn.ru'] {    /* lib.aldebaran.ru */
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
