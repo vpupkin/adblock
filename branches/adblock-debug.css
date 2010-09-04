@@ -201,7 +201,6 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='bw.pronto.ru'], [src*='bw.pronto.ru'],
 [href*='partnerearning.com'], [src*='partnerearning.com'],
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
-[src*='b.ddestiny.ru'],                                                /*rutracker.org*/
 [href*='banner.ua'], [src*='banner.ua'] {    /* lib.aldebaran.ru */
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -253,6 +252,7 @@ a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 	}
 
 /* rutracker.org */
+[src*='b.ddestiny.ru'],
 embed[width*='200'][height*='300'],
 #bn-bot-wrap {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -528,6 +528,7 @@ div[id^='newclick'] {
 *[width='160'][height='240'],
 *[width='160'][height='600'],
 *[width='234'][height='60'],
+*[width='234'][height='200'],                             /* mail.ru */
 *[width='300'][height='250'],
 *[width='336'][height='280'],
 *[width='392'][height='72'],
@@ -612,7 +613,6 @@ object[width='300'][height='300'],                         /* mail.ru */
 object[width='240'][height='400'],
 object[width='240'][height='200'],
 object[width='240'][height='115'],
-*[width='234'][height='200'],
 object[width='234'][height='190'],
 object[width='230'][height='30'],                          /* forum.ixbt.com */
 object[width='200'][height='200'],
