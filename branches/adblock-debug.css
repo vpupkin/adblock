@@ -711,6 +711,7 @@ img[width='1'][height='1']	{
 	}
 
 [id*='AdBar'],
+[id^='left_ban'],
 [id*='MarketGid'],
 [id*='rdm'] [class*='rdm'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
