@@ -136,7 +136,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='forex'],
 [href*='rtbn'],
 [src*='sticker.yadro.ru'],
-[src*='banner_'],                                          /*ixbt.com*/
+[src*='banner_'],
 [src*='ad.php?id='],
 [href*='biglion'] {                                        /* nnm-club.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -329,7 +329,9 @@ td[class='sh1'][align='left'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
-/* forum.ixbt.com */
+/* ixbt.com */
+[src*='rose.ixbt.com'],
+#flow .offer,
 .dostavka_wrapper,
 td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
