@@ -411,8 +411,7 @@ table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
 table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'],
 #wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
 #wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'],
-table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'],
-img[weidht='125'][height='600'], embed[width='125'][height='600'] {
+table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -684,6 +683,7 @@ img[width='1'][height='1']	{
 #adv2,
 #adv3,                                                     /* opennet.ru */
 #advertisingLink,
+#advertisement,                                            /* overclockers.ru */
 #banner,
 #banners,
 #banner-top,                                               /* samlab.ws */
