@@ -260,7 +260,7 @@ embed[width*='200'][height*='300'],
 	}
 
 /* Ucoz.ru */
-a[onclick*="('none');return false;"], iframe[width='218'] {
+a[onclick*="('none');return false;"], iframe[width='218'], iframe[width='220'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -294,6 +294,11 @@ div[style*='width: 728px;'], .rb--TopTeaser {
 /* nnm.ru */
 #top-banner,
 [href*='tours.ru'], [src*='tours.ru'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
+
+/* fast-torrent.ru */
+#add .ad {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -553,7 +558,6 @@ embed[width='100%'][height='90'],
 embed[width='100%'][height='60'],
 embed[width='960'][height='90'],                           /* news.sportbox.ru */
 embed[width='640'][height='80'],
-embed[width='510'][height='60'],                           /* overclockers.ru */
 embed[width='468'][height='120'],                          /* playground.ru */
 embed[width='240'][height='400'],                          /* playground.ru */
 embed[width='150'][height='200'],                          /* playground.ru */
@@ -566,6 +570,7 @@ iframe[width='100%'][height='90'],
 iframe[width='999'][height='155'],                         /* samlab.ws */
 iframe[width='990'][height='90'],
 iframe[width='960'][height='90'],                          /* news.sportbox.ru */
+iframe[width='501'][height='60'],                           /* overclockers.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
 iframe[width='240'][height='440'],
@@ -705,6 +710,7 @@ img[width='1'][height='1']	{
 	}
 
 [class*='AdBar'],
+[class*='ad_block'],
 [class*='advertising'],
 [class^='bnnr_bx_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
