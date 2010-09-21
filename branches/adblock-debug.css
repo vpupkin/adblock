@@ -466,6 +466,11 @@ div[id^='newclick'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* 4pda.ru */
+.adtox,
+.pr-AVA {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 /* AGGRESSIVE! */
 /*
@@ -684,7 +689,7 @@ img[width='1'][height='1']	{
 #adv2,
 #adv3,                                                     /* opennet.ru */
 #advertisingLink,
-#advertisement,                                            /* overclockers.ru */
+#Advertisement,
 #banner,
 #banners,
 #banner-top,                                               /* samlab.ws */
