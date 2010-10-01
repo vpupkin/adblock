@@ -472,6 +472,9 @@ div[id^='newclick'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+
+
+
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
@@ -843,4 +846,9 @@ td[width='100'] + td[width='137'] + td {
 /* bbc.co.uk */
 div#blq-main.blq-clearfix > div#banner {
 	display: inherit !important;
+	}
+
+/* rbcdaily.ru */
+td.leftBg[width='16'][rowspan='2'] + td.banner + td.rightBg[width='16'][rowspan='2'] { /* header width fix */
+	display:none !important;
 	}
