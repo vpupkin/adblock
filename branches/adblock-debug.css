@@ -672,6 +672,7 @@ img[width='1'][height='1']	{
 .company-banner,                                           /* habrahabr.ru */
 .go-ad-top,
 .LeftAdv,
+.mediaget, 												   /* rutor.org */
 .pricead,                                                  /* ferra.ru */
 .reklam-block,
 .reclama_v,                                                /* programki.net */
@@ -686,6 +687,7 @@ img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+#ad-tower,
 #ad_div,
 #ad_ph_1,                                                  /* habrahabr.ru */
 #adv,
