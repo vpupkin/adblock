@@ -64,13 +64,13 @@ Description: http://code.google.com/p/adblock/
 	}
 
 /* giga-files.net */
-div[style='border: 2px dashed green;padding:3px;'][align='left'] > h2[style='background: green;color: #ffffff; margin: 0 auto; padding: 5px 0 5px 20px;font-size: 16px; font-weight: normal;'],
-div[style='border: 2px dashed green;padding:3px;'][align='left'] > dl[style='display: block; background-color: #ffffff; border-bottom: solid 1px #F5DFD6; padding: 8px 0; margin:0;'],
-[href^='http://giga-files.net/'],
+h2[style='background: green;color: #ffffff; margin: 0 auto; padding: 5px 0 5px 20px;font-size: 16px; font-weight: normal;'],
+dl[style='display: block; background-color: #ffffff; border-bottom: solid 1px #F5DFD6; padding: 8px 0; margin:0;'],
+a[href^='http://giga-files.net/'],
 /* vskachke.com */
 div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
 [cllpadding='0'],
-[href*='/vskachke.com/'] {
+a[href*='/vskachke.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -202,7 +202,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='partnerearning.com'], [src*='partnerearning.com'],
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
 [href*='banner.ua'], [src*='banner.ua'],
-[href*='post.rmbn.ru'], [src*='post.rmbn.ru'] {    /* lib.aldebaran.ru */
+[href*='post.rmbn.ru'], [src*='post.rmbn.ru'] {            /* lib.aldebaran.ru */
     background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
@@ -543,7 +543,7 @@ div[id^='newclick'] {
 *[width='160'][height='240'],
 *[width='160'][height='600'],
 *[width='234'][height='60'],
-*[width='234'][height='200'],                             /* mail.ru */
+*[width='234'][height='200'],                              /* mail.ru */
 *[width='300'][height='250'],
 *[width='336'][height='280'],
 *[width='392'][height='72'],
@@ -577,7 +577,7 @@ iframe[width='100%'][height='90'],
 iframe[width='999'][height='155'],                         /* samlab.ws */
 iframe[width='990'][height='90'],
 iframe[width='960'][height='90'],                          /* news.sportbox.ru */
-iframe[width='501'][height='60'],                           /* overclockers.ru */
+iframe[width='501'][height='60'],                          /* overclockers.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
 iframe[width='240'][height='440'],
@@ -667,6 +667,7 @@ img[width='1'][height='1']	{
 .banner-back,                                              /* klavogonki.ru */
 .banner1,
 .banner_f,
+.bannerHead,                                               /* rbcdaily.ru */
 .banners24open,
 .bannerspec,
 .company-banner,                                           /* habrahabr.ru */
@@ -676,7 +677,7 @@ img[width='1'][height='1']	{
 .pricead,                                                  /* ferra.ru */
 .reklam-block,
 .reclama_v,                                                /* programki.net */
-.surbis_banner,					 	   /* 74.ru */
+.surbis_banner,                                            /* 74.ru */
 .side-adv,                                                 /* gazeta.ru */
 .shit_top,                                                 /* nulled.ws */
 .text_adv,
@@ -722,7 +723,7 @@ img[width='1'][height='1']	{
 
 [class*='AdBar'],
 [class*='ad_block'],
-[class*='adcolumn'],                                    /* facebook.com */
+[class*='adcolumn'],                                       /* facebook.com */
 [class*='advertising'],
 [class^='bnnr_bx_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -846,11 +847,16 @@ td[width='100'] + td[width='137'] + td {
 	}
 
 /* bbc.co.uk */
-div#blq-main.blq-clearfix > div#banner {
+#blq-main.blq-clearfix > #banner {
 	display: inherit !important;
 	}
 
 /* rbcdaily.ru */
-td.leftBg[width='16'][rowspan='2'] + td.banner + td.rightBg[width='16'][rowspan='2'] { /* header width fix */
-	display:none !important;
+td.banner + td.rightBg { /* header width fix */
+	display: none !important;
+	}
+
+/* skype.com */
+.htmlInclude.banner {
+	display: block !important;
 	}
