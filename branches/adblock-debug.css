@@ -593,7 +593,8 @@ img[width='960'][height='90'],                             /* news.sportbox.ru *
 img[width='840'][height='148'],
 img[width='240'][height='400'],                            /* allhockey.ru */
 img[width='240'][height='60'],
-img[width='269'][height='75'] {                            /* playground.ru */
+img[width='269'][height='75'],                             /* playground.ru */
+img[width='160'][height='55'] {                            /* forum.dubna.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 object[width='105%'][height='90'],                         /* sharereactor.ru */
@@ -723,7 +724,7 @@ img[width='1'][height='1']	{
 
 [class*='AdBar'],
 [class*='ad_block'],
-[class*='adcolumn'],                                       /* facebook.com */
+[class='adcolumn'],                                        /* facebook.com */
 [class*='advertising'],
 [class^='bnnr_bx_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
