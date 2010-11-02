@@ -5,7 +5,14 @@
 Name: Adblock.css
 Author: ELV1S and Adblock Team
 Description: http://code.google.com/p/adblock/
-Version: 0.8 (2010/06/19)
+Version: 0.9 (2010/11/02)
+
+Внимание! Проекту требуются новые участники.
+Разработка буксует, изменения вносятся слишком редко.
+Без вашей помощи проект может безнадёжно устареть и погибнуть.
+Подключайтесь к проекту, вносите изменения, улучшайте Adblock.css!
+Обращаться: lampslave[at]gmail[dot]com. Торопитесь!
+
 */
 
 
@@ -65,18 +72,19 @@ Version: 0.8 (2010/06/19)
 	}
 
 /* giga-files.net */
-div[style='border: 2px dashed green;padding:3px;'][align='left'] > h2[style='background: green;color: #ffffff; margin: 0 auto; padding: 5px 0 5px 20px;font-size: 16px; font-weight: normal;'],
-div[style='border: 2px dashed green;padding:3px;'][align='left'] > dl[style='display: block; background-color: #ffffff; border-bottom: solid 1px #F5DFD6; padding: 8px 0; margin:0;'],
-[href^='http://giga-files.net/'],
+h2[style='background: green;color: #ffffff; margin: 0 auto; padding: 5px 0 5px 20px;font-size: 16px; font-weight: normal;'],
+dl[style='display: block; background-color: #ffffff; border-bottom: solid 1px #F5DFD6; padding: 8px 0; margin:0;'],
+a[href^='http://giga-files.net/'],
 /* vskachke.com */
 div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
 [cllpadding='0'],
-[href*='/vskachke.com/'] {
+a[href*='/vskachke.com/'] {
 	display: none !important;
 	}
 
 /* icqwindow.net */
-div[id*='okno_icqwindow'] {
+div[id*='okno_icqwindow'],
+div[id^='icqwin_advmaker'] {
 	display: none !important;
 	}
 
@@ -86,9 +94,15 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 	display: none !important;
 	}
 
+/* AdRiver */
+[id*='ad_ph_2'],
+[src*='195.214.194.1/'] {
+	 display: none !important;
+        }
+
 
 /* MEDIUM */
-[href^='http://ad.'],
+[href^='http://ad.'], [src^='http://ad.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],
 [href*='/ad_cache/'], [src*='/ad_cache/'],
 [href*='/in.cgi?'],                                        /* thetraffic.ru */
@@ -98,11 +112,11 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='/adult/go.php?sid='],                              /* blackmanos.org.ru */
 [href*='/partner/'], [href*='/partners/'],
 [href*='/2advert.'],
-[href*='/ads/'], [src*='/ads/'], [src*='_ads.'],
+[href*='/ads/'], [src*='/ads/'], [src*='_ads.'], [src^='http://ads.'],
 [href*='/adx/'], [src*='/adx/'],
 [href*='/ban/'], [src*='/ban/'],
 [href*='/ban.'], [src*='/ban.'],
-[href*='/banners/'], [src*='/banners/'],
+[href*='banners/'], [src*='banners/'],
 [href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
@@ -130,7 +144,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='forex'],
 [href*='rtbn'],
 [src*='sticker.yadro.ru'],
-[src*='_banner_'],
+[src*='banner_'],
 [src*='ad.php?id='],
 [href*='biglion'] {                                        /* nnm-club.ru */
 	display: none !important;
@@ -194,7 +208,9 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='iphone4all.ru'], [src*='iphone4all.ru'],
 [href*='bw.pronto.ru'], [src*='bw.pronto.ru'],
 [href*='partnerearning.com'], [src*='partnerearning.com'],
-[href*='tradedoubler.com'], [src*='tradedoubler.com'] {    /* lib.aldebaran.ru */
+[href*='tradedoubler.com'], [src*='tradedoubler.com'],
+[href*='banner.ua'], [src*='banner.ua'],
+[href*='post.rmbn.ru'], [src*='post.rmbn.ru'] {            /* lib.aldebaran.ru */
     display: none !important;
 	}
 
@@ -229,6 +245,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 	}
 
 /* deviantart.com */
+iframe[src*='ad_frame'],#gmi-ResourcePageAd,#gmi-ResourcePageLowerAd,#gallery-admaster,
 a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 .ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch,
 .h.left-sidebar, .hi-i-get-in-the-way-too {
@@ -244,13 +261,14 @@ a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 	}
 
 /* rutracker.org */
+[src*='b.ddestiny.ru'],
 embed[width*='200'][height*='300'],
 #bn-bot-wrap {
 	display: none !important;
 	}
 
 /* Ucoz.ru */
-a[onclick*="('none');return false;"], iframe[width='218'] {
+a[onclick*="('none');return false;"], iframe[width='218'], iframe[width='220'] {
 	display: none !important;
 	}
 
@@ -287,6 +305,11 @@ div[style*='width: 728px;'], .rb--TopTeaser {
 	display: none !important;
 	}
 
+/* fast-torrent.ru */
+#add .ad {
+	display: none !important;
+	}
+
 /* ru-board.com */
 table[bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='640'],
 table[bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
@@ -319,7 +342,9 @@ td[class='sh1'][align='left'],
 	display: none !important;
 	}
 
-/* forum.ixbt.com */
+/* ixbt.com */
+[src*='rose.ixbt.com'],
+#flow .offer,
 .dostavka_wrapper,
 td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
 	display: none !important;
@@ -394,8 +419,7 @@ table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
 table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'],
 #wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
 #wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'],
-table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'],
-img[weidht='125'][height='600'] {
+table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	display: none !important;
 	}
 
@@ -449,6 +473,14 @@ div[id^='Teaser_Block'],
 div[id^='newclick'] {
 	display: none !important;
 	}
+
+/* 4pda.ru */
+.adtox,
+.pr-AVA {
+	display: none !important;
+	}
+
+
 
 
 /* AGGRESSIVE! */
@@ -510,135 +542,29 @@ div[id^='newclick'] {
 -------------------------------- */
 
 /* MEDIUM */
-*[width='995'][height='90'],
-*[width='848'][height='91'],
-*[width='800'][height='90'],
-*[width='775'][height='600'],
-*[width='768'][height='90'],
-*[width='766'][height='194'],
-*[width='766'][height='41'],
-*[width='760'][height='90'],
-*[width='760'][height='60'],
-*[width='759'][height='58'],
-*[width='750'][height='100'],
-*[width='750'][height='90'],
-*[width='730'][height='92'],
-*[width='730'][height='90'],
-*[width='728'][height='90'],
-*[width='700'][height='300'],
-*[width='700'][height='75'],
-*[width='686'][height='440'],
-*[width='652'][height='140'],
-*[width='601'][height='70'],
-*[width='600'][height='120'],
-*[width='600'][height='90'],
-*[width='600'][height='60'],
-*[width='585'][height='75'],
-*[width='560'][height='60'],
-*[width='558'][height='135'],
-*[width='529'][height='70'],
-*[width='520'][height='60'],
-*[width='501'][height='60'],
-*[width='500'][height='200'],
-*[width='500'][height='100'],
-*[width='500'][height='90'],
-*[width='500'][height='61'],
-*[width='500'][height='60'],
-*[width='489'][height='49'],
-*[width='486'][height='64'],
-*[width='480'][height='70'],
-*[width='480'][height='80'],
-*[width='472'][height='84'],
-*[width='470'][height='62'],
-*[width='468'][height='80'],
-*[width='468'][height='60'],
-*[width='468'][height='59'],
-*[width='468'][height='58'],
-*[width='443'][height='60'],
-*[width='392'][height='72'],
-*[width='365'][height='243'],
-*[width='360'][height='600'],
-*[width='340'][height='80'],
-*[width='336'][height='850'],
-*[width='336'][height='280'],
-*[width='336'][height='91'],
-*[width='325'][height='100'],
-*[width='325'][height='60'],
-*[width='324'][height='100'],
-*[width='300'][height='600'],
-*[width='300'][height='400'],
-*[width='300'][height='250'],
-*[width='300'][height='60'],
-*[width='280'][height='120'],
-*[width='270'][height='60'],
-*[width='250'][height='250'],
-*[width='240'][height='350'],
-*[width='240'][height='120'],
-*[width='240'][height='100'],
-*[width='240'][height='70'],
-*[width='234'][height='330'],
-*[width='234'][height='120'],
-*[width='234'][height='90'],
-*[width='234'][height='80'],
-*[width='234'][height='60'],
-*[width='220'][height='350'],
-*[width='220'][height='300'],
-*[width='216'][height='158'],
-*[width='210'][height='150'],
-*[width='200'][height='600'],
-*[width='200'][height='300'],
-*[width='200'][height='90'],
-*[width='180'][height='68'],
-*[width='179'][height='69'],
-*[width='170'][height='300'],
-*[width='170'][height='60'],
-*[width='165'][height='255'],
-*[width='165'][height='200'],
-*[width='160'][height='600'],
-*[width='160'][height='460'],
-*[width='160'][height='450'],
-*[width='160'][height='300'],
-*[width='156'][height='74'],
-*[width='153'][height='114'],
-*[width='150'][height='600'],
-*[width='150'][height='300'],
-*[width='150'][height='130'],
-*[width='150'][height='80'],
-*[width='140'][height='600'],
-*[width='140'][height='150'],
-*[width='140'][height='80'],
-*[width='137'][height='150'],
-*[width='135'][height='400'],
-*[width='131'][height='190'],
-*[width='128'][height='38'],
-*[width='125'][height='600'],
-*[width='125'][height='400'],
-*[width='125'][height='300'],
-*[width='125'][height='250'],
-*[width='125'][height='240'],
-*[width='125'][height='125'],
-*[width='125'][height='110'],
-*[width='125'][height='65'],
-*[width='125'][height='60'],
-*[width='123'][height='200'],
-*[width='122'][height='602'],
-*[width='120'][height='600'],
-*[width='120'][height='400'],
-*[width='120'][height='300'],
-*[width='120'][height='240'],
-*[width='120'][height='200'],
-*[width='120'][height='100'],
-*[width='100'][height='200'],
-*[width='100'][height='120'],
-*[width='88'][height='88'],
-*[width='88'][height='63'],
-*[width='88'][height='40'],
-*[width='88'][height='32'],
+*[width='80'][height='15'],
+*[width='80'][height='150'],
 *[width='88'][height='31'],
-*[width='88'][height='15'],
-*[width='81'][height='63'],
-*[width='81'][height='28'],
-*[width='77'][height='28'] {
+*[width='120'][height='240'],
+*[width='120'][height='600'],
+*[width='160'][height='80'],
+*[width='160'][height='240'],
+*[width='160'][height='600'],
+*[width='234'][height='60'],
+*[width='234'][height='200'],                              /* mail.ru */
+*[width='300'][height='250'],
+*[width='336'][height='280'],
+*[width='392'][height='72'],
+*[width='468'][height='15'],
+*[width='468'][height='60'],
+*[width='468'][height='80'],
+*[width='478'][height='15'],
+*[width='478'][height='60'],
+*[width='478'][height='80'],
+*[width='480'][height='60'],
+*[width='600'][height='90'],
+*[width='728'][height='60'],
+*[width='728'][height='90']{
 	display: none !important;
 	}
 
@@ -647,7 +573,6 @@ embed[width='100%'][height='90'],
 embed[width='100%'][height='60'],
 embed[width='960'][height='90'],                           /* news.sportbox.ru */
 embed[width='640'][height='80'],
-embed[width='510'][height='60'],                           /* overclockers.ru */
 embed[width='468'][height='120'],                          /* playground.ru */
 embed[width='240'][height='400'],                          /* playground.ru */
 embed[width='150'][height='200'],                          /* playground.ru */
@@ -660,6 +585,7 @@ iframe[width='100%'][height='90'],
 iframe[width='999'][height='155'],                         /* samlab.ws */
 iframe[width='990'][height='90'],
 iframe[width='960'][height='90'],                          /* news.sportbox.ru */
+iframe[width='501'][height='60'],                          /* overclockers.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
 iframe[width='240'][height='440'],
@@ -669,12 +595,14 @@ iframe[width='150'][height='840'] {                        /* rutor.org */
 	display: none !important;
 	}
 img[width='100%'][height='80'],
+img[width='1200'][height='70'],                            /* overclockers.ru */
 img[width='990'][height='90'],
 img[width='960'][height='90'],                             /* news.sportbox.ru */
 img[width='840'][height='148'],
 img[width='240'][height='400'],                            /* allhockey.ru */
 img[width='240'][height='60'],
-img[width='269'][height='75'] {                            /* playground.ru */
+img[width='269'][height='75'],                             /* playground.ru */
+img[width='160'][height='55'] {                            /* forum.dubna.ru */
 	display: none !important;
 	}
 object[width='105%'][height='90'],                         /* sharereactor.ru */
@@ -709,7 +637,6 @@ object[width='300'][height='300'],                         /* mail.ru */
 object[width='240'][height='400'],
 object[width='240'][height='200'],
 object[width='240'][height='115'],
-object[width='234'][height='200'],
 object[width='234'][height='190'],
 object[width='230'][height='30'],                          /* forum.ixbt.com */
 object[width='200'][height='200'],
@@ -749,14 +676,18 @@ img[width='1'][height='1']	{
 .banner-back,                                              /* klavogonki.ru */
 .banner1,
 .banner_f,
+.bannerHead,                                               /* rbcdaily.ru */
 .banners24open,
 .bannerspec,
 .company-banner,                                           /* habrahabr.ru */
 .go-ad-top,
 .LeftAdv,
+.mediaget, 												   /* rutor.org */
+.pricead,                                                  /* ferra.ru */
 .reklam-block,
 .reclama_v,                                                /* programki.net */
 .surbis_banner,                                            /* 74.ru */
+.side-adv,                                                 /* gazeta.ru */
 .shit_top,                                                 /* nulled.ws */
 .text_adv,
 .top_ad1,
@@ -766,12 +697,14 @@ img[width='1'][height='1']	{
 	display: none !important;
 	}
 
+#ad-tower,
 #ad_div,
 #ad_ph_1,                                                  /* habrahabr.ru */
 #adv,
 #adv2,
 #adv3,                                                     /* opennet.ru */
 #advertisingLink,
+#Advertisement,
 #banner,
 #banners,
 #banner-top,                                               /* samlab.ws */
@@ -798,12 +731,15 @@ img[width='1'][height='1']	{
 	}
 
 [class*='AdBar'],
+[class*='ad_block'],
+[class='adcolumn'],                                        /* facebook.com */
 [class*='advertising'],
 [class^='bnnr_bx_'] {
 	display: none !important;
 	}
 
 [id*='AdBar'],
+[id^='left_ban'],
 [id*='MarketGid'],
 [id*='rdm'] [class*='rdm'] {
 	display: none !important;
@@ -844,6 +780,7 @@ div[class^='banner'],
 
 #Ads,
 #top_adbn_div,
+#page_footer,
 #PopWin {
 	display: none !important;
 	}
@@ -915,5 +852,20 @@ td[width='100'] + td[width='137'] + td {
 
 /* 101.ru */
 #playercodeblockdc object, #playercodeblockdc embed {
+	display: block !important;
+	}
+
+/* bbc.co.uk */
+#blq-main.blq-clearfix > #banner {
+	display: inherit !important;
+	}
+
+/* rbcdaily.ru */
+td.banner + td.rightBg { /* header width fix */
+	display: none !important;;
+	}
+
+/* skype.com */
+.htmlInclude.banner {
 	display: block !important;
 	}
