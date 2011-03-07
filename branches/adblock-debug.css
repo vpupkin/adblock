@@ -471,7 +471,8 @@ div[id^='newclick'] {
 
 /* 4pda.ru */
 .adtox,
-.pr-AVA {
+.pr-AVA,
+div[style*='overflow-y:hidden;']  {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
