@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
@@ -248,7 +248,10 @@ a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 #banner1,
 #banner2,
 .ad_box,
-[href*='vkontakte.ru/help.php?page=target'] {
+.ad_box_new,
+[id*='profile_photos'], /*убирает box с фотками над стеной(при желании можно эту строку удалить)*/ 
+[href*="/friends?section=all"]+DIV, [href*="/friends?section=all"], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн"(при желании тоже можно удалить */
+[href*='/ads.php?section=target'] /*убирает надпись "Что это?" под рекламой вконтакте*/ {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
