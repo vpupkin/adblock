@@ -257,9 +257,7 @@ display: none !important;
 #banner2,
 .ad_box,
 .ad_box_new,
-[id*='profile_photos'], /*убирает box с фотками над стеной(при желании можно эту строку удалить)*/ 
-[href*="/friends?section=all"]+DIV, [href*="/friends?section=all"], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн"(при желании тоже можно удалить */
-[href*='/ads.php?section=target'] /*убирает надпись "Что это?" под рекламой вконтакте*/ {
+[href*='/ads.php?section=target'] {
 display: none !important;
 	}
 
