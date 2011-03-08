@@ -22,7 +22,7 @@ Version: 1.0 (2011/03/08)
 /* Google AdSense */
 [id*='adsense'],
 [href*='pagead'], [src*='pagead'] {
-display: none !important
+display: none !important;
 	}
 
 /* Yandex */
@@ -34,7 +34,7 @@ display: none !important
 [href*='logging.to/'],
 .ad-market, .ads-header,
 .go-ad, .b-yadirect {
-display: none !important
+display: none !important;
 	}
 
 /* Begun */
@@ -43,7 +43,7 @@ display: none !important
 [id*='adBegun'],
 [id*='adBar'],
 .begun_adv {
-display: none !important
+display: none !important;
 	}
 
 /* sup.ru */
@@ -51,24 +51,24 @@ display: none !important
 [src*='ads.sup.'],
 .sup_ad,
 .ljad {
-display: none !important
+display: none !important;
 	}
 
 /* adfox.ru */
 [href*='.adfox.'], [src*='.adfox.'],
 [href*='/adfox/'], [src*='/adfox/'] {
-display: none !important
+display: none !important;
 	}
 
 /* tak.ru */
 [href*='tak.ru/clicks.php'], [src*='takru.com/in.php?'],
 .takru {
-display: none !important
+display: none !important;
 	}
 
 /* advertise.magna.ru */
 #magnaInformer {
-display: none !important
+display: none !important;
 	}
 
 /* giga-files.net */
@@ -79,25 +79,25 @@ a[href^='http://giga-files.net/'],
 div[onMouseOver="this.style.backgroundColor='#ffe400'"][onMouseOut="this.style.backgroundColor='#fff7b6'"], /* vskachke.com: softnewsportal.ru */
 [cllpadding='0'],
 a[href*='/vskachke.com/'] {
-display: none !important
+display: none !important;
 	}
 
 /* icqwindow.net */
 div[id*='okno_icqwindow'],
 div[id^='icqwin_advmaker'] {
-display: none !important
+display: none !important;
 	}
 
 /* maxizakachka.ru and other */
 DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.background='#FAFF58';"],
 .bc_adv_container {
-display: none !important
+display: none !important;
 	}
 
 /* AdRiver */
 [id*='ad_ph_2'],
 [src*='195.214.194.1/'] {
-display: none !important
+display: none !important;
         }
 
 
@@ -147,7 +147,7 @@ display: none !important
 [src*='banner_'],
 [src*='ad.php?id='],
 [href*='biglion'] {                                        /* nnm-club.ru */
-display: none !important
+display: none !important;
 	}
 
 /* ADVERTISING SITES */
@@ -211,7 +211,7 @@ display: none !important
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
 [href*='banner.ua'], [src*='banner.ua'],
 [href*='post.rmbn.ru'], [src*='post.rmbn.ru'] {            /* lib.aldebaran.ru */
-display: none !important
+display: none !important;
 	}
 
 
@@ -223,12 +223,12 @@ display: none !important
 [class='ch '][onclick='ga(this,event)'],
 #bottomads, #topads,
 #tads, #mbEnd {
-display: none !important
+display: none !important;
 	}
 
 /* Gmail */
 .mn[role='contentinfo'], .u5, .u8 {
-display: none !important
+display: none !important;
 	}
 
 /* Wired.com */
@@ -236,12 +236,12 @@ display: none !important
 #flash_ad,
 #stereo1,
 #stereo2 {
-display: none !important
+display: none !important;
 	}
 
 /* yahoo.com, reddit.com */
 #ad, #ad-out, #ad-in {
-display: none !important
+display: none !important;
 	}
 
 /* deviantart.com */
@@ -249,7 +249,7 @@ iframe[src*='ad_frame'],#gmi-ResourcePageAd,#gmi-ResourcePageLowerAd,#gallery-ad
 a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 .ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch,
 .h.left-sidebar, .hi-i-get-in-the-way-too {
-display: none !important
+display: none !important;
 	}
 
 /* Vkontakte.ru */
@@ -257,31 +257,34 @@ display: none !important
 #banner2,
 .ad_box,
 .ad_box_new,
-[href*='/ads.php?section=target'] {
-display: none !important
+[id*='profile_photos'], /*убирает box с фотками над стеной(при желании можно эту строку удалить)*/ 
+[href*="/friends?section=all"]+DIV, [href*="/friends?section=all"], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн"(при желании тоже можно удалить */
+[href*='/ads.php?section=target'] /*убирает надпись "Что это?" под рекламой вконтакте*/ {
+display: none !important;
 	}
+
 /* rutracker.org */
 [src*='b.ddestiny.ru'],
 embed[width*='200'][height*='300'],
 #bn-bot-wrap {
-display: none !important
+display: none !important;
 	}
 
 /* Ucoz.ru */
 a[onclick*="('none');return false;"], iframe[width='218'], iframe[width='220'] {
-display: none !important
+display: none !important;
 	}
 
 /* Ucoz.ru AGGRESSIVE! */
 /*
 #_uwndTop1 {
-display: none !important
+display: none !important;
 	}
 */
 
 /* Rambler */
 div[style*='width: 728px;'], .rb--TopTeaser {
-display: none !important
+display: none !important;
 	}
 
 /* iFolder.ru */
@@ -290,7 +293,7 @@ display: none !important
 [href*='testsbox.ru'], [src*='testsbox.ru'],
 [style*='width: 833px; height: 501px; top: 20px; z-index: 100000; position: fixed; display: block; left: 20px'],
 [style*='position: absolute; left: 212px; top: 150px; width: 600px; height: 400px; z-index: 65535;'] {
-display: none !important
+display: none !important;
 	}
 #b-main {
 	background: none !important;
@@ -302,19 +305,18 @@ display: none !important
 /* nnm.ru */
 #top-banner,
 [href*='tours.ru'], [src*='tours.ru'] {
-display: none !important
+display: none !important;
 	}
 
 /* fast-torrent.ru */
 #add .ad {
-display: none !important
+display: none !important;
 	}
 
 /* ru-board.com */
 table[bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='640'],
 table[bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='639'],
 td[class='sh1'][align='left'],
-td[valign="top"][class="lgf"],
 [href^='http://thegreenppc.com/'],
 [href*='greenparking.biz'],
 [href*='greenlabelppc.com'],
@@ -324,23 +326,23 @@ td[valign="top"][class="lgf"],
 [href*='firstdedic.ru'],
 [href*='firstvds.ru'],
 [href*='ispserver.com'] {
-display: none !important
+display: none !important;
 	}
 
 /* livejournal.com */
 #ad-leaderboard, #ad-5linkunit,
 .h-adv-box, .adv-box {
-display: none !important
+display: none !important;
 	}
 
 /* www.terrikon.dn.ua */
 .adv468 {
-display: none !important
+display: none !important;
 	}
 
 /* pochta.ru */
 #tionline, .loveplanet#love4 {
-display: none !important
+display: none !important;
 	}
 
 /* ixbt.com */
@@ -348,41 +350,41 @@ display: none !important
 #flow .offer,
 .dostavka_wrapper,
 td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
-display: none !important
+display: none !important;
 	}
 
 /* consultant.ru */
 #top_banner {
-display: none !important
+display: none !important;
 	}
 
 /* vremenno.net */
 .sponsorsBanners {
-display: none !important
+display: none !important;
 	}
 
 /* ura-inform.com */
 #mg-popup,
 iframe[width='300'][height='225'],
 iframe[width='160'][height='60'] {
-display: none !important
+display: none !important;
 	}
 
 /* depositfiles.com */
 div.sidebar.sidebar_right > div.zhMain {
-display: none !important
+display: none !important;
 	}
 
 /* www.freesha.ru */
 #hiderekl > .quote > div[align='center'] {
-display: none !important
+display: none !important;
 	}
 
 /* all-ebooks.com, journal.knigka.info */
 #mc_100x_90,
 #dle-content table[style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'],
 noindex table[align='center'][border='0'][width='76%'][height='227'] {
-display: none !important
+display: none !important;
 	}
 
 /* rl-team.net */
@@ -392,24 +394,24 @@ div.border_all.tiban,
 div.ms_inside_block,
 div[id^='bn_'],
 table.ms_promo_block {
-display: none !important
+display: none !important;
 	}
 
 /* dreamprogs.net */
 div#lfwar > div.war {
-display: none !important
+display: none !important;
 	}
 
 /* price.ru */
 #header img[src^='http://b.dclick.ru/'] + table,
 #hints.list-block #snippetprice,
 img[src*='zuni.tyndex.ru'] {
-display: none !important
+display: none !important;
 	}
 
 /* SamLab.ws */
 .box.main > div[style='text-align: center; line-height: 100%; width: 99%; border: 1px solid #000; margin: 0 auto;'] {
-display: none !important
+display: none !important;
 	}
 
 /* Overclockers.ru */
@@ -421,12 +423,12 @@ table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000
 #wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
 #wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'],
 table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
-display: none !important
+display: none !important;
 	}
 
 /* Welinux.ru */
 #promo.google {
-display: none !important
+display: none !important;
 	}
 
 /* Stopgame.ru */
@@ -436,12 +438,12 @@ object[width='470'][height='62'],
 .top_banner_960,
 .ban468b,
 .ban468w {
-display: none !important
+display: none !important;
 	}
 
 /* Vedomosti.ru */
 [src*='/var/bansrc/'] {
-display: none !important
+display: none !important;
 	}
 
 /* OpenNET.ru */
@@ -450,12 +452,12 @@ display: none !important
 a[href*='lanbilling.ru'],
 a[href*='click.opennet.ru'],
 #ibm_adv {
-display: none !important
+display: none !important;
 	}
 
 /* samouchka.net */
 div[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;'] {
-display: none !important
+display: none !important;
 	}
 
 /* zaycev.net */
@@ -463,7 +465,7 @@ display: none !important
 p > table[width='750'],
 [id*='multi-ban'],
 #slicec_abv00001 {
-display: none !important
+display: none !important;
 	}
 
 /* zhmak.info */
@@ -472,14 +474,14 @@ table[style='border: 2px dashed green;padding:15px 3px;font-size:16px;background
 iframe[width='600px'][height='250px'],
 div[id^='Teaser_Block'],
 div[id^='newclick'] {
-display: none !important
+display: none !important;
 	}
 
 /* 4pda.ru */
 .adtox,
 .pr-AVA,
-div[style*='overflow-y:hidden;'] {
-display: none !important
+div[style*='overflow-y:hidden;']  {
+display: none !important;
 	}
 
 
@@ -508,7 +510,7 @@ display: none !important
 [href*='li.ru/go?'],
 [src*='r.mail.ru/b'],
 [href*='yandex.ru/cy?'] {
-display: none !important
+display: none !important;
 	}
 */
 
@@ -534,7 +536,7 @@ display: none !important
 [src*='counter.mystat-in.net'],
 [src*='counter.hitua.'],
 [src*='thelist.ru/stat'] {
-display: none !important
+display: none !important;
 	}
 */
 
@@ -567,7 +569,7 @@ display: none !important
 *[width='600'][height='90'],
 *[width='728'][height='60'],
 *[width='728'][height='90']{
-display: none !important
+display: none !important;
 	}
 
 /* ONLY CERTAIN HTML-ELEMENTS */
@@ -579,7 +581,7 @@ embed[width='468'][height='120'],                          /* playground.ru */
 embed[width='240'][height='400'],                          /* playground.ru */
 embed[width='150'][height='200'],                          /* playground.ru */
 embed[width='120'][height='60'] {
-display: none !important
+display: none !important;
 	}
 iframe[width='100%'][height='280'],                        /* nnm-club.ru */
 iframe[width='100%'][height='100'],                        /* zaycev.net */
@@ -594,7 +596,7 @@ iframe[width='240'][height='440'],
 iframe[width='240'][height='400'],
 iframe[width='206'][height='618'],
 iframe[width='150'][height='840'] {                        /* rutor.org */
-display: none !important
+display: none !important;
 	}
 img[width='100%'][height='80'],
 img[width='1200'][height='70'],                            /* overclockers.ru */
@@ -605,7 +607,7 @@ img[width='240'][height='400'],                            /* allhockey.ru */
 img[width='240'][height='60'],
 img[width='269'][height='75'],                             /* playground.ru */
 img[width='160'][height='55'] {                            /* forum.dubna.ru */
-display: none !important
+display: none !important;
 	}
 object[width='105%'][height='90'],                         /* sharereactor.ru */
 object[width='100%'][height='240'],
@@ -648,7 +650,7 @@ object[width='125'][height='200'],                         /* overclockers.ru */
 object[width='120'][height='150'],                         /* sharereactor.ru */
 object[width='112'][height='60'],
 object[width='100'][height='100'] {
-display: none !important
+display: none !important;
 	}
 
 /* AGGRESSIVE! */
@@ -658,7 +660,7 @@ display: none !important
 *[width='38'][height='31'],
 *[width='31'][height='31'],
 img[width='1'][height='1']	{
-display: none !important
+display: none !important;
 	}
 */
 
@@ -696,7 +698,7 @@ display: none !important
 .top-banner,
 .top_banner,
 .topBanner {
-display: none !important
+display: none !important;
 	}
 
 #ad-tower,
@@ -724,12 +726,12 @@ display: none !important
 #reklama,
 #sponsors,
 #topbanner {
-display: none !important
+display: none !important;
 	}
 
 [name='Adrotator1'],
 [name='Ads'] {
-display: none !important
+display: none !important;
 	}
 
 [class*='AdBar'],
@@ -737,14 +739,14 @@ display: none !important
 [class='adcolumn'],                                        /* facebook.com */
 [class*='advertising'],
 [class^='bnnr_bx_'] {
-display: none !important
+display: none !important;
 	}
 
 [id*='AdBar'],
 [id^='left_ban'],
 [id*='MarketGid'],
 [id*='rdm'] [class*='rdm'] {
-display: none !important
+display: none !important;
 	}
 
 [alt~='counter'], [alt~='counters'],
@@ -765,7 +767,7 @@ display: none !important
 [alt='Рейтинг Mail.ru'],
 [alt="Rambler's Top100"],
 [alt='Игра Передовая'] {
-display: none !important
+display: none !important;
 	}
 
 
@@ -777,18 +779,18 @@ div.ad,
 div.ads_inner,
 div[class^='banner'],
 .counter {
-display: none !important
+display: none !important;
 	}
 
 #Ads,
 #top_adbn_div,
 #page_footer,
 #PopWin {
-display: none !important
+display: none !important;
 	}
 
 [alt*='count']{
-display: none !important
+display: none !important;
 	}
 
 */
@@ -796,7 +798,7 @@ display: none !important
 
 /* mozilla.org ;-p */
 [href*='spreadfirefox.com/?q='], [src*='mozilla.org/affiliates/'] {
-display: none !important
+display: none !important;
 	}
 
 
@@ -876,7 +878,6 @@ td.banner + td.rightBg { /* header width fix */
 img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix */
         display: block !important;
 }
-
 
 /* android.mobile-review.com */
 [class='wp-caption aligncenter'] > img[width='240'][height='400'] {
