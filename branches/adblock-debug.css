@@ -870,3 +870,8 @@ td.banner + td.rightBg { /* header width fix */
 img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix */
         display: block !important;
 }
+
+/* android.mobile-review.com */
+[class='wp-caption aligncenter'] > img[width='240'][height='400'] {
+        display: block !important;
+}
