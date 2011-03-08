@@ -865,3 +865,8 @@ td.banner + td.rightBg { /* header width fix */
 .htmlInclude.banner {
 	display: block !important;
 	}
+
+/* habrahabr.ru */
+img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix */
+        display: block !important;
+}
