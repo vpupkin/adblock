@@ -501,7 +501,8 @@ div[style*='overflow-y:hidden;']  {
 [href*='partner='],
 [href*='li.ru/go?'],
 [src*='r.mail.ru/b'],
-[href*='yandex.ru/cy?'] {
+[href*='yandex.ru/cy?'],
+[href*='r.mail.ru/n'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 */
@@ -598,7 +599,7 @@ img[width='840'][height='148'],
 img[width='240'][height='400'],                            /* allhockey.ru */
 img[width='240'][height='60'],
 img[width='269'][height='75'],                             /* playground.ru */
-img[width='160'][height='55'] {                            /* forum.dubna.ru */
+img[width='160'][height='55'] {		                   /* forum.dubna.ru */           
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 object[width='105%'][height='90'],                         /* sharereactor.ru */
