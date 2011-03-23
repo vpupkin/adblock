@@ -143,6 +143,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 	}
 
 /* ADVERTISING SITES */
+[href^='http://ad.admitad.com'],
 [href^='http://www.FriendlyDuck.com/'], [src*='.FriendlyDuck.com/'],
 [href*='.shareresults.com/'], [src*='.shareresults.com/'],
 [href^='http://edelstarus.ru/'],
@@ -476,8 +477,15 @@ div[style*='overflow-y:hidden;']  {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+/* macosworld.ru */
+img[src^='http://macosworld.ru'][width='970'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
-
+/* imhonet.ru */
+[href*='imhopromo.imhonet.ru'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 /* AGGRESSIVE! */
 /*
@@ -673,6 +681,8 @@ img[width='1'][height='1']	{
 .banner-back,                                              /* klavogonki.ru */
 .banner1,
 .banner_f,
+.banner_block,                                             /* macosworld.ru */
+.banner_rotater,
 .bannerHead,                                               /* rbcdaily.ru */
 .banners24open,
 .bannerspec,
@@ -714,6 +724,7 @@ img[width='1'][height='1']	{
 #lite_top_banner,
 #load_banner_2,
 #mag_banner,
+#pagelet_adbox,                                             /* facebook.ru */
 #PopWin,
 #reclama,
 #reklama,
