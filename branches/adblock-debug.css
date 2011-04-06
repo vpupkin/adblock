@@ -138,6 +138,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [src*='sticker.yadro.ru'],
 [src*='banner_'],
 [src*='ad.php?id='],
+[src*='streameye.net'],                                    /* soccer.ru */
 [href*='biglion'] {                                        /* nnm-club.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
@@ -747,6 +748,7 @@ img[width='1'][height='1']	{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
+[id^=DIV_NNN_],                                             /* soccer.ru */
 [id*='AdBar'],
 [id^='left_ban'],
 [id*='MarketGid'],
