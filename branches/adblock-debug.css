@@ -929,3 +929,10 @@ padding-top: 3px !important;
   width: 370px !important;
   word-wrap: break-word !important;
 }
+
+/* nntt.org*/
+[class='fromNnovExport'],
+[class='fromNnovExport fromNnovExportFlirt']
+{
+		background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
