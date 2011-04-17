@@ -487,6 +487,12 @@ img[src^='http://macosworld.ru'][width='970'] {
 [href*='imhopromo.imhonet.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+	
+/* nntt.org*/
+[class='fromNnovExport'],
+[class='fromNnovExport fromNnovExportFlirt']{
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 /* AGGRESSIVE! */
 /*
@@ -928,11 +934,4 @@ padding-top: 3px !important;
   padding: 10px 8px !important;
   width: 370px !important;
   word-wrap: break-word !important;
-}
-
-/* nntt.org*/
-[class='fromNnovExport'],
-[class='fromNnovExport fromNnovExportFlirt']
-{
-		background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
