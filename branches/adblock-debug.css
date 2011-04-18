@@ -493,6 +493,11 @@ img[src^='http://macosworld.ru'][width='970'] {
 [class='fromNnovExport fromNnovExportFlirt']{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
+	
+/* yandex */
+[class='b-top-wizard b-top-wizard_uglyhack_yes']{
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+	}
 
 /* AGGRESSIVE! */
 /*
