@@ -495,7 +495,7 @@ img[src^='http://macosworld.ru'][width='970'] {
 	}
 	
 /* yandex */
-[class='b-top-wizard b-top-wizard_uglyhack_yes']{
+[class='b-spec-adv b-spec-adv_lonely g-gap-vertical g-gap-horizontal']{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 	}
 
