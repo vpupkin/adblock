@@ -953,3 +953,8 @@ img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix *
 	width: 370px !important;
 	word-wrap: break-word !important;
 }
+
+/* core.trac.wordpress.org */
+body > div#siteheader + div#banner {
+	display: block !important;
+}
