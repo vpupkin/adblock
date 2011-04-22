@@ -498,6 +498,16 @@ img[src^='http://macosworld.ru'][width='970'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* linux.org.ru */
+div.newsblog-in > div.infoblock {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+/* except mininews */
+div.newsblog-in > div.infoblock[id^="topic-"] {
+	display: block !important
+}
+
+
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
