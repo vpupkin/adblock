@@ -508,6 +508,11 @@ div.newsblog-in > div.infoblock[id^="topic-"] {
 	display: block !important
 }
 
+/* anonymouse.org */
+div#mouselayer.mouselayer {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
