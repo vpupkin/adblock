@@ -75,13 +75,13 @@ a[href*='/vskachke.com/'] {
 }
 
 /* icqwindow.net */
-div[id*='okno_icqwindow'],
-div[id^='icqwin_advmaker'] {
+[id*='okno_icqwindow'],
+[id^='icqwin_advmaker'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* maxizakachka.ru and other */
-DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.background='#FAFF58';"],
+[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.background='#FAFF58';"],
 .bc_adv_container {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
@@ -97,11 +97,11 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href^='http://ad.'], [src^='http://ad.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],
 [href*='/ad_cache/'], [src*='/ad_cache/'],
-[href*='/in.cgi?'],                                        /* thetraffic.ru */
+[href*='/in.cgi?'],                                         /* thetraffic.ru */
 [href*='/adframe'],
 [href*='extrabucks.ru'],
-[href*='.com/s.php?f='],                                   /* bezwareza.com */
-[href*='/adult/go.php?sid='],                              /* blackmanos.org.ru */
+[href*='.com/s.php?f='],                                    /* bezwareza.com */
+[href*='/adult/go.php?sid='],                               /* blackmanos.org.ru */
 [href*='/partner/'], [href*='/partners/'],
 [href*='/2advert.'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'], [src^='http://ads.'],
@@ -112,7 +112,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='/reklama/'], [src*='/reklama/'],
 [href*='/reclama/'], [src*='/reclama/'],
 [href*='/rekl/'], [src*='/rekl/'],
-[href*='/reklama_'],                                       /* netzor.org */
+[href*='/reklama_'],                                        /* netzor.org */
 [href*='/adserver'], [src*='adserver'],
 [href*='/adfarm.'], [src*='/adfarm.'],
 [href*='/bn.'], [src*='/bn.'],
@@ -137,8 +137,8 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [src*='sticker.yadro.ru'],
 [src*='banner_'],
 [src*='ad.php?id='],
-[src*='streameye.net'],                                    /* soccer.ru */
-[href*='biglion'] {                                        /* nnm-club.ru */
+[src*='streameye.net'],                                     /* soccer.ru */
+[href*='biglion'] {                                         /* nnm-club.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -156,7 +156,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href^='http://www.smart-soft.ru/'],
 [href*='grand-casino.com'],
 [href*='.evgenyfedorenko.com/'],
-[href*='http://traffic'], [href*='http://www.traffic'],    /* traffic-checker.com/ */
+[href*='http://traffic'], [href*='http://www.traffic'],     /* traffic-checker.com/ */
 [href^='http://affiliate.'],
 [src*='8coins.net/'],
 [href*='doubleclick.net'], [src*='doubleclick.net'],
@@ -203,7 +203,7 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='partnerearning.com'], [src*='partnerearning.com'],
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
 [href*='banner.ua'], [src*='banner.ua'],
-[href*='post.rmbn.ru'], [src*='post.rmbn.ru'],            /* lib.aldebaran.ru */
+[href*='post.rmbn.ru'], [src*='post.rmbn.ru'],              /* lib.aldebaran.ru */
 [src*='banner.unian.net'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
@@ -215,8 +215,10 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 
 /* Google Sponsored Links */
 [class='ch '][onclick='ga(this,event)'],
-#bottomads, #topads,
-#tads, #mbEnd {
+#bottomads,
+#topads,
+#tads,
+#mbEnd {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -239,10 +241,15 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 }
 
 /* deviantart.com */
-iframe[src*='ad_frame'],#gmi-ResourcePageAd,#gmi-ResourcePageLowerAd,#gallery-admaster,
-a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
-.ad-blocking-makes-fella-confused, .sleekadbubble.section.squareBrowsead.ch,
-.h.left-sidebar, .hi-i-get-in-the-way-too {
+[src*='ad_frame'],
+#gmi-ResourcePageAd,
+#gmi-ResourcePageLowerAd,
+#gallery-admaster,
+[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
+.ad-blocking-makes-fella-confused,
+.sleekadbubble.section.squareBrowsead.ch,
+.h.left-sidebar,
+.hi-i-get-in-the-way-too {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -251,9 +258,9 @@ a[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
 #banner2,
 .ad_box,
 .ad_box_new,
-[id*='profile_photos'], /*убирает box с фотками над стеной(при желании можно эту строку удалить)*/ 
-[href*="/friends?section=all"]+DIV, [href*="/friends?section=all"], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн"(при желании тоже можно удалить */
-[href*='/ads.php?section=target'] /*убирает надпись "Что это?" под рекламой вконтакте*/ {
+[id*='profile_photos'],                                               /* убирает box с фотками над стеной */
+[href*="/friends?section=all"] + div, [href*="/friends?section=all"], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн" */
+[href*='/ads.php?section=target']                                     /*убирает надпись "Что это?" под рекламой вконтакте*/ {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -324,8 +331,10 @@ td[class='sh1'][align='left'],
 }
 
 /* livejournal.com */
-#ad-leaderboard, #ad-5linkunit,
-.h-adv-box, .adv-box {
+#ad-leaderboard,
+#ad-5linkunit,
+.h-adv-box,
+.adv-box {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -335,7 +344,8 @@ td[class='sh1'][align='left'],
 }
 
 /* pochta.ru */
-#tionline, .loveplanet#love4 {
+#tionline,
+#love4 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -343,7 +353,7 @@ td[class='sh1'][align='left'],
 [src*='rose.ixbt.com'],
 #flow .offer,
 .dostavka_wrapper,
-td[align='center'][valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
+td[valign='top'][style='padding-right: 4px; width:14%; max-width: 240px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -376,23 +386,23 @@ div.sidebar.sidebar_right > div.zhMain {
 
 /* all-ebooks.com, journal.knigka.info */
 #mc_100x_90,
-#dle-content table[style='border:2px solid green;font-size:14px;background-color:white'][cllpadding='0'],
-noindex table[align='center'][border='0'][width='76%'][height='227'] {
+#dle-content table[style='border:2px solid green;font-size:14px;background-color:white'],
+noindex table[width='76%'][height='227'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* rl-team.net */
-div[style^='position:fixed; top:263px; left:28%; margin:0; padding:0; Z-INDEX: 2147483647;'],
-div.border_all.rlstyle1,
-div.border_all.tiban,
-div.ms_inside_block,
-div[id^='bn_'],
-table.ms_promo_block {
+[style^='position:fixed; top:263px; left:28%; margin:0; padding:0; Z-INDEX: 2147483647;'],
+.border_all.rlstyle1,
+.border_all.tiban,
+.ms_inside_block,
+[id^='bn_'],
+.ms_promo_block {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* dreamprogs.net */
-div#lfwar > div.war {
+#lfwar > .war {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -409,13 +419,13 @@ img[src*='zuni.tyndex.ru'] {
 }
 
 /* Overclockers.ru */
-body > div > table[border='0'][width='100%'][style='height: 60px'],
-body > div > table[height='68'][width='100%'][border='0'],
-body > div > div > table[height='67'][width='100%'][border='0'],
-table[border='0'][width^='30'][height='245'][style^='background:#fffff'],
-table[cellpadding='5'][border='0'][width='600'][style='border: solid 1px #000000; color:#000000;'][align='center'],
-#wrapcentre table[width='100%'][border='0'][style='border: solid 1px #cc0000'][align='center'],
-#wrapcentre table[width='100%'][border='0'] td[valign='top'][style='width:160px'],
+body > div > table[width='100%'][style='height: 60px'],
+body > div > table[height='68'][width='100%'],
+body > div > div > table[height='67'][width='100%'],
+table[width^='30'][height='245'][style^='background:#fffff'],
+table[cellpadding='5'][width='600'][style='border: solid 1px #000000; color:#000000;'],
+#wrapcentre table[width='100%'][style='border: solid 1px #cc0000'],
+#wrapcentre table[width='100%'] td[valign='top'][style='width:160px'],
 table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
@@ -450,15 +460,15 @@ a[href*='click.opennet.ru'],
 }
 
 /* samouchka.net */
-div[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;'] {
+[style*='position: fixed; top: 44%; left: 20%; width: 600px; height: 110px;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* zaycev.net */
-div.unit-panel,
-div.unit-sidebar > div.box:last-child,
-div.unit-w > div.box.box-nogap,
-div.unit-content > div.unit-w > div.box:nth-child(3),
+.unit-panel,
+.unit-sidebar > .box:last-child,
+.unit-w > .box.box-nogap,
+.unit-content > .unit-w > .box:nth-child(3),
 body > div[style^='position: absolute; z-index: 10000;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
@@ -467,8 +477,8 @@ body > div[style^='position: absolute; z-index: 10000;'] {
 div[style='background-color: #343434; border: 3px solid #009dff; width: 100%; height: 100%; text-align: center; z-index: 100001;'],
 table[style='border: 2px dashed green;padding:15px 3px;font-size:16px;background-color:#fdfac3;'],
 iframe[width='600px'][height='250px'],
-div[id^='Teaser_Block'],
-div[id^='newclick'] {
+[id^='Teaser_Block'],
+[id^='newclick'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -488,34 +498,34 @@ img[src^='http://macosworld.ru'][width='970'] {
 [href*='imhopromo.imhonet.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-	
+
 /* nntt.org*/
 [class='fromNnovExport'],
-[class='fromNnovExport fromNnovExportFlirt']{
+[class='fromNnovExport fromNnovExportFlirt'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-	
+
 /* yandex */
-[class='b-spec-adv b-spec-adv_lonely g-gap-vertical g-gap-horizontal']{
+.b-spec-adv {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* linux.org.ru */
-div.newsblog-in > div.infoblock {
+.newsblog-in > .infoblock {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-/* except mininews */
-div.newsblog-in > div.infoblock[id^="topic-"] {
+/* linux.org.ru: except mininews */
+.newsblog-in > .infoblock[id^="topic-"] {
 	display: block !important
 }
 
 /* anonymouse.org */
-div#mouselayer.mouselayer {
+#mouselayer.mouselayer {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* unixforum.org */
-td#baner_eter {
+#baner_eter {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -582,79 +592,79 @@ td#baner_eter {
 -------------------------------- */
 
 /* MEDIUM */
-*[width='80'][height='15'],
-*[width='80'][height='150'],
-*[width='88'][height='31'],
-*[width='120'][height='240'],
-*[width='120'][height='600'],
-*[width='160'][height='80'],
-*[width='160'][height='240'],
-*[width='160'][height='600'],
-*[width='234'][height='60'],
-*[width='234'][height='200'],                              /* mail.ru */
-*[width='300'][height='250'],
-*[width='336'][height='280'],
-*[width='392'][height='72'],
-*[width='468'][height='15'],
-*[width='468'][height='60'],
-*[width='468'][height='80'],
-*[width='478'][height='15'],
-*[width='478'][height='60'],
-*[width='478'][height='80'],
-*[width='480'][height='60'],
-*[width='600'][height='90'],
-*[width='728'][height='60'],
-*[width='728'][height='90']{
+[width='80'][height='15'],
+[width='80'][height='150'],
+[width='88'][height='31'],
+[width='120'][height='240'],
+[width='120'][height='600'],
+[width='160'][height='80'],
+[width='160'][height='240'],
+[width='160'][height='600'],
+[width='234'][height='60'],
+[width='234'][height='200'],                                /* mail.ru */
+[width='300'][height='250'],
+[width='336'][height='280'],
+[width='392'][height='72'],
+[width='468'][height='15'],
+[width='468'][height='60'],
+[width='468'][height='80'],
+[width='478'][height='15'],
+[width='478'][height='60'],
+[width='478'][height='80'],
+[width='480'][height='60'],
+[width='600'][height='90'],
+[width='728'][height='60'],
+[width='728'][height='90']{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* ONLY CERTAIN HTML-ELEMENTS */
 embed[width='100%'][height='90'],
 embed[width='100%'][height='60'],
-embed[width='960'][height='90'],                           /* news.sportbox.ru */
+embed[width='960'][height='90'],                            /* news.sportbox.ru */
 embed[width='640'][height='80'],
-embed[width='468'][height='120'],                          /* playground.ru */
-embed[width='240'][height='400'],                          /* playground.ru */
-embed[width='150'][height='200'],                          /* playground.ru */
+embed[width='468'][height='120'],                           /* playground.ru */
+embed[width='240'][height='400'],                           /* playground.ru */
+embed[width='150'][height='200'],                           /* playground.ru */
 embed[width='120'][height='60'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-iframe[width='100%'][height='280'],                        /* nnm-club.ru */
-iframe[width='100%'][height='100'],                        /* zaycev.net */
+iframe[width='100%'][height='280'],                         /* nnm-club.ru */
+iframe[width='100%'][height='100'],                         /* zaycev.net */
 iframe[width='100%'][height='90'],
-iframe[width='999'][height='155'],                         /* samlab.ws */
+iframe[width='999'][height='155'],                          /* samlab.ws */
 iframe[width='990'][height='90'],
-iframe[width='960'][height='90'],                          /* news.sportbox.ru */
-iframe[width='501'][height='60'],                          /* overclockers.ru */
+iframe[width='960'][height='90'],                           /* news.sportbox.ru */
+iframe[width='501'][height='60'],                           /* overclockers.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
 iframe[width='240'][height='440'],
 iframe[width='240'][height='400'],
 iframe[width='206'][height='618'],
-iframe[width='150'][height='840'] {                        /* rutor.org */
+iframe[width='150'][height='840'] {                         /* rutor.org */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 img[width='100%'][height='80'],
-img[width='1200'][height='70'],                            /* overclockers.ru */
+img[width='1200'][height='70'],                             /* overclockers.ru */
 img[width='990'][height='90'],
-img[width='960'][height='90'],                             /* news.sportbox.ru */
+img[width='960'][height='90'],                              /* news.sportbox.ru */
 img[width='840'][height='148'],
-img[width='240'][height='400'],                            /* allhockey.ru */
+img[width='240'][height='400'],                             /* allhockey.ru */
 img[width='240'][height='60'],
-img[width='269'][height='75'],                             /* playground.ru */
-img[width='160'][height='55'] {		                         /* forum.dubna.ru */           
+img[width='269'][height='75'],                              /* playground.ru */
+img[width='160'][height='55'] {	                            /* forum.dubna.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-object[width='105%'][height='90'],                         /* sharereactor.ru */
+object[width='105%'][height='90'],                          /* sharereactor.ru */
 object[width='100%'][height='240'],
-object[width='100%'][height='150'],                        /* lib.aldebaran.ru */
-object[width='100%'][height='100'],                        /* zaycev.net */
+object[width='100%'][height='150'],                         /* lib.aldebaran.ru */
+object[width='100%'][height='100'],                         /* zaycev.net */
 object[width='100%'][height='90'],
 object[width='100%'][height='60'],
-object[width='1200'][height='70'],                         /* overclockers.ru */
+object[width='1200'][height='70'],                          /* overclockers.ru */
 object[width='1200'][height='60'],
 object[width='1000'][height='90'],
 object[width='980'][height='60'],
@@ -663,12 +673,12 @@ object[width='716'][height='80'],
 object[width='700'][height='90'],
 object[width='700'][height='65'],
 object[width='600'][height='200'],
-object[width='600'][height='160'],                         /* all-ebooks.com */
+object[width='600'][height='160'],                          /* all-ebooks.com */
 object[width='597'][height='72'],
 object[width='520'][height='102'],
-object[width='500'][height='150'],                         /* samlab.ws */
+object[width='500'][height='150'],                          /* samlab.ws */
 object[width='501'][height='60'],
-object[width='480'][height='480'],                         /* samouchka.net */
+object[width='480'][height='480'],                          /* samouchka.net */
 object[width='469'][height='61'],
 object[width='468'][height='70'],
 object[width='467'][height='59'],
@@ -676,17 +686,17 @@ object[width='430'][height='70'],
 object[width='360'][height='60'],
 object[width='333'][height='333'],
 object[width='315'][height='75'],
-object[width='300'][height='300'],                         /* mail.ru */
+object[width='300'][height='300'],                          /* mail.ru */
 object[width='240'][height='400'],
 object[width='240'][height='200'],
 object[width='240'][height='115'],
 object[width='234'][height='190'],
-object[width='230'][height='30'],                          /* forum.ixbt.com */
+object[width='230'][height='30'],                           /* forum.ixbt.com */
 object[width='200'][height='200'],
 object[width='180'][height='280'],
 object[width='150'][height='150'],
-object[width='125'][height='200'],                         /* overclockers.ru */
-object[width='120'][height='150'],                         /* sharereactor.ru */
+object[width='125'][height='200'],                          /* overclockers.ru */
+object[width='120'][height='150'],                          /* sharereactor.ru */
 object[width='112'][height='60'],
 object[width='100'][height='100'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -714,50 +724,51 @@ img[width='1'][height='1']	{
 .adv_src,
 .advert,
 .advertisement,
-.BanBlock,                                                 /* playground.ru */
+.BanBlock,                                                  /* playground.ru */
 .banner,
-.banner-back,                                              /* klavogonki.ru */
+.banner-back,                                               /* klavogonki.ru */
 .banner1,
 .banner_f,
-.banner_block,                                             /* macosworld.ru */
+.banner_block,                                              /* macosworld.ru */
 .banner_rotater,
-.bannerHead,                                               /* rbcdaily.ru */
+.bannerHead,                                                /* rbcdaily.ru */
 .banners24open,
 .bannerspec,
-.ban,                                                      /* stolitsa.glavred.info */
-.block-banner,                                             /* glavred.info */
-.b-adwrapper,                                              /* yandex.ru */
-.company-banner,                                           /* habrahabr.ru */
+.ban,                                                       /* stolitsa.glavred.info */
+.block-banner,                                              /* glavred.info */
+.b-adwrapper,                                               /* yandex.ru */
+.company-banner,                                            /* habrahabr.ru */
 .go-ad-top,
 .LeftAdv,
-.mediaget, 												                         /* rutor.org */
-.pricead,                                                  /* ferra.ru */
-.rb_banner,                                                /* mail.ru */
+.mediaget,                                                  /* rutor.org */
+.pricead,                                                   /* ferra.ru */
+.rb_banner,                                                 /* mail.ru */
 .reklam-block,
-.reclama_v,                                                /* programki.net */
-.surbis_banner,                                            /* 74.ru */
-.side-adv,                                                 /* gazeta.ru */
-.shit_top,                                                 /* nulled.ws */
+.reclama_v,                                                 /* programki.net */
+.surbis_banner,                                             /* 74.ru */
+.side-adv,                                                  /* gazeta.ru */
+.shit_top,                                                  /* nulled.ws */
 .text_adv,
 .top_ad1,
 .top-banner,
 .top_banner,
-.topBanner {
+.topBanner,
+.adcolumn {                                                 /* facebook.com */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 #ad-tower,
 #ad_div,
-#ad_billboard,                                             /* widelec.org */
-#ad_ph_1,                                                  /* habrahabr.ru */
+#ad_billboard,                                              /* widelec.org */
+#ad_ph_1,                                                   /* habrahabr.ru */
 #adv,
 #adv2,
-#adv3,                                                     /* opennet.ru */
+#adv3,                                                      /* opennet.ru */
 #advertisingLink,
 #Advertisement,
 #banner,
 #banners,
-#banner-top,                                               /* samlab.ws */
+#banner-top,                                                /* samlab.ws */
 #bannertop,
 #divFlashTeaser,
 #ibp,
@@ -783,7 +794,6 @@ img[width='1'][height='1']	{
 
 [class*='AdBar'],
 [class*='ad_block'],
-[class='adcolumn'],                                        /* facebook.com */
 [class*='advertising'],
 [class^='bnnr_bx_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -881,7 +891,7 @@ tr.default-row-2.advert, tr.premium-row-2.advert {
 
 /* MediaWiki (wikipedia.org, lurkmore.ru) 100x120, 120x100, 250x250 */
 .infobox.vcard img,
-.thumbinner img.thumbimage,
+.thumbinner .thumbimage,
 .gallerybox .thumb a img {
 	display: inline !important;
 }
@@ -908,12 +918,12 @@ td[width='100'] + td[width='137'] + td {
 }
 
 /* bbc.co.uk */
-#blq-main.blq-clearfix > #banner {
+#blq-main > #banner {
 	display: inherit !important;
 }
 
 /* rbcdaily.ru */
-td.banner + td.rightBg { /* header width fix */
+td.banner + td.rightBg {                                    /* header width fix */
 	display: none !important;
 }
 
@@ -923,7 +933,7 @@ td.banner + td.rightBg { /* header width fix */
 }
 
 /* habrahabr.ru */
-img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix */
+img[width='300'][height='250'][class='photo'] {             /*profile photo visibility fix */
 	display: block !important;
 }
 
@@ -933,7 +943,7 @@ img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix *
 }
 
 /* vkontakte */
-[class*='group_wiki_hider'] { 
+[class*='group_wiki_hider'] {
 	background-attachment: scroll !important;
 	background-clip: border-box !important;
 	background-color: #e1e7ed !important;
@@ -970,6 +980,6 @@ img[width='300'][height='250'][class='photo'] { /*profile photo visibility fix *
 }
 
 /* core.trac.wordpress.org */
-body > div#siteheader + div#banner {
+#siteheader + #banner {
 	display: block !important;
 }
