@@ -203,7 +203,8 @@ DIV[onmouseout="this.style.background = '#FFF8B5';"][onmouseover="this.style.bac
 [href*='partnerearning.com'], [src*='partnerearning.com'],
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
 [href*='banner.ua'], [src*='banner.ua'],
-[href*='post.rmbn.ru'], [src*='post.rmbn.ru'] {            /* lib.aldebaran.ru */
+[href*='post.rmbn.ru'], [src*='post.rmbn.ru'],            /* lib.aldebaran.ru */
+[src*='banner.unian.net'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -717,6 +718,8 @@ img[width='1'][height='1']	{
 .bannerHead,                                               /* rbcdaily.ru */
 .banners24open,
 .bannerspec,
+.ban,                                                      /* stolitsa.glavred.info */
+.block-banner,                                             /* glavred.info */
 .b-adwrapper,                                              /* yandex.ru */
 .company-banner,                                           /* habrahabr.ru */
 .go-ad-top,
