@@ -514,6 +514,11 @@ div#mouselayer.mouselayer {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* unixforum.org */
+td#baner_eter {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -565,7 +570,8 @@ div#mouselayer.mouselayer {
 [src*='.mystat-in.net/?'],
 [src*='counter.mystat-in.net'],
 [src*='counter.hitua.'],
-[src*='thelist.ru/stat'] {
+[src*='thelist.ru/stat'],
+[href*='openstat.ru'], [src*='openstat.net'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 */
