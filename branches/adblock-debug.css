@@ -204,7 +204,8 @@ a[href*='/vskachke.com/'] {
 [href*='tradedoubler.com'], [src*='tradedoubler.com'],
 [href*='banner.ua'], [src*='banner.ua'],
 [href*='post.rmbn.ru'], [src*='post.rmbn.ru'],              /* lib.aldebaran.ru */
-[src*='banner.unian.net'] {
+[src*='banner.unian.net'],
+[href*='engine.rbc.medialand.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -546,12 +547,25 @@ div[onclick*="ad.adriver.ru"] {      /* candidate for the common rules section *
 }
 
 /* f1news.ru */
-#bannerBlock,
-#rightBanner240,
+#bannerBlock,                       /* candidate for the common rules section */
+#rightBanner240,                               /* common ? as id^=rightBanner */
 #yad.innerBlock,
-#videoadv,
+#videoadv,                                                        /* common ? */
 #newsexch,
 .footerBlock #footer1 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* cnews.ru */
+#banner950x60,                                            /* [id^='banner'] ? */
+#banner170x280,
+#banner300x250,
+#cnews_center,
+#sponsor_for_main,
+#adv_block,
+#right .sape,
+.cnews_cluster,
+table[height='79'][cellspacing='8'][width='980'][bgcolor='#fefef3'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -830,7 +844,8 @@ img[width='1'][height='1']	{
 [id^='left_ban'],
 [id*='MarketGid'],
 [id*='rdm'] [class*='rdm'],
-[id^='newclick'] {
+[id^='newclick'],
+[id^='medialand_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1009,4 +1024,10 @@ img[width='300'][height='250'][class='photo'] {             /*profile photo visi
 /* core.trac.wordpress.org */
 body > #siteheader + #banner {
 	display: block !important;
+}
+
+/* cnews.ru */
+img[src*='filearchive.cnews.ru'] {
+	display: block !important;
+	background-color: white !important; color: white !important; outline: 0px solid white !important
 }
