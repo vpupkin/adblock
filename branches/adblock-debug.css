@@ -540,6 +540,10 @@ div[id^='smile_teaser_'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* film.ru */
+div[onclick*="ad.adriver.ru"] {      /* candidate for the common rules section */
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
 
 /* AGGRESSIVE! */
 /*
