@@ -545,6 +545,17 @@ div[onclick*="ad.adriver.ru"] {      /* candidate for the common rules section *
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* f1news.ru */
+#bannerBlock,
+#rightBanner240,
+#yad.innerBlock,
+#videoadv,
+#newsexch,
+.footerBlock #footer1 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
