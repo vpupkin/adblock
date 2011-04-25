@@ -514,10 +514,6 @@ img[src^='http://macosworld.ru'][width='970'] {
 .newsblog-in > .infoblock {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-/* linux.org.ru: except mininews */
-.newsblog-in > .infoblock[id^="topic-"] {
-	display: block !important
-}
 
 /* anonymouse.org */
 #mouselayer.mouselayer {
@@ -928,70 +924,70 @@ div[class^='banner'],
 
 /* www.gismeteo.ru */
 td[width='760'][height='90'] {
-	display: table-cell !important;
+	display: table-cell !important
 }
 
 /* fileqube.com */
 body.ads {
-	display: block !important;
+	display: block !important
 }
 
 /* irr.ru */
 tr.default-row-2.advert, tr.premium-row-2.advert {
-	display: table-row !important;
+	display: table-row !important
 }
 
 /* MediaWiki (wikipedia.org, lurkmore.ru) 100x120, 120x100, 250x250 */
 .infobox.vcard img,
 .thumbinner .thumbimage,
 .gallerybox .thumb a img {
-	display: inline !important;
+	display: inline !important
 }
 
 /* google images */
 #ImgCont table a img,
 img[id^='imgthumb'] {
-	display: inline !important;
+	display: inline !important
 }
 
 /* HTML and CSS validators */
 body > #banner:first-child {
-	display: block !important;
+	display: block !important
 }
 
 /* zhmak.info */
 td[width='100'] + td[width='137'] + td {
-	width: 100%;
+	width: 100%
 }
 
 /* 101.ru */
 #playercodeblockdc object, #playercodeblockdc embed {
-	display: block !important;
+	display: block !important
 }
 
 /* bbc.co.uk */
 #blq-main > #banner {
-	display: inherit !important;
+	display: inherit !important
 }
 
 /* rbcdaily.ru */
 td.banner + td.rightBg {                                    /* header width fix */
-	display: none !important;
+	display: none !important
 }
 
 /* skype.com */
 .htmlInclude.banner {
-	display: block !important;
+	display: block !important
 }
 
 /* habrahabr.ru */
 img[width='300'][height='250'][class='photo'] {             /*profile photo visibility fix */
-	display: block !important;
+	display: block !important
 }
 
 /* android.mobile-review.com */
 [class='wp-caption aligncenter'] > img[width='240'][height='400'] {
-	display: block !important;
+	display: block !important
 }
 
 /* vkontakte */
@@ -1017,31 +1013,36 @@ img[width='300'][height='250'][class='photo'] {             /*profile photo visi
 	padding-bottom: 3px !important;
 	padding-left: 8px !important;
 	padding-right: 8px !important;
-	padding-top: 3px !important;
+	padding-top: 3px !important
 }
 .group_wiki_hider span {
 	padding: 0px 8px !important;
 	color: #a0c0c0 !important;
-	visibility: visible !important;
+	visibility: visible !important
 }
 #group .wk_text {
 	display: block !important;
 	padding: 10px 8px !important;
 	width: 370px !important;
-	word-wrap: break-word !important;
+	word-wrap: break-word !important
+}
+
+/* linux.org.ru: exception for mininews */
+.newsblog-in > .infoblock[id^="topic-"] {
+	display: block !important
 }
 
 /* core.trac.wordpress.org */
 body > #siteheader + #banner {
-	display: block !important;
+	display: block !important
 }
 
 /* cnews.ru */
 img[src*='filearchive.cnews.ru'] {
-	display: block !important;
+	display: block !important
 }
 
 /* rzd.ru */
 body.indx .banner {
-	display: block !important;
+	display: block !important
 }
