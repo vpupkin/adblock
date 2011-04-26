@@ -969,6 +969,11 @@ tr.default-row-2.advert, tr.premium-row-2.advert {
 	display: inline !important
 }
 
+/* google search */
+#search li.g > .vsc a {
+	display: inline !important
+}
+
 /* google images */
 #ImgCont table a img,
 img[id^='imgthumb'] {
