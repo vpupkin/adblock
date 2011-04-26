@@ -205,7 +205,8 @@ a[href*='/vskachke.com/'] {
 [href*='banner.ua'], [src*='banner.ua'],
 [href*='post.rmbn.ru'], [src*='post.rmbn.ru'],              /* lib.aldebaran.ru */
 [src*='banner.unian.net'],
-[href*='engine.rbc.medialand.ru'] {
+[href*='engine.rbc.medialand.ru'],
+[src*='b.c8.net.ua'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -589,6 +590,13 @@ td[align='center'][valign='top'] > div#rightBanner,
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* pravda.com.ua */
+.tt3 > .job-block,
+.fblock div[class^='banner'],
+div[id*='flbanner'] > div[id*='bannerflashcontent'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -662,6 +670,7 @@ td[align='center'][valign='top'] > div#rightBanner,
 [width='160'][height='600'],
 [width='234'][height='60'],
 [width='234'][height='200'],                                /* mail.ru */
+[width='240'][height='350'],                                /* epravda.com.ua */
 [width='300'][height='250'],
 [width='336'][height='280'],
 [width='392'][height='72'],
