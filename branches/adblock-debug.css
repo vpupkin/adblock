@@ -138,7 +138,8 @@ a[href*='/vskachke.com/'] {
 [src*='banner_'],
 [src*='ad.php?id='],
 [src*='streameye.net'],                                     /* soccer.ru */
-[href*='biglion'] {                                         /* nnm-club.ru */
+[href*='biglion'],                                          /* nnm-club.ru */
+[href*='www/delivery/ck.php'] {                             /* OpenX */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -261,7 +262,7 @@ a[href*='/vskachke.com/'] {
 .ad_box,
 .ad_box_new,
 [id*='profile_photos'],                                               /* убирает box с фотками над стеной */
-[href*="/friends?section=all"] + div, [href*="/friends?section=all"], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн" */
+[href*='/friends?section=all'] + div, [href*='/friends?section=all'], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн" */
 [href*='/ads.php?section=target']                                     /*убирает надпись "Что это?" под рекламой вконтакте*/ {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
@@ -275,7 +276,7 @@ embed[width*='200'][height*='300'],
 
 /* Ucoz.ru */
 /*a[onclick*="('none');return false;"], iframe[width='218'], iframe[width='220'],*/
-body > div[id^="pa"] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
+body > div[id^='pa'] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -540,7 +541,7 @@ div[id^='smile_teaser_'],
 }
 
 /* film.ru */
-div[onclick*="ad.adriver.ru"] {      /* candidate for the common rules section */
+div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -724,12 +725,12 @@ iframe[width='960'][height='90'],                           /* news.sportbox.ru 
 iframe[width='501'][height='60'],                           /* overclockers.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
-iframe[width="300"][height="125"],                          /* mail.live.com */
+iframe[width='300'][height='125'],                          /* mail.live.com */
 iframe[width='240'][height='440'],
 iframe[width='240'][height='400'],
 iframe[width='206'][height='618'],
 iframe[width='150'][height='840'],                          /* rutor.org */
-iframe[width="120"][height="60"] {                          /* profile.live.com */
+iframe[width='120'][height='60'] {                          /* profile.live.com */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1076,7 +1077,7 @@ img[width='300'][height='250'][class='photo'] {             /*profile photo visi
 }
 
 /* linux.org.ru: exception for mininews */
-.newsblog-in > .infoblock[id^="topic-"] {
+.newsblog-in > .infoblock[id^='topic-'] {
 	display: block !important
 }
 
