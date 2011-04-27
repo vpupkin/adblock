@@ -597,6 +597,22 @@ div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* live.com */
+#m_wa .Ad300x250,
+/*div[id^='Crm'] > div[id='Crm'],*/
+.Managed #SkyscraperContent,
+#skyScraperContainer.skyScraper {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+/* mail.live.com */
+.Managed #MainContent {
+	right: 0px !important
+}
+/* calendar.live.com */
+#bodyContainer > #calendarViewsContainer {
+	margin-right: 0px !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -708,10 +724,12 @@ iframe[width='960'][height='90'],                           /* news.sportbox.ru 
 iframe[width='501'][height='60'],                           /* overclockers.ru */
 iframe[width='330'][height='240'],
 iframe[width='306'][height='142'],
+iframe[width="300"][height="125"],                          /* mail.live.com */
 iframe[width='240'][height='440'],
 iframe[width='240'][height='400'],
 iframe[width='206'][height='618'],
-iframe[width='150'][height='840'] {                         /* rutor.org */
+iframe[width='150'][height='840'],                          /* rutor.org */
+iframe[width="120"][height="60"] {                          /* profile.live.com */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
