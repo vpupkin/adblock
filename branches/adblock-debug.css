@@ -600,7 +600,9 @@ div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 
 /* live.com */
 #m_wa .Ad300x250,
-/*div[id^='Crm'] > div[id='Crm'],*/
+td.SideAdCol,                                               /* "Добавить к контактам" */
+div[class^='Crm'][class$='Container'],
+.SkyscraperContainer,
 .Managed #SkyscraperContent,
 #skyScraperContainer.skyScraper {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
