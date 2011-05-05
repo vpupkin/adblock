@@ -139,7 +139,7 @@ a[href*='/vskachke.com/'] {
 [src*='ad.php?id='],
 [src*='streameye.net'],                                     /* soccer.ru */
 [href*='biglion'],                                          /* nnm-club.ru */
-[href*='www/delivery/ck.php'] {                             /* OpenX */
+[href*='www/delivery/ck.php'], [src*='www/delivery/lg.php'] { /* OpenX */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -486,9 +486,9 @@ iframe[width='600px'][height='250px'],
 }
 
 /* 4pda.ru */
-.adtox,
-.pr-AVA,
-div[style*='overflow-y:hidden;']  {
+body > #topnavi,
+.contenettextarea td[background*='img.wikimart.ru'],
+.search_m_links_c .alinks {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
