@@ -571,8 +571,8 @@ table[height='79'][cellspacing='8'][width='980'][bgcolor='#fefef3'] {
 /* forum.ru-board.com */
 table[border='0'][width='95%'][align='center']
 	table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='700'],
-[href*='utm_content=fast-banner2'],
-[src*='i.ru-board.com/temp'] {
+a[href*='utm_source=ru-board'][href*='utm_content='],       /* 'utm_content=', 'utm_source=' common? */
+img[src*='i.ru-board.com/temp'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
