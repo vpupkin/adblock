@@ -1046,8 +1046,15 @@ img[width='300'][height='250'][class='photo'] {             /*profile photo visi
 	display: block !important
 }
 
-/* core.trac.wordpress.org */
-body > #siteheader + #banner {
+/* Trac */
+#ew-content > div#banner,                                   /* trac.edgewall.org */
+/*body > div#banner:first-child,*/                          /* trac.buildbot.net, validator.w3.org */
+body > #siteheader + div#banner,                            /* core.trac.wordpress.org */
+body > #customheader + div#banner,                          /* trac.roundcube.net */
+body > #uservoice-feedback + div#banner,                    /* tribler.org */
+#sf_header + #doc3 > #bd > div#banner,                      /* sourceforge.net/apps/trac/sourceforge */
+#container > #maincolumn > div#banner,                      /* trac.cyberduck.ch */
+body > div.topdiv + div#banner {                            /* farbflash.org/trac/ILTable */
 	display: block !important
 }
 
