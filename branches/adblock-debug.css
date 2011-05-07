@@ -616,6 +616,10 @@ div[class^='Crm'][class$='Container'],
 	margin-right: 0px !important
 }
 
+.banner-sky > .google_afc {                                 /* freshmeat.net */
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -866,7 +870,6 @@ img[width='1'][height='1']	{
 #ibp,
 #IE8BarId_alt,
 #fp_adv2,
-#leaderboard,
 #lite_top_banner,
 #load_banner_2,
 #mag_banner,
@@ -935,6 +938,7 @@ div[class^='banner'],
 }
 
 #Ads,
+#leaderboard,
 #top_adbn_div,
 #page_footer,
 #PopWin {
