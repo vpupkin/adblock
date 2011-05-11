@@ -599,8 +599,10 @@ div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 }
 
 /* live.com */
-#m_wa .Ad300x250,
+.Ad300x250,
 td.SideAdCol,                                               /* "Добавить к контактам" */
+.h_rightcolumn > .h_crm,
+.h_rightcolumn > .h_msncontent,
 div[class^='Crm'][class$='Container'],
 .SkyscraperContainer,
 .Managed #SkyscraperContent,
