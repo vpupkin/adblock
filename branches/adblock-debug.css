@@ -628,7 +628,9 @@ div[class='ban-border'] {
 }
 
 /*lurkmore.ru*/
-table[class='block'] {
+table[class='block'],
+p[class='ads_left'],
+div[id*='teasernet'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
