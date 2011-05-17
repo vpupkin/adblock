@@ -623,9 +623,15 @@ div[class^='Crm'][class$='Container'],
 }
 
 /*mmotop.ru*/
-div[class='ban-border']{
+div[class='ban-border'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
+
+/*lurkmore.ru*/
+table[class='block'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 /* AGGRESSIVE! */
 /*
 [href*='/ban'],
