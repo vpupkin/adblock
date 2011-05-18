@@ -164,6 +164,7 @@ a[href*='/vskachke.com/'] {
 [href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
 [href*='luxup.ru'], [src*='luxup.ru'],
 [href*='teasernet.com'], [src*='teasernet.com'],
+[src*='.lacest.com'],
 [href*='teasernet.ru'], [src*='teasernet.ru'],
 [href*='78.140.145.178'], [src*='78.140.145.178'],
 [href*='atdmt.com'], [src*='atdmt.com'],
@@ -618,21 +619,22 @@ div[class^='Crm'][class$='Container'],
 	margin-right: 0px !important
 }
 
-.banner-sky > .google_afc {                                 /* freshmeat.net */
+/* freshmeat.net */
+.banner-sky > .google_afc {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/*mmotop.ru*/
+/* mmotop.ru */
 div[class='ban-border'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/*lurkmore.ru*/
-table[class='block'],
+/* lurkmore.ru */
 p[class='ads_left'],
 div[id*='teasernet'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
+
 
 /* AGGRESSIVE! */
 /*
