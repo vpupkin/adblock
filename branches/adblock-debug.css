@@ -605,6 +605,7 @@ div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 td.SideAdCol,                                               /* "Добавить к контактам" */
 .h_rightcolumn > .h_crm,
 .h_rightcolumn > .h_msncontent,
+div[class^='Crm'] > div[id^='Crm'] > div[id^='Crm'],
 div[class^='Crm'][class$='Container'],
 .SkyscraperContainer,
 .Managed #SkyscraperContent,
