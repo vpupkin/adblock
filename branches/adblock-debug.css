@@ -423,17 +423,22 @@ img[src*='zuni.tyndex.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* Overclockers.ru */
-body > div > table[width='100%'][style='height: 60px'],
-body > div > table[height='68'][width='100%'],
-body > div > div > table[height='67'][width='100%'],
+/* overclockers.ru */
+body > div[align='center'] > table[cellpadding='2'][width='100%'] td[align='right'][width='100%'],
+body > div[align='center'] div.nou[style='width:700px'] > table[bgcolor='#dddddd'][width='100%'],
+div[align='center'] > table[cellpadding='3'][style='border: 1px solid #aaa'],
+/*body > div > table[width='100%'][style='height: 60px'],*/
+body > div[align='center'] > img[src$='spacer.gif'] + table[height='68'][width='100%'],
+body > table.linead[height='68'],
+body > div[align='center'] > div[align='center'] > table[height='67'][width='100%'],
 table[width^='30'][height='245'][style^='background:#fffff'],
-table[cellpadding='5'][width='600'][style='border: solid 1px #000000; color:#000000;'],
+/*table[cellpadding='5'][width='600'][style='border: solid 1px #000000; color:#000000;'],*/
 #wrapcentre table[width='100%'][style='border: solid 1px #cc0000'],
-#wrapcentre table[width='100%'] td[valign='top'][style='width:160px'],
+/*#wrapcentre table[width='100%'] td[valign='top'][style='width:160px'],*/
 table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
+
 
 /* Welinux.ru */
 #promo.google {
@@ -808,6 +813,7 @@ object[width='230'][height='30'],                           /* forum.ixbt.com */
 object[width='200'][height='200'],
 object[width='180'][height='280'],
 object[width='150'][height='150'],
+object[width='125'][height='600'],                          /* overclockers.ru */
 object[width='125'][height='200'],                          /* overclockers.ru */
 object[width='120'][height='150'],                          /* sharereactor.ru */
 object[width='112'][height='60'],
