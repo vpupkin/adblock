@@ -92,6 +92,11 @@ a[href*='/vskachke.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* job.ukr.net */
+.job-block {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* MEDIUM */
 [href^='http://ad.'], [src^='http://ad.'],
@@ -106,7 +111,7 @@ a[href*='/vskachke.com/'] {
 [href*='/2advert.'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'], [src^='http://ads.'],
 [href*='/adx/'], [src*='/adx/'],
-[href*='/ban/'], [src*='/ban/'],
+[href*='/ban/'],
 [href*='/ban.'], [src*='/ban.'],
 [href*='banners/'], [src*='banners/'],
 [href*='/reklama/'], [src*='/reklama/'],
@@ -599,7 +604,6 @@ td[align='center'][valign='top'] > div#rightBanner,
 }
 
 /* pravda.com.ua */
-.tt3 > .job-block,
 .fblock div[class^='banner'],
 div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -642,6 +646,15 @@ div[id*='teasernet'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* segodnya.ua */
+.right > .r_ad,
+.sponsor_bar,
+.ah-stuff-informer,
+.ks_art_border,
+div[class^='snBody'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -667,7 +680,8 @@ div[id*='teasernet'] {
 [src*='r.mail.ru/b'],
 [href*='yandex.ru/cy?'],
 [href*='r.mail.ru/n'],
-[href*='forex'] {
+[href*='forex'],
+[src*='/ban/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 */
