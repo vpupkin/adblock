@@ -17,6 +17,11 @@ Description: http://code.google.com/p/adblock/
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* Google AdWords */
+[id^='google_ads_div_'][id$='_ad_container'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 /* Yandex */
 [id*='_direct'],
 [id*='y5_market'],
@@ -596,7 +601,6 @@ div[class='dfp_slot'][id$='_wrapper'] {
 
 /* cdcovers.cc */
 td[width='196'] > table.contentBox:last-child,
-#google_ads_div_Cdcovers_All_Top_180x60_ad_container,
 td[align='center'][valign='top'] > div#rightBanner,
 #main > table[width='994'][align='center']:nth-child(2) > tbody > tr:first-child table[width='794']:nth-child(2),
 #main > table[width='994'][align='center']:nth-child(2) > tbody > tr:last-child table[width='794'] {
