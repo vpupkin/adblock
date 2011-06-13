@@ -255,6 +255,8 @@ a[href*='/vskachke.com/'] {
 }
 
 /* deviantart.com */
+div#gmi-ResourcePageMetaPane > div.details-section + div[style="position: relative;"],
+div#gmi-ResourcePageMetaPane > div.iconset-art.icons.vicons.devlinkzone + div[style="position: relative;"],
 [src*='ad_frame'],
 #gmi-ResourcePageAd,
 #gmi-ResourcePageLowerAd,
