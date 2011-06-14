@@ -108,7 +108,7 @@ a[href*='/vskachke.com/'] {
 [href*='.com/?user_id='], [href*='.net/?user_id='],
 [href*='/ad_cache/'], [src*='/ad_cache/'],
 [href*='/in.cgi?'],                                         /* thetraffic.ru */
-[href*='/adframe'],
+[href*='/adframe'], [src*='/adframe/'],
 [href*='extrabucks.ru'],
 [href*='.com/s.php?f='],                                    /* bezwareza.com */
 [href*='/adult/go.php?sid='],                               /* blackmanos.org.ru */
@@ -255,17 +255,14 @@ a[href*='/vskachke.com/'] {
 }
 
 /* deviantart.com */
-div#gmi-ResourcePageMetaPane > div.details-section + div[style='position: relative;'],
-div#gmi-ResourcePageMetaPane > div.iconset-art.icons.vicons.devlinkzone + div[style='position: relative;'],
-[src*='ad_frame'],
-#gmi-ResourcePageAd,
-#gmi-ResourcePageLowerAd,
-#gallery-admaster,
-[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
+.ultrabag,
+div[gmi-name='ad_zone'],
+iframe[src*='adsrv.deviantart.com'],
+#gmi-ResourcePageMetaPane div[style='position: relative;'],
+#gmi-ResourcePageMetaPane .c,
 .ad-blocking-makes-fella-confused,
-.sleekadbubble.section.squareBrowsead.ch,
-.h.left-sidebar,
-.hi-i-get-in-the-way-too {
+.sleekadbubble.section.ch,
+.h.left-sidebar {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
