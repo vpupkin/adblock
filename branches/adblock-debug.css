@@ -567,8 +567,13 @@ div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section *
 #videoadv,                                                        /* common ? */
 #newsexch,
 #alphabetBlock1 span.letter > a.red,
-.footerBlock #footer1 {
+.footerBlock #footer1,
+img[src='/images/icons/layout_rev_kis/config_16.png'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+body[onload='kingsize()'][onresize='kingsize()'],
+body[onload='kingsize()'][onresize='kingsize()'] > #allDiv {
+	background: none !important
 }
 
 /* cnews.ru */
