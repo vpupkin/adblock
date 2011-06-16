@@ -517,7 +517,7 @@ img[src^='http://macosworld.ru'][width='970'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* nntt.org*/
+/* nntt.org */
 [class='fromNnovExport'],
 [class='fromNnovExport fromNnovExportFlirt'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -573,7 +573,7 @@ img[src='/images/icons/layout_rev_kis/config_16.png'] {
 }
 body[onload='kingsize()'][onresize='kingsize()'],
 body[onload='kingsize()'][onresize='kingsize()'] > #allDiv {
-	background: none !important
+	background: #f99 !important
 }
 
 /* cnews.ru */
@@ -660,6 +660,19 @@ div[id*='teasernet'] {
 .ah-stuff-informer,
 .ks_art_border,
 div[class^='snBody'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* ngs.ru */
+.xozqcv,
+#divwidth #logos,
+#top-menu-logos .clients,
+#divwidth #fashion-promo,
+.tablesurround #logo_banners,
+#left-column ul.firm-logos,
+#left-column ul.links > li.first,
+#allcontent > table[id|='logo'],
+div#clients[container='yes'][level='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
