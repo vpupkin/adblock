@@ -676,6 +676,11 @@ div#clients[container='yes'][level='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* aimp.ru */
+#page_body > #page_content #page_block:last-child > #block {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
