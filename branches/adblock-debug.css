@@ -568,7 +568,12 @@ div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section *
 #newsexch,
 #alphabetBlock1 span.letter > a.red,
 .footerBlock #footer1,
-img[src='/images/icons/layout_rev_kis/config_16.png'] {
+#allDiv > #top_pan,                                         /*  kaspersky ads */
+img[src='/images/icons/layout_rev_kis/config_16.png'],
+.indexColAll,
+.indexColAll + div[style^='height:60px;margin:-59px -20px 0 -20px'],
+div[style*='background:url(/images/kis/kis_news_wide_'],
+.kisGallery {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 body[onload='kingsize()'][onresize='kingsize()'],
