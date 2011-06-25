@@ -569,7 +569,7 @@ div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section *
 #alphabetBlock1 span.letter > a.red,
 .footerBlock #footer1,
 #allDiv > #top_pan,                                         /*  kaspersky ads */
-img[src='/images/icons/layout_rev_kis/config_16.png'],
+img[src^='/images/icons/layout_rev_kis/'],
 .indexColAll,
 .indexColAll + div[style^='height:60px;margin:-59px -20px 0 -20px'],
 div[style*='background:url(/images/kis/kis_news_wide_'],
