@@ -686,6 +686,15 @@ div#clients[container='yes'][level='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* mail.ru */
+.partnerka_top {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* wowlol.ru*/
+div#wrapper > div#topbox {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
 
 /* AGGRESSIVE! */
 /*
