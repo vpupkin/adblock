@@ -530,7 +530,7 @@ img[src^='http://macosworld.ru'][width='970'] {
 
 /* linux.org.ru */
 .newsblog-in > .infoblock,
-#bd > .messages div a img {                                 /* vkusnoserver.ru */
+#bd > .messages img[src^='/adv/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -562,14 +562,18 @@ div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section *
 }
 
 /* f1news.ru */
-#bannerBlock,                       /* candidate for the common rules section */
-#rightBanner240,                               /* common ? as id^=rightBanner */
+#bannerBlock,                                               /* general ? */
+#rightBanner240,                                            /* general as id^=rightBanner ? */
 #yad.innerBlock,
-#videoadv,                                                        /* common ? */
+#videoadv,                                                  /* general ? */
 #newsexch,
-#alphabetBlock1 span.letter > a.red,
-.footerBlock #footer1,
-#allDiv > #top_pan,                                         /*  kaspersky ads */
+#alphabetBlock1 span.letter > a[href^='/travels/'],
+#alphabetBlock1 span.letter > b,
+.footerBlock #footer1 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+/* f1news kaspersky ads */
+/*#allDiv > #top_pan,                                         
 img[src^='/images/icons/layout_rev_kis/'],
 .indexColAll,
 .indexColAll + div[style^='height:60px;margin:-59px -20px 0 -20px'],
@@ -580,7 +584,7 @@ div[style*='background:url(/images/kis/kis_news_wide_'],
 body[onload='kingsize()'][onresize='kingsize()'],
 body[onload='kingsize()'][onresize='kingsize()'] > #allDiv {
 	background: #f99 !important
-}
+}*/
 
 /* cnews.ru */
 #banner950x60,                                            /* [id^='banner'] ? */
