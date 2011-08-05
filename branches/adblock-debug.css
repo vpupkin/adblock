@@ -529,7 +529,8 @@ img[src^='http://macosworld.ru'][width='970'] {
 }
 
 /* linux.org.ru */
-.newsblog-in > .infoblock {
+.newsblog-in > .infoblock,
+#bd > .messages div a img {                                 /* vkusnoserver.ru */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -692,9 +693,10 @@ div#clients[container='yes'][level='1'] {
 }
 
 /* wowlol.ru*/
-div#wrapper > div#topbox {
+#wrapper > #topbox {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
+
 
 /* AGGRESSIVE! */
 /*
