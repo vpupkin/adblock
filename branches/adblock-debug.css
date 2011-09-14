@@ -297,11 +297,6 @@ body > div[id^='pa'] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
 }
 */
 
-/* Rambler */
-div[style*='width: 728px;'], .rb--TopTeaser {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-}
-
 /* iFolder.ru */
 #FlashDiv,
 .side_ban *,
