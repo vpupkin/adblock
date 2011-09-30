@@ -696,6 +696,12 @@ div#clients[container='yes'][level='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* fastpic.ru */
+body#cbn_p_1 #left,
+body#cbn_p_1 #top {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
