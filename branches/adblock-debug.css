@@ -512,8 +512,8 @@ img[src^='http://macosworld.ru'][width='970'] {
 }
 
 /* nntt.org */
-[class='fromNnovExport'],
-[class='fromNnovExport fromNnovExportFlirt'] {
+[class*='fromNnovExport'],
+img[onclick*='countAdClick'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
