@@ -513,7 +513,8 @@ img[src^='http://macosworld.ru'][width='970'] {
 
 /* nntt.org */
 [class*='fromNnovExport'],
-img[onclick*='countAdClick'] {
+img[onclick*='countAdClick'],
+object[data*='./ads/flash'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -700,6 +701,12 @@ div#clients[container='yes'][level='1'] {
 /* fastpic.ru */
 body#cbn_p_1 #left,
 body#cbn_p_1 #top {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* optizone.ru */
+div#nav_main_banner,
+iframe[src*='advert/code'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
