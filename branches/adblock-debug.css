@@ -657,7 +657,8 @@ div[class='ban-border'] {
 /* lurkmore.ru */
 p[class='ads_left'],
 div[id*='teasernet'],
-a[href*='adbl?block=left'] {
+a[href*='adbl?block=left'],
+#column-one a[href='#'][target='_self'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
