@@ -112,6 +112,13 @@ div[id^='CNM'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* amreklama.ru */
+iframe[src*='server.linber.ru'],
+img[src*='images.linber.ru'],
+a[href*='server.linber.ru'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* MEDIUM */
 [href^='http://ad.'], [src^='http://ad.'],
