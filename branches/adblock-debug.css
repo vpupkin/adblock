@@ -102,6 +102,16 @@ a[href*='/vskachke.com/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* adsyst.ru */
+.ms_block {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* novostimira.com */
+div[id^='CNM'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* MEDIUM */
 [href^='http://ad.'], [src^='http://ad.'],
@@ -443,7 +453,6 @@ table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-
 /* Welinux.ru */
 #promo.google {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -709,6 +718,13 @@ body#cbn_p_1 #top {
 /* optizone.ru */
 div#nav_main_banner,
 iframe[src*='advert/code'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* smotri-online.info */
+.block_links,
+.copy > a[href='http://new-kino.info/'],
+a[href='http://avto-ledi.ru/'] > img[src='/images/logo.jpg'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
