@@ -217,7 +217,8 @@ a[href*='/vskachke.com/'] {
 [href*='post.rmbn.ru'], [src*='post.rmbn.ru'],              /* lib.aldebaran.ru */
 [src*='banner.unian.net'],
 [href*='engine.rbc.medialand.ru'],
-[src*='b.c8.net.ua'] {
+[src*='b.c8.net.ua'],
+[href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
