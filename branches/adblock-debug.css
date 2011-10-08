@@ -737,6 +737,11 @@ a[href='http://avto-ledi.ru/'] > img[src='/images/logo.jpg'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* cinemaxx.ru */
+div[id^='DIV_DA_'] {                                        /* directadvert.ru */
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
