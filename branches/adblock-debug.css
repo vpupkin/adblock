@@ -1042,7 +1042,8 @@ img[width='1'][height='1']	{
 [alt='Рейтинг@Mail.ru'],
 [alt='Рейтинг Mail.ru'],
 [alt="Rambler's Top100"],
-[alt='Игра Передовая'] {
+[alt='Игра Передовая'],
+[alt='Openstat'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
