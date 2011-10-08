@@ -1001,7 +1001,9 @@ img[width='1'][height='1']	{
 #reclama,
 #reklama,
 #sponsors,
-#topbanner {
+#topbanner,
+#ad_overlay,                                                /* seeon.tv */
+#ad_footer {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
