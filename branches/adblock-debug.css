@@ -721,6 +721,8 @@ div#clients[container='yes'][level='1'] {
 }
 
 /* fastpic.ru */
+body#cbn_p_1 #left,
+body#cbn_p_1 #top,
 .center > a[href^='http://static.fastpic.ru'],
 #right[style*='position: absolute'][style*='z-index: 2147483647'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
