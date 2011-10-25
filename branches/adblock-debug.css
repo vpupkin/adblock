@@ -1217,3 +1217,9 @@ img[src*='filearchive.cnews.ru'] {
 body.indx .banner {
 	display: block !important
 }
+
+/* delicious.com */
+body#index #header #banner,
+body#user_profile #header #banner {
+  display: block !important
+}
