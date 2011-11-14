@@ -257,7 +257,8 @@ a[href*='server.linber.ru'] {
 
 /* Gmail mail.google.com */
 div.mq.nH.oy8Mbf,
-div.nH.PS {
+div.nH.PS,
+div.nH.adC {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1226,6 +1227,6 @@ body#user_profile #header #banner {
 }
 
 /* mail.google.com */
-.oy8Mbf div.adn.ads {
+div[id^=':'] > div.adn.ads {
 	display: block !important
 }
