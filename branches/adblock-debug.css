@@ -255,8 +255,9 @@ a[href*='server.linber.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* Gmail */
-.mn[role='contentinfo'], .u5, .u8 {
+/* Gmail mail.google.com */
+div.mq.nH.oy8Mbf,
+div.nH.PS {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1221,5 +1222,10 @@ body.indx .banner {
 /* delicious.com */
 body#index #header #banner,
 body#user_profile #header #banner {
-  display: block !important
+	display: block !important
+}
+
+/* mail.google.com */
+div[id=':p4'] > div.adn.ads {
+	display: block !important
 }
