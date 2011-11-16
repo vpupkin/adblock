@@ -1230,3 +1230,8 @@ body#user_profile #header #banner {
 div[id^=':'] > div.adn.ads {
 	display: block !important
 }
+
+/* tvi.ua */
+.container > .header > .banner.clear {
+	display: block !important
+}
