@@ -680,8 +680,10 @@ p[class='ads_left'],
 div[id*='teasernet'],
 a[href^='http://lurkmore.ru'][href*='block=left'],
 p[title^='http://lurkmore.ru'][title*='block=left'],
+p[title*='lurkmore.printdirect.ru'],
 p[style='margin:0 0 7px 5px;padding:0;text-align:center'],
-#column-one a[href='#'][target='_self'] {
+#column-one a[href='#'][target='_self'],
+#column-one > iframe[src^='http://lurkmore.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -767,6 +769,7 @@ body[style*='kinopoisk.ru/images/bnnr/'] {
 #square_a {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
+
 
 /* AGGRESSIVE! */
 /*
