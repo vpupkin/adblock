@@ -754,6 +754,15 @@ div[id^='DIV_DA_'] {                                        /* directadvert.ru *
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* kinopoisk.ru */
+#loadb,
+object[data='/images/ozon_banner553x80.swf'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+body[style*='kinopoisk.ru/images/bnnr/'] {
+	background-image: none !important
+}
+
 
 /* AGGRESSIVE! */
 /*
