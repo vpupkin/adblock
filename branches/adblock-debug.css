@@ -30,7 +30,8 @@ Description: http://code.google.com/p/adblock/
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
 .ad-market, .ads-header,
-.go-ad, .b-yadirect {
+.go-ad, .b-yadirect,
+.b-spec-adv, .b-music-banner {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -536,11 +537,6 @@ img[src^='http://macosworld.ru'][width='970'] {
 [class*='fromNnovExport'],
 img[onclick*='countAdClick'],
 object[data*='./ads/flash'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-}
-
-/* yandex */
-.b-spec-adv {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
