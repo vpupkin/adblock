@@ -766,6 +766,12 @@ body[style*='kinopoisk.ru/images/bnnr/'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* twitter.com */
+.promoted-account,
+.stream-item[id*=':'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
