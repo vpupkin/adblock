@@ -300,7 +300,7 @@ iframe[src*='adsrv.deviantart.com'],
 .ad_box_new,
 [id*='profile_photos'],                                               /* убирает box с фотками над стеной */
 [href*='/friends?section=all'] + div, [href*='/friends?section=all'], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн" */
-[href*='/ads.php?section=target']                                     /*убирает надпись "Что это?" под рекламой вконтакте*/ {
+[href*='/ads.php?section=target']                                     /* убирает надпись "Что это?" под рекламой вконтакте */ {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -312,17 +312,9 @@ embed[width*='200'][height*='300'],
 }
 
 /* Ucoz.ru */
-/*a[onclick*="('none');return false;"], iframe[width='218'], iframe[width='220'],*/
 body > div[id^='pa'] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-
-/* Ucoz.ru AGGRESSIVE! */
-/*
-#_uwndTop1 {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-}
-*/
 
 /* iFolder.ru */
 #FlashDiv,
@@ -458,14 +450,11 @@ img[src*='zuni.tyndex.ru'] {
 body > div[align='center'] > table[cellpadding='2'][width='100%'] td[align='right'][width='100%'],
 body > div[align='center'] div.nou[style='width:700px'] > table[bgcolor='#dddddd'][width='100%'],
 div[align='center'] > table[cellpadding='3'][style='border: 1px solid #aaa'],
-/*body > div > table[width='100%'][style='height: 60px'],*/
 body > div[align='center'] > img[src$='spacer.gif'] + table[height='68'][width='100%'],
 body > table.linead[height='68'],
 body > div[align='center'] > div[align='center'] > table[height='67'][width='100%'],
 table[width^='30'][height='245'][style^='background:#fffff'],
-/*table[cellpadding='5'][width='600'][style='border: solid 1px #000000; color:#000000;'],*/
 #wrapcentre table[width='100%'][style='border: solid 1px #cc0000'],
-/*#wrapcentre table[width='100%'] td[valign='top'][style='width:160px'],*/
 table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
@@ -590,19 +579,6 @@ div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section *
 .footerBlock #footer1 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-/* f1news kaspersky ads */
-/*#allDiv > #top_pan,                                         
-img[src^='/images/icons/layout_rev_kis/'],
-.indexColAll,
-.indexColAll + div[style^='height:60px;margin:-59px -20px 0 -20px'],
-div[style*='background:url(/images/kis/kis_news_wide_'],
-.kisGallery {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-}
-body[onload='kingsize()'][onresize='kingsize()'],
-body[onload='kingsize()'][onresize='kingsize()'] > #allDiv {
-	background: #f99 !important
-}*/
 
 /* cnews.ru */
 #banner950x60,                                            /* [id^='banner'] ? */
@@ -1114,7 +1090,6 @@ div[class^='banner'],
 [alt*='count']{
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
-
 */
 
 
