@@ -2,14 +2,14 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 /*
-Name: Adblock.css 1.1
+Name: Adblock.css 1.2
 Author: ELV1S and Adblock Team
 Description: http://code.google.com/p/adblock/
-Release Date: 2011/05/27
+Release Date: 2011/12/01
 
 Внимание! Проекту требуются новые участники.
 Подключайтесь к разработке, вносите изменения, улучшайте Adblock.css.
-Обращаться: exorcist.adblock[at]gmail[dot]com. Торопитесь!
+Обращаться: exorcist.adblock[at]gmail[dot]com
 */
 
 
@@ -22,6 +22,11 @@ Release Date: 2011/05/27
 	display: none !important
 }
 
+/* Google AdWords */
+[id^='google_ads_div_'][id$='_ad_container'] {
+	display: none !important
+}
+
 /* Yandex */
 [id*='_direct'],
 [id*='y5_market'],
@@ -30,7 +35,8 @@ Release Date: 2011/05/27
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
 .ad-market, .ads-header,
-.go-ad, .b-yadirect {
+.go-ad, .b-yadirect,
+.b-spec-adv, .b-music-banner {
 	display: none !important
 }
 
@@ -97,13 +103,40 @@ a[href*='/vskachke.com/'] {
 	display: none !important
 }
 
+/* job.ukr.net */
+.job-block {
+	display: none !important
+}
+
+/* adsyst.ru */
+.ms_block {
+	display: none !important
+}
+
+/* novostimira.com */
+div[id^='CNM'] {
+	display: none !important
+}
+
+/* amreklama.ru */
+iframe[src*='server.linber.ru'],
+img[src*='images.linber.ru'],
+a[href*='server.linber.ru'] {
+	display: none !important
+}
+
+/* adf.ly */
+iframe[src*='/1market.php?cb=3m&t='] {
+	display: none !important
+}
+
 
 /* MEDIUM */
 [href^='http://ad.'], [src^='http://ad.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],
 [href*='/ad_cache/'], [src*='/ad_cache/'],
 [href*='/in.cgi?'],                                         /* thetraffic.ru */
-[href*='/adframe'],
+[href*='/adframe'], [src*='/adframe/'],
 [href*='extrabucks.ru'],
 [href*='.com/s.php?f='],                                    /* bezwareza.com */
 [href*='/adult/go.php?sid='],                               /* blackmanos.org.ru */
@@ -111,7 +144,7 @@ a[href*='/vskachke.com/'] {
 [href*='/2advert.'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'], [src^='http://ads.'],
 [href*='/adx/'], [src*='/adx/'],
-[href*='/ban/'], [src*='/ban/'],
+[href*='/ban/'],
 [href*='/ban.'], [src*='/ban.'],
 [href*='banners/'], [src*='banners/'],
 [href*='/reklama/'], [src*='/reklama/'],
@@ -120,7 +153,6 @@ a[href*='/vskachke.com/'] {
 [href*='/reklama_'],                                        /* netzor.org */
 [href*='/adserver'], [src*='adserver'],
 [href*='/adfarm.'], [src*='/adfarm.'],
-[href*='/bn.'], [src*='/bn.'],
 [href*='/adv.'], [src*='/adv.'],
 [href*='?partner='],
 [href*='ads.com/?ref '],
@@ -162,13 +194,15 @@ a[href*='/vskachke.com/'] {
 [href^='http://www.smart-soft.ru/'],
 [href*='grand-casino.com'],
 [href*='.evgenyfedorenko.com/'],
-[href*='http://traffic'], [href*='http://www.traffic'],     /* traffic-checker.com */
+[href*='http://traffic'], [href*='http://www.traffic'],     /* traffic-checker.com/ */
 [href^='http://affiliate.'],
 [src*='8coins.net/'],
 [href*='doubleclick.net'], [src*='doubleclick.net'],
 [href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
 [href*='luxup.ru'], [src*='luxup.ru'],
 [href*='teasernet.com'], [src*='teasernet.com'],
+[href*='emierete.com'],
+[src*='kolition.com'],
 [src*='.lacest.com'],
 [href*='teasernet.ru'], [src*='teasernet.ru'],
 [href*='78.140.145.178'], [src*='78.140.145.178'],
@@ -213,7 +247,8 @@ a[href*='/vskachke.com/'] {
 [href*='post.rmbn.ru'], [src*='post.rmbn.ru'],              /* lib.aldebaran.ru */
 [src*='banner.unian.net'],
 [href*='engine.rbc.medialand.ru'],
-[src*='b.c8.net.ua'] {
+[src*='b.c8.net.ua'],
+[href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'] {
 	display: none !important
 }
 
@@ -231,12 +266,14 @@ a[href*='/vskachke.com/'] {
 	display: none !important
 }
 
-/* Gmail */
-.mn[role='contentinfo'], .u5, .u8 {
+/* mail.google.com */
+div.mq.nH.oy8Mbf,
+div.nH.PS,
+div.nH.adC {
 	display: none !important
 }
 
-/* Wired.com */
+/* wired.com */
 #FLASH_AD,
 #flash_ad,
 #stereo1,
@@ -250,15 +287,14 @@ a[href*='/vskachke.com/'] {
 }
 
 /* deviantart.com */
-[src*='ad_frame'],
-#gmi-ResourcePageAd,
-#gmi-ResourcePageLowerAd,
-#gallery-admaster,
-[style*='http://st.deviantart.com/zack/mockups/40_off_verthoodie_header.gif'],
+.ultrabag,
+div[gmi-name='ad_zone'],
+iframe[src*='adsrv.deviantart.com'],
+#gmi-ResourcePageMetaPane div[style='position: relative;'],
+#gmi-ResourcePageMetaPane .c,
 .ad-blocking-makes-fella-confused,
-.sleekadbubble.section.squareBrowsead.ch,
-.h.left-sidebar,
-.hi-i-get-in-the-way-too {
+.sleekadbubble.section.ch,
+.h.left-sidebar {
 	display: none !important
 }
 
@@ -267,9 +303,9 @@ a[href*='/vskachke.com/'] {
 #banner2,
 .ad_box,
 .ad_box_new,
-[id*='profile_photos'],                                               /* убирает box с фотками над стеной */
-[href*='/friends?section=all'] + div, [href*='/friends?section=all'], /* убирает вкладку "Друзья", оставляя вкладку "Друзья-онлайн" */
-[href*='/ads.php?section=target']                                     /*убирает надпись "Что это?" под рекламой вконтакте*/ {
+[id*='profile_photos'],
+[href*='/friends?section=all'] + div, [href*='/friends?section=all'],
+[href*='/ads.php?section=target'] {
 	display: none !important
 }
 
@@ -281,20 +317,7 @@ embed[width*='200'][height*='300'],
 }
 
 /* Ucoz.ru */
-/*a[onclick*="('none');return false;"], iframe[width='218'], iframe[width='220'],*/
 body > div[id^='pa'] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
-	display: none !important
-}
-
-/* Ucoz.ru AGGRESSIVE! */
-/*
-#_uwndTop1 {
-	display: none !important
-}
-*/
-
-/* Rambler */
-div[style*='width: 728px;'], .rb--TopTeaser {
 	display: none !important
 }
 
@@ -428,14 +451,15 @@ img[src*='zuni.tyndex.ru'] {
 	display: none !important
 }
 
-/* Overclockers.ru */
-body > div > table[width='100%'][style='height: 60px'],
-body > div > table[height='68'][width='100%'],
-body > div > div > table[height='67'][width='100%'],
+/* overclockers.ru */
+body > div[align='center'] > table[cellpadding='2'][width='100%'] td[align='right'][width='100%'],
+body > div[align='center'] div.nou[style='width:700px'] > table[bgcolor='#dddddd'][width='100%'],
+div[align='center'] > table[cellpadding='3'][style='border: 1px solid #aaa'],
+body > div[align='center'] > img[src$='spacer.gif'] + table[height='68'][width='100%'],
+body > table.linead[height='68'],
+body > div[align='center'] > div[align='center'] > table[height='67'][width='100%'],
 table[width^='30'][height='245'][style^='background:#fffff'],
-table[cellpadding='5'][width='600'][style='border: solid 1px #000000; color:#000000;'],
 #wrapcentre table[width='100%'][style='border: solid 1px #cc0000'],
-#wrapcentre table[width='100%'] td[valign='top'][style='width:160px'],
 table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
 	display: none !important
 }
@@ -508,19 +532,17 @@ img[src^='http://macosworld.ru'][width='970'] {
 	display: none !important
 }
 
-/* nntt.org*/
-[class='fromNnovExport'],
-[class='fromNnovExport fromNnovExportFlirt'] {
-	display: none !important
-}
-
-/* yandex */
-.b-spec-adv {
+/* nntt.org */
+[class*='fromNnovExport'],
+img[onclick*='countAdClick'],
+object[data*='./ads/flash'] {
 	display: none !important
 }
 
 /* linux.org.ru */
-.newsblog-in > .infoblock {
+.newsblog-in > .infoblock,
+#bd > .messages img[src^='/adv/'],
+#bd > .messages .infoblock {
 	display: none !important
 }
 
@@ -547,23 +569,24 @@ div[id^='smile_teaser_'],
 }
 
 /* film.ru */
-div[onclick*='ad.adriver.ru'] {      /* candidate for the common rules section */
+div[onclick*='ad.adriver.ru'] {
 	display: none !important
 }
 
 /* f1news.ru */
-#bannerBlock,                       /* candidate for the common rules section */
-#rightBanner240,                               /* common ? as id^=rightBanner */
+#bannerBlock,
+#rightBanner240,
 #yad.innerBlock,
-#videoadv,                                                        /* common ? */
+#videoadv,
 #newsexch,
-#alphabetBlock1 span.letter > a.red,
+#alphabetBlock1 span.letter > a[href^='/travels/'],
+#alphabetBlock1 span.letter > b,
 .footerBlock #footer1 {
 	display: none !important
 }
 
 /* cnews.ru */
-#banner950x60,                                            /* [id^='banner'] ? */
+#banner950x60,
 #banner170x280,
 #banner300x250,
 #cnews_center,
@@ -578,7 +601,7 @@ table[height='79'][cellspacing='8'][width='980'][bgcolor='#fefef3'] {
 /* forum.ru-board.com */
 table[border='0'][width='95%'][align='center']
 	table[cellpadding='0'][cellspacing='0'][bgcolor='#FFFFFF'][border='1'][bordercolor='#EEEEEE'][width='700'],
-a[href*='utm_source=ru-board'][href*='utm_content='],       /* 'utm_content=', 'utm_source=' common? */
+a[href*='utm_source=ru-board'][href*='utm_content='],
 img[src*='i.ru-board.com/temp'] {
 	display: none !important
 }
@@ -591,7 +614,6 @@ div[class='dfp_slot'][id$='_wrapper'] {
 
 /* cdcovers.cc */
 td[width='196'] > table.contentBox:last-child,
-#google_ads_div_Cdcovers_All_Top_180x60_ad_container,
 td[align='center'][valign='top'] > div#rightBanner,
 #main > table[width='994'][align='center']:nth-child(2) > tbody > tr:first-child table[width='794']:nth-child(2),
 #main > table[width='994'][align='center']:nth-child(2) > tbody > tr:last-child table[width='794'] {
@@ -599,7 +621,6 @@ td[align='center'][valign='top'] > div#rightBanner,
 }
 
 /* pravda.com.ua */
-.tt3 > .job-block,
 .fblock div[class^='banner'],
 div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 	display: none !important
@@ -638,13 +659,109 @@ div[class='ban-border'] {
 
 /* lurkmore.ru */
 p[class='ads_left'],
-div[id*='teasernet'] {
+div[id*='teasernet'],
+a[href^='http://lurkmore.ru'][href*='block=left'],
+p[title^='http://lurkmore.ru'][title*='block=left'],
+p[title*='lurkmore.printdirect.ru'],
+p[style='margin:0 0 7px 5px;padding:0;text-align:center'],
+#column-one a[href='#'][target='_self'],
+#column-one > iframe[src^='http://lurkmore.ru'] {
+	display: none !important
+}
+
+/* segodnya.ua */
+.right > .r_ad,
+.sponsor_bar,
+.ah-stuff-informer,
+.ks_art_border,
+div[class^='snBody'] {
+	display: none !important
+}
+
+/* ngs.ru */
+.xozqcv,
+#divwidth #logos,
+#top-menu-logos .clients,
+#divwidth #fashion-promo,
+.tablesurround #logo_banners,
+#left-column ul.firm-logos,
+#left-column ul.links > li.first,
+#allcontent > table[id|='logo'],
+div#clients[container='yes'][level='1'] {
+	display: none !important
+}
+
+/* aimp.ru */
+#page_body > #page_content #page_block:last-child > #block {
+	display: none !important
+}
+
+/* mail.ru */
+.partnerka_top {
+	display: none !important
+}
+
+/* wowlol.ru*/
+#wrapper > #topbox {
+	display: none !important
+}
+
+/* fastpic.ru */
+body#cbn_p_1 #left,
+body#cbn_p_1 #top,
+.center > a[href^='http://static.fastpic.ru'],
+#left[style*='z-index: 2147483647'],
+#right[style*='z-index: 2147483647'] {
+	display: none !important
+}
+
+/* optizone.ru */
+div#nav_main_banner,
+iframe[src*='advert/code'] {
+	display: none !important
+}
+
+/* smotri-online.info */
+.block_links,
+.copy > a[href='http://new-kino.info/'],
+a[href='http://avto-ledi.ru/'] > img[src='/images/logo.jpg'] {
+	display: none !important
+}
+
+/* cinemaxx.ru */
+div[id^='DIV_DA_'] {                                        /* directadvert.ru */
+	display: none !important
+}
+
+/* kino-live.org */
+.ramka11 {
+	display: none !important
+}
+
+/* kinopoisk.ru */
+#loadb,
+object[data='/images/ozon_banner553x80.swf'] {
+	display: none !important
+}
+body[style*='kinopoisk.ru/images/bnnr/'] {
+	background-image: none !important
+}
+
+/* rghost.ru */
+#square_a {
+	display: none !important
+}
+
+/* twitter.com */
+.promoted-account,
+.stream-item[id*=':'] {
 	display: none !important
 }
 
 
 /* AGGRESSIVE! */
 /*
+[href*='/bn.'], [src*='/bn.'],
 [href*='/ban'],
 [href*='/ads'],
 [href*='/adv'],
@@ -667,7 +784,8 @@ div[id*='teasernet'] {
 [src*='r.mail.ru/b'],
 [href*='yandex.ru/cy?'],
 [href*='r.mail.ru/n'],
-[href*='forex'] {
+[href*='forex'],
+[src*='/ban/'] {
 	display: none !important
 }
 */
@@ -813,6 +931,7 @@ object[width='230'][height='30'],                           /* forum.ixbt.com */
 object[width='200'][height='200'],
 object[width='180'][height='280'],
 object[width='150'][height='150'],
+object[width='125'][height='600'],                          /* overclockers.ru */
 object[width='125'][height='200'],                          /* overclockers.ru */
 object[width='120'][height='150'],                          /* sharereactor.ru */
 object[width='112'][height='60'],
@@ -853,12 +972,14 @@ img[width='1'][height='1']	{
 .banners24open,
 .bannerspec,
 .ban,                                                       /* stolitsa.glavred.info */
+.banex-banner,                                              /* hh.ru */
 .block-banner,                                              /* glavred.info */
 .b-adwrapper,                                               /* yandex.ru */
 .company-banner,                                            /* habrahabr.ru */
 .go-ad-top,
 .LeftAdv,
 .mediaget,                                                  /* rutor.org */
+.PC_Links_Block,                                            /* nnm.ru */
 .pricead,                                                   /* ferra.ru */
 .rb_banner,                                                 /* mail.ru */
 .reklam-block,
@@ -901,7 +1022,9 @@ img[width='1'][height='1']	{
 #reclama,
 #reklama,
 #sponsors,
-#topbanner {
+#topbanner,
+#ad_overlay,                                                /* seeon.tv */
+#ad_footer {
 	display: none !important
 }
 
@@ -944,7 +1067,8 @@ img[width='1'][height='1']	{
 [alt='Рейтинг@Mail.ru'],
 [alt='Рейтинг Mail.ru'],
 [alt="Rambler's Top100"],
-[alt='Игра Передовая'] {
+[alt='Игра Передовая'],
+[alt='Openstat'] {
 	display: none !important
 }
 
@@ -971,7 +1095,6 @@ div[class^='banner'],
 [alt*='count']{
 	display: none !important
 }
-
 */
 
 
@@ -1059,7 +1182,7 @@ td.banner + td.rightBg {                                    /* header width fix 
 }
 
 /* habrahabr.ru */
-img[width='300'][height='250'][class='photo'] {             /*profile photo visibility fix */
+img[width='300'][height='250'][class='photo'] {             /* profile photo visibility fix */
 	display: block !important
 }
 
@@ -1097,5 +1220,21 @@ img[src*='filearchive.cnews.ru'] {
 
 /* rzd.ru */
 body.indx .banner {
+	display: block !important
+}
+
+/* delicious.com */
+body#index #header #banner,
+body#user_profile #header #banner {
+	display: block !important
+}
+
+/* mail.google.com */
+div[id^=':'] > div.adn.ads {
+	display: block !important
+}
+
+/* tvi.ua */
+.container > .header > .banner.clear {
 	display: block !important
 }
