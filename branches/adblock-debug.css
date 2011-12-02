@@ -37,7 +37,7 @@ Description: http://code.google.com/p/adblock/
 
 /* Begun */
 [href*='begun.'], [src*='begun.ru'],
-[id*='adText'],
+/*[id*='adText'],*/                                         /* see rev 253 */
 [id*='adBegun'],
 [id*='adBar'],
 .begun_adv {
@@ -1036,14 +1036,15 @@ img[width='1'][height='1'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-[id^=DIV_NNN_],                                             /* soccer.ru */
 [id*='AdBar'],
+[id^='DIV_NNN_'],                                           /* soccer.ru */
 [id^='left_ban'],
 [id*='MarketGid'],
-[id*='rdm'] [class*='rdm'],
+[id^='medialand_'],
 [id^='newclick'],
-[id^='medialand_'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+/*[id*='rdm'] [class*='rdm'],*/                             /* ? */
+[id^='_ci_widget_'] {                                       /* myanimelist.net */
+  background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 [alt~='counter'], [alt~='counters'],
