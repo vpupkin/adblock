@@ -1234,3 +1234,12 @@ div[id^=':'] > div.adn.ads {
 .container > .header > .banner.clear {
 	display: block !important
 }
+
+/* postcrossing.com */
+img[src='http://drxrk8qw433lp.cloudfront.net/images/blocks/banner_top4.png'],
+a[href$='postcrossing.com/ads/Postcrossing_Advertising.pdf'],
+a[href$='postcrossing.com/ads/Postcrossing_Advertising.pdf'] > img,
+#linkToUs img[src*='postcrossing.com/images/banners/'],
+#linkToUs textarea[id^='banner'] {
+	display: inline !important
+}
