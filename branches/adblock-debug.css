@@ -261,14 +261,15 @@ iframe[src*='/1market.php?cb=3m&t='] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* Gmail mail.google.com */
-div.mq.nH.oy8Mbf,
-div.nH.PS,
-div.nH.adC {
+/* mail.google.com */
+.nH.g.id > .nH > div.nH,                                    /* top bar ads - new design */
+.BltHke > .mq,
+.nH.PS,                                                     /* bottom ads block */
+.u5.aoh {                                                   /* right side ads - new design */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* Wired.com */
+/* wired.com */
 #FLASH_AD,
 #flash_ad,
 #stereo1,
@@ -1227,7 +1228,7 @@ body#user_profile #header #banner {
 }
 
 /* mail.google.com */
-div[id^=':'] > div.adn.ads {
+div[id^=':'] > div.ads {
 	display: block !important
 }
 
