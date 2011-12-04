@@ -529,7 +529,7 @@ img[src^='http://macosworld.ru'][width='970'] {
 }
 
 /* nntt.org */
-[class*='fromNnovExport'],
+body > #wrapcentre #sidebar,
 img[onclick*='countAdClick'],
 object[data*='./ads/flash'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -1043,7 +1043,7 @@ img[width='1'][height='1'] {
 [id*='MarketGid'],
 [id^='medialand_'],
 [id^='newclick'],
-/*[id*='rdm'] [class*='rdm'],*/                             /* ? */
+[id^='n4p_'],                                               /* nntt.org */
 [id^='_ci_widget_'] {                                       /* myanimelist.net */
   background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
