@@ -718,7 +718,7 @@ iframe[src*='advert/code'] {
 }
 
 /* smotri-online.info */
-.block_links,
+.copy > .block_links,
 .copy > a[href='http://new-kino.info/'],
 a[href='http://avto-ledi.ru/'] > img[src='/images/logo.jpg'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
