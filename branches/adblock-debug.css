@@ -332,12 +332,6 @@ body > div[id^='pa'] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
 	height: 60px !important
 }
 
-/* nnm.ru */
-#top-banner,
-[href*='tours.ru'], [src*='tours.ru'] {
-	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
-}
-
 /* fast-torrent.ru */
 #add .ad {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -1097,6 +1091,7 @@ div[class^='banner'],
 #Ads,
 #leaderboard,
 #top_adbn_div,
+#top-banner,
 #page_footer,
 #PopWin {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
