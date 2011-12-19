@@ -611,6 +611,7 @@ td[align='center'][valign='top'] > div#rightBanner,
 }
 
 /* pravda.com.ua */
+.rpad101:last-child,                                        /* "РЕКЛАМНЫЕ ССЫЛКИ" */
 .fblock div[class^='banner'],
 div[id*='flbanner'] > div[id*='bannerflashcontent'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
