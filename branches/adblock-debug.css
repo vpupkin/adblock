@@ -530,8 +530,9 @@ object[data*='./ads/flash'] {
 }
 
 /* linux.org.ru */
+#bd > .column img[src^='/adv/'],
 .newsblog-in > .infoblock,
-#bd > .messages img[src^='/adv/'],                          /* ? */
+#bd > .messages img[src^='/adv/'],
 #bd > .messages .infoblock {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
