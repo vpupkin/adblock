@@ -1257,3 +1257,10 @@ a[href$='postcrossing.com/ads/Postcrossing_Advertising.pdf'] > img,
 #linkToUs textarea[id^='banner'] {
 	display: inline !important
 }
+
+/* oregonscientific.com */
+#home_banner > a > img[src*='images/banners/index_pic_'],
+#slideshow > img.active[src*='images/banners/'],
+th.text > img[src*='images/banner_'] {
+	display: inline !important
+}
