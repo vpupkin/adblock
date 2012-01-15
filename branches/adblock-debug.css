@@ -736,7 +736,8 @@ object[data='/images/ozon_banner553x80.swf'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 body[style*='kinopoisk.ru/images/bnnr/'] {
-	background-image: none !important
+	background-image: none !important;
+	background-color: #b0b0b0 !important
 }
 
 /* rghost.ru */
