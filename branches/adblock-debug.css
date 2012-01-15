@@ -254,6 +254,7 @@ iframe[src*='/1market.php?cb=3m&t='] {
 
 /* Google Sponsored Links */
 [class='ch '][onclick='ga(this,event)'],
+#wmxmsg,
 #bottomads,
 #topads,
 #tads,
