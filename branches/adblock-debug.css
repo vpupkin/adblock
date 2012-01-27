@@ -524,7 +524,9 @@ img[src^='http://macosworld.ru'][width='970'] {
 }
 
 /* nntt.org */
-body > #wrapcentre #sidebar,
+body > #wrapcentre #sidebar > div,
+body > #wrapcentre #sidebar > a,
+body > #wrapcentre #sidebar > object,
 img[onclick*='countAdClick'],
 object[data*='./ads/flash'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -762,6 +764,13 @@ table#MainPage td[width='290px'] > table > tbody > tr:nth-child(15),  /* Дру�
 table#MainPage td[width='290px'] > table > tbody > tr:nth-child(16),
 table#MainPage td[width='290px'] > table > tbody > tr:nth-child(19),  /* Моя кнопка */
 table#MainPage td[width='290px'] > table > tbody > tr:nth-child(20) { /* Счетчики */
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* infanta.com */
+td.leftcol > div.lefttitle:nth-child(6),
+td.leftcol > div.lefttitle:nth-child(7),
+td.leftcol > div.lefttitle:nth-child(11) {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1265,4 +1274,9 @@ a[href$='postcrossing.com/ads/Postcrossing_Advertising.pdf'] > img,
 #slideshow > img.active[src*='images/banners/'],
 th.text > img[src*='images/banner_'] {
 	display: inline !important
+}
+
+/* nntt.org */
+body > #wrapcentre > div > div > #sidebar > div:nth-child(-n+5) {
+	display: block !important
 }
