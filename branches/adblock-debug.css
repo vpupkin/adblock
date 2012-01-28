@@ -314,7 +314,7 @@ embed[width*='200'][height*='300'],
 }
 
 /* Ucoz.ru */
-body > div[id^='pa'] > table[class^='ca'][id^='a'][style^='z-index:10000;'] {
+body  div[id^='pa'][class^='ca'] > table[id^='a'][style^='z-index:10000;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
