@@ -314,7 +314,7 @@ embed[width*='200'][height*='300'],
 }
 
 /* Ucoz.ru */
-body  div[id^='pa'][class^='ca'] > table[id^='a'][style^='z-index:10000;'] {
+body div[id^='pa'][class^='ca'] > table[id^='a'][style^='z-index:10000;'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -443,15 +443,14 @@ img[src*='zuni.tyndex.ru'] {
 }
 
 /* overclockers.ru */
-body > div[align='center'] > table[cellpadding='2'][width='100%'] td[align='right'][width='100%'],
-body > div[align='center'] div.nou[style='width:700px'] > table[bgcolor='#dddddd'][width='100%'],
-div[align='center'] > table[cellpadding='3'][style='border: 1px solid #aaa'],
-body > div[align='center'] > img[src$='spacer.gif'] + table[height='68'][width='100%'],
-body > table.linead[height='68'],
-body > div[align='center'] > div[align='center'] > table[height='67'][width='100%'],
-table[width^='30'][height='245'][style^='background:#fffff'],
-#wrapcentre table[width='100%'][style='border: solid 1px #cc0000'],
-table[cellpadding='2'][cellspacing='5'][width='160'][style='border: dotted 1px #777;'] {
+/*#topbanners,*/                                            /* page top */
+.rastyazka,                                                 /* page top and below logo */
+#header > #uhi,                                             /* near logo */
+#left-bs,                                                   /* "Лаборатория" - below nav menu */
+table[height='68'][width='100%'],                           /* inner pages - below logo */
+.fifty-fifty-left.compress, .fifty-fifty-right.compress,    /* main page - below logo */
+#contentplace > .decoblock, #contentplace > .decoblock-content.info, /* above and below news */
+table[width='100%'][style='border: solid 1px #245e99'] {    /* below forum */
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
