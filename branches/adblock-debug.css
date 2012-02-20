@@ -776,6 +776,14 @@ td.leftcol > div.lefttitle:nth-child(11) {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* radikal.ru */
+div[id^='linkru_div_'],
+div[id^='right_ban'],
+iframe[src*='negolist.com'],
+#am_sb {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
