@@ -1211,7 +1211,7 @@ td.banner + td.rightBg {                                    /* header width fix 
 }
 
 /* habrahabr.ru */
-img[width='300'][height='250'][class='photo'] {             /*profile photo visibility fix */
+img[width='300'][height='250'][class='photo'] {             /* profile photo visibility fix */
 	display: block !important
 }
 
@@ -1231,7 +1231,7 @@ img[width='300'][height='250'][class='photo'] {             /*profile photo visi
 body > #siteheader + div#banner,                            /* core.trac.wordpress.org */
 body > #customheader + div#banner,                          /* trac.roundcube.net */
 body > #uservoice-feedback + div#banner,                    /* tribler.org */
-#sf_header + #doc3 > #bd > div#banner,                      /* sourceforge.net/apps/trac/sourceforge */
+#sf_header ~ #doc3 > #bd > div#banner,                      /* sourceforge.net/apps/trac/sourceforge */
 #container > #maincolumn > div#banner,                      /* trac.cyberduck.ch */
 body > div.topdiv + div#banner {                            /* farbflash.org/trac/ILTable */
 	display: block !important
