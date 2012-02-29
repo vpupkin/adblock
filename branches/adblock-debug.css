@@ -243,7 +243,8 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [src*='banner.unian.net'],
 [href*='engine.rbc.medialand.ru'],
 [src*='b.c8.net.ua'],
-[href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'] {
+[href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'],
+[href*='neova.auto.ru'], [src*='neova.auto.ru'], {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -793,6 +794,13 @@ iframe[src*='negolist.com'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* auto.ru */
+table.zone-middle td.column2 .info_block,
+div.side-banner.adv-context.adv-1,
+td.column3 div.block.block-color-2 {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -946,6 +954,8 @@ object[width='700'][height='65'],
 object[width='600'][height='200'],
 object[width='600'][height='160'],                          /* all-ebooks.com */
 object[width='597'][height='72'],
+object[width='560'][height='120'],                          /* auto.ru */
+object[width='560'][height='60'],
 object[width='520'][height='102'],
 object[width='500'][height='150'],                          /* samlab.ws */
 object[width='501'][height='60'],
