@@ -784,6 +784,15 @@ iframe[src*='negolist.com'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* echo.msk.ru */
+.frame.advtBlock,
+.block2 > .banner240 > *:not([href*='echo.msk.ru']):not([href*='twitter.com']):not(br),
+.block2 > .netWorkBlock,
+.block2 > .frame.radioSvoboda,
+.partnerList {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
