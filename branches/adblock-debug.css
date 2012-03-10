@@ -244,7 +244,7 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [href*='engine.rbc.medialand.ru'],
 [src*='b.c8.net.ua'],
 [href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'],
-[href*='neova.auto.ru'], [src*='neova.auto.ru'], {
+[href*='neova.auto.ru'], [src*='neova.auto.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
