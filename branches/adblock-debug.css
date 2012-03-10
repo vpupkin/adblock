@@ -525,9 +525,7 @@ img[src^='http://macosworld.ru'][width='970'] {
 }
 
 /* nntt.org */
-body > #wrapcentre #sidebar > div,
-body > #wrapcentre #sidebar > a,
-body > #wrapcentre #sidebar > object,
+body > #wrapcentre #sidebar > .ab,
 img[onclick*='countAdClick'],
 object[data*='./ads/flash'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
@@ -1304,9 +1302,4 @@ a[href$='postcrossing.com/ads/Postcrossing_Advertising.pdf'] > img,
 #slideshow > img.active[src*='images/banners/'],
 th.text > img[src*='images/banner_'] {
 	display: inline !important
-}
-
-/* nntt.org */
-body > #wrapcentre > div > div > #sidebar > div:nth-child(-n+5) {
-	display: block !important
 }
