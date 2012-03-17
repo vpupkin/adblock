@@ -125,6 +125,15 @@ iframe[src*='/1market.php?cb=3m&t='] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* nolix.ru */
+#nolix {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* tizermy.net */
+[src*='tizermy.net'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
 
 /* MEDIUM */
 [href^='http://ad.'], [src^='http://ad.'],
@@ -799,6 +808,13 @@ td.column3 div.block.block-color-2 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* epidemz.net */
+[href*='/go?a%3AaHR0cDovL'],
+[src*='intimcity.org'],
+#dle-content #promo.all {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -1305,5 +1321,11 @@ a[href$='postcrossing.com/ads/Postcrossing_Advertising.pdf'] > img,
 #home_banner > a > img[src*='images/banners/index_pic_'],
 #slideshow > img.active[src*='images/banners/'],
 th.text > img[src*='images/banner_'] {
+	display: inline !important
+}
+
+/* epidemz.net */
+#dle-content a[href*='/go?a%3AaHR0cDovL'],
+td[bgcolor='#F1F1F1'] > table[style*='border-top: 4px solid #F1F1F1; border-right: 4px solid #F1F1F1; background: white;'] > tbody > tr:nth-child(1) > td > a {
 	display: inline !important
 }
