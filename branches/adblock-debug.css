@@ -1329,3 +1329,12 @@ th.text > img[src*='images/banner_'] {
 td[bgcolor='#F1F1F1'] > table[style*='border-top: 4px solid #F1F1F1; border-right: 4px solid #F1F1F1; background: white;'] > tbody > tr:nth-child(1) > td > a {
 	display: inline !important
 }
+
+/* sony.ru */
+.fullbleed .banner,
+#visual_block div[class*='banner'],
+#visual_block img[src*='banners'],
+#main_part img[src*='banners'],
+.head_block {
+	display: block !important
+}
