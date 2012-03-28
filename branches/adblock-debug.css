@@ -1297,7 +1297,7 @@ body#user_profile #header #banner {
 }
 
 /* mail.google.com */
-div[id^=':'] > div.ads:not([style='display: none']) {
+div[id^=':'] > div.ads:not([style^='display: none']) {
 	display: block !important
 }
 div[id^=':'] > .adn.ads a[target='_blank'] {
