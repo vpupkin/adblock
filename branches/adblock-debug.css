@@ -205,6 +205,7 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [href*='www.xtremetop100.com'], [src*='www.xtremetop100.com'],
 [href*='luxup.ru'], [src*='luxup.ru'],
 [href*='teasernet.com'], [src*='teasernet.com'],
+[src*='undere.com'],
 [href*='emierete.com'],
 [src*='kolition.com'],
 [src*='.lacest.com'],
@@ -814,6 +815,15 @@ td.column3 div.block.block-color-2 {
 [id*='oiya'],
 #dle-content #promo.all {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
+/* justin.tv */
+#lr_comp_default_300x250,
+#producer_spotlight_holder,
+#adaptvcompanion_wrapper,
+#iphone_banner,
+.footer_ad {
+	display: none !important
 }
 
 
