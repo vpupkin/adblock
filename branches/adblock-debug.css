@@ -1349,3 +1349,8 @@ td[bgcolor='#F1F1F1'] > table[style*='border-top: 4px solid #F1F1F1; border-righ
 .head_block {
 	display: block !important
 }
+
+/* worldoftanks.ru */
+object[data^='http://www.youtube.com'][width='100'][height='100'] {
+	display: block !important
+}
