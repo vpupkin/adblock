@@ -257,7 +257,7 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'],
 [href*='neova.auto.ru'], [src*='neova.auto.ru'],
 [src*='am10.ru'],
-[class^='adf_notifier'], [id^='adf_notifier'] {
+[class*='_notifier_'], [id*='_notifier_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
