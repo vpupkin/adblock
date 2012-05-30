@@ -664,15 +664,16 @@ div[class='ban-border'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* lurkmore.ru */
+/* lurkmore.to */
 p[class='ads_left'],
 div[id*='teasernet'],
-a[href^='http://lurkmore.ru'][href*='block=left'],
-p[title^='http://lurkmore.ru'][title*='block=left'],
-p[title*='lurkmore.printdirect.ru'],
+a[href^='http://lurkmore.to'][href*='block=left'],
+a[href^='/ZmRkM?block=left1&click='],
+p[title^='http://lurkmore.to'][title*='block=left'],
+p[title*='lurkmore.printdirect.to'],
 p[style='margin:0 0 7px 5px;padding:0;text-align:center'],
 #column-one a[href='#'][target='_self'],
-#column-one > iframe[src^='http://lurkmore.ru'] {
+#column-one > iframe[src^='http://lurkmore.to'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -792,6 +793,7 @@ td.leftcol > div.lefttitle:nth-child(11) {
 div[id^='linkru_div_'],
 div[id^='right_ban'],
 iframe[src*='negolist.com'],
+[id^='_sbn'],
 #am_sb {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
