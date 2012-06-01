@@ -673,7 +673,8 @@ p[title^='http://lurkmore.to'][title*='block=left'],
 p[title*='lurkmore.printdirect.to'],
 p[style='margin:0 0 7px 5px;padding:0;text-align:center'],
 #column-one a[href='#'][target='_self'],
-#column-one > iframe[src^='http://lurkmore.to'] {
+#column-one > iframe[src^='http://lurkmore.to'],
+img[src*='240_400'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
