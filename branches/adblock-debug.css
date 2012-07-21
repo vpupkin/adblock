@@ -143,7 +143,7 @@ iframe[src*='/1market.php?cb=3m&t='] {
 }
 
 /* popunder.ru */
-[style*='2147483647'] {
+[z-index='2147483647'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1380,5 +1380,10 @@ img[src*='sdl4.4pda.ru/i/'][id^='ipb-attach-img'] {
 
 /* guzei.com */
 object[data='./player_mp3_maxi.swf'][width='360'][height='60'] {
+	display: block !important
+}
+
+/* tumblr.com */
+[id^='tumblr'][z-index='2147483647'] {
 	display: block !important
 }
