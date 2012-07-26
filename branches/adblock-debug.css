@@ -835,17 +835,18 @@ td.column3 div.block.block-color-2 {
 }
 
 /* justin.tv */
-#lr_comp_default_300x250,
+[id*='meebo'],
+.footer_ad,
 #producer_spotlight_holder,
-#adaptvcompanion_wrapper,
+#go_pro_link,
 #iphone_banner,
-.footer_ad {
-	display: none !important
+#DiropaBanner_holder {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 /* habrahabr.ru */
 #topline [height='90'] {
-	display: none !important
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
 
