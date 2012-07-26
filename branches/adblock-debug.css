@@ -843,6 +843,11 @@ td.column3 div.block.block-color-2 {
 	display: none !important
 }
 
+/* habrahabr.ru */
+#topline [height='90'] {
+	display: none !important
+}
+
 
 /* AGGRESSIVE! */
 /*
@@ -1278,7 +1283,7 @@ img[width='300'][height='250'][class='photo'] {             /* profile photo vis
 }
 #topline,
 #topline > div {
-	height: inherit !important
+	height: auto !important
 }
 
 /* android.mobile-review.com */
