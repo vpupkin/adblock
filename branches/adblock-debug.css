@@ -849,6 +849,13 @@ td.column3 div.block.block-color-2 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* mobile-review.com */
+._noreachbanner_,
+object[data*='goodadvert'],
+[id*='itxttt'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 
 /* AGGRESSIVE! */
 /*
