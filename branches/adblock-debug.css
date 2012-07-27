@@ -137,7 +137,7 @@ iframe[src*='/1market.php?cb=3m&t='] {
 }
 
 /* ad0002.ru */
-[class*='_notifier_'], [id*='_notifier_'],
+[class*='notifier_'], [id*='notifier_'],
 [data*='ad0002.ru'], [src*='ad0002.ru'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
