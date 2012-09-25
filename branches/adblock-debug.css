@@ -268,8 +268,9 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [src*='b.c8.net.ua'],
 [href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'],
 [href*='neova.auto.ru'], [src*='neova.auto.ru'],
-[src*='am10.ru'],
-[href*='TizerTiz.COM'], [src*='TizerTiz.COM'] {
+[src*='am10.ru'], [href*='am10.ru'],
+[href*='TizerTiz.COM'], [src*='TizerTiz.COM'],
+[src*='steamac.com'], [href*='steamac.com'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
