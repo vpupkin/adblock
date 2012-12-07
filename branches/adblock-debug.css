@@ -328,6 +328,7 @@ iframe[src*='adsrv.deviantart.com'],
 /* Vkontakte.ru */
 #banner1,
 #banner2,
+#left_ads,
 .ad_box,
 .ad_box_new,
 [id*='profile_photos'],                                               /* убирает box с фотками над стеной */
@@ -860,8 +861,8 @@ td.column3 div.block.block-color-2 {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* Vk.com */
-#left_ads {
+/* w3schools.com */
+[id^='div-gpt-ad'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1408,4 +1409,12 @@ object[data='./player_mp3_maxi.swf'][width='360'][height='60'] {
 /* tumblr.com */
 [id^='tumblr'][z-index='2147483647'] {
 	display: block !important
+}
+
+/* huaweidevice.ru */
+#topline > #toplinebox {
+	height: 90px !important
+}
+#topline > #toplinebox [height='90'] {
+	display: table !important
 }
