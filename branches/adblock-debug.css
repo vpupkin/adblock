@@ -40,7 +40,6 @@ Description: http://code.google.com/p/adblock/
 
 /* Begun */
 [href*='begun.'], [src*='begun.ru'],
-/*[id*='adText'],*/                                         /* see rev 253 */
 [id*='adBegun'],
 [id*='adBar'],
 .begun_adv {
@@ -158,7 +157,6 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [href*='extrabucks.ru'],
 [href*='.com/s.php?f='],                                    /* bezwareza.com */
 [href*='/adult/go.php?sid='],                               /* blackmanos.org.ru */
-[href*='/partner/'], [href*='/partners/'],
 [href*='/2advert.'],
 [href*='/ads/'], [src*='/ads/'], [src*='_ads.'], [src^='http://ads.'],
 [href*='/adx/'], [src*='/adx/'],
@@ -269,9 +267,9 @@ iframe[src*='/1market.php?cb=3m&t='] {
 [src*='b.c8.net.ua'],
 [href*='t.gameleads.ru'], [src*='gameleads.ru/promo/'],
 [href*='neova.auto.ru'], [src*='neova.auto.ru'],
-[src*='am10.ru'], [href*='am10.ru'],
+[href*='am10.ru'], [src*='am10.ru'],
 [href*='TizerTiz.COM'], [src*='TizerTiz.COM'],
-[src*='steamac.com'], [href*='steamac.com'] {
+[href*='steamac.com'], [src*='steamac.com'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -295,8 +293,8 @@ iframe[src*='/1market.php?cb=3m&t='] {
 .nH.g.id:not([class~='iC']) > .nH > div.nH,                 /* top bar ads - new design */
 .BltHke > .mq,
 .nH.PS,                                                     /* bottom ads block */
-.u5.aoh,
-.u5 > .oM {                                                   /* right side ads - new design */
+.u5.aoh,                                                    /* right side ads - new design */
+.u5 > .oM {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -325,7 +323,7 @@ iframe[src*='adsrv.deviantart.com'],
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
-/* Vkontakte.ru */
+/* vk.com */
 #banner1,
 #banner2,
 #left_ads,
@@ -474,7 +472,6 @@ img[src*='zuni.tyndex.ru'] {
 }
 
 /* overclockers.ru */
-/*#topbanners,*/                                            /* page top */
 .rastyazka,                                                 /* page top and below logo */
 #header > #uhi,                                             /* near logo */
 #left-bs,                                                   /* "Лаборатория" - below nav menu */
@@ -561,10 +558,7 @@ object[data*='./ads/flash'] {
 }
 
 /* linux.org.ru */
-#bd > .column img[src^='/adv/'],
-.newsblog-in > .infoblock,
-#bd > .messages img[src^='/adv/'],
-#bd > .messages .infoblock {
+.newsblog-in > .infoblock {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
@@ -1247,7 +1241,7 @@ tr.default-row-2.advert, tr.premium-row-2.advert {
 	display: table-row !important
 }
 
-/* MediaWiki (wikipedia.org, lurkmore.ru) 100x120, 120x100, 250x250 */
+/* MediaWiki (wikipedia.org, lurkmore.to) 100x120, 120x100, 250x250 */
 .infobox.vcard img,
 .thumbinner .thumbimage,
 .gallerybox .thumb a img {
@@ -1316,7 +1310,6 @@ img[width='300'][height='250'][class='photo'] {             /* profile photo vis
 
 /* Trac */
 #ew-content > div#banner,                                   /* trac.edgewall.org */
-/*body > div#banner:first-child,*/                          /* trac.buildbot.net, validator.w3.org */
 body > #siteheader + div#banner,                            /* core.trac.wordpress.org */
 body > #customheader + div#banner,                          /* trac.roundcube.net */
 body > #uservoice-feedback + div#banner,                    /* tribler.org */
