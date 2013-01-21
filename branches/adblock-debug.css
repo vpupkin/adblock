@@ -1140,7 +1140,7 @@ img[width='1'][height='1'] {
 }
 
 [class*='AdBar'],
-[class*='ad_block'],
+[class^='ad_block'],
 [class*='advertising'],
 [class^='bnnr_bx_'] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
