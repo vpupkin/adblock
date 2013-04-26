@@ -148,6 +148,11 @@ iframe[src*='/1market.php?cb=3m&t='] {
 	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
 }
 
+/* dt00.net */
+[src*='dt00.net'] {
+	background-color:#f99 !important; color:#900 !important; outline:1px solid #f33 !important
+}
+
 /* MEDIUM */
 [href^='http://ad.'], [src^='http://ad.'],
 [href*='.com/?user_id='], [href*='.net/?user_id='],
