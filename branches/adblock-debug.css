@@ -30,7 +30,9 @@ Description: http://code.google.com/p/adblock/
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
 [class*='ya-partner'],
-.b-page-layout .b-page-layout__column-proxy > :first-child .g-gap-vertical.g-gap-horizontal:first-child,
+[class*='__all'],
+[class*='__list'],
+[class*='__direct-wrap'],
 .ad-market, .ads-header,
 .go-ad, .b-yadirect,
 .b-spec-adv, .b-music-banner,
@@ -1415,4 +1417,12 @@ object[data='./player_mp3_maxi.swf'][width='360'][height='60'] {
 }
 #topline > #toplinebox [height='90'] {
 	display: table !important
+}
+
+/* ocz.com */
+body > #content.banner {
+	display: block !important
+}
+#slides [class^='slides'] img[src*='banner']{
+	display: block !important
 }
