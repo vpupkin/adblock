@@ -30,10 +30,10 @@ Description: http://code.google.com/p/adblock/
 [src*='narod.ru/counter.'],
 [href*='logging.to/'],
 [class*='ya-partner'],
-/*.b-page-layout .b-page-layout__column-proxy [class*='__all'],
-.b-page-layout .b-page-layout__column-proxy [class*='__list'],
-.b-page-layout .b-page-layout__column-proxy [class*='__direct-wrap'],*/
-.b-page-layout .b-page-layout__column-proxy [style*='block!important'],
+.b-page-layout .b-page-layout__column-proxy [style*='display:block!important'] [class*='__all'],
+.b-page-layout .b-page-layout__column-proxy [style*='display:block!important'] [class*='__list'],
+.b-page-layout .b-page-layout__column-proxy [style*='display:block!important'] [class*='__direct-wrap'],
+/*.b-page-layout .b-page-layout__column-proxy [style*='display:block!important'],*/
 .ad-market, .ads-header,
 .go-ad, .b-yadirect,
 .b-spec-adv, .b-music-banner,
