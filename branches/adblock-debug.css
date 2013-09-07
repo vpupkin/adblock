@@ -1421,9 +1421,12 @@ object[data='./player_mp3_maxi.swf'][width='360'][height='60'] {
 }
 
 /* ocz.com */
-body > #content.banner {
+body > #content.banner,
+#slides [class^='slides'] img[src*='banner'] {
 	display: block !important
 }
-#slides [class^='slides'] img[src*='banner']{
+
+/* sandisk.com */
+body > form#Form1 > div#banner {
 	display: block !important
 }
