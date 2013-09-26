@@ -1430,3 +1430,8 @@ body > #content.banner,
 body > form#Form1 > div#banner {
 	display: block !important
 }
+
+/* opera.com */
+a[href*='/download/get/?partner=www'] {
+	display: block !important
+}
