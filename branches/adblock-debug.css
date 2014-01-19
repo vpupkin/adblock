@@ -35,6 +35,7 @@ Description: http://code.google.com/p/adblock/
 .b-page-layout .b-page-layout__column-proxy [style*='display:block!important'] [class*='__direct-wrap'],
 .b-page-layout .b-page-layout__column-proxy [style*='display:block!important'] [class*='__list'] div > *,
 /*.b-page-layout .b-page-layout__column-proxy [style*='display:block!important'],*/
+.b-adv__head, .b-adv__line,
 .ad-market, .ads-header,
 .go-ad, .b-yadirect,
 .b-spec-adv, .b-music-banner,
